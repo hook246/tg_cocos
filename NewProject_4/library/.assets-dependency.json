@@ -1,0 +1,87 @@
+{
+  "path": {
+    "/Users/feiwang/NewProject_4/assets/resources/images/ui.plist": [
+      "/Users/feiwang/NewProject_4/assets/resources/images/ui.png"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/images/boxs.plist": [
+      "/Users/feiwang/NewProject_4/assets/resources/images/boxs.png"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/spine/infj_f/infj.json": [
+      "/Users/feiwang/NewProject_4/assets/resources/spine/infj_f/infj.atlas"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/images/earn/earn-1.plist": [
+      "/Users/feiwang/NewProject_4/assets/resources/images/earn/earn-1.png"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/images/profile/earn-2.plist": [
+      "/Users/feiwang/NewProject_4/assets/resources/images/profile/earn-2.png"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/images/profile/earn-1.plist": [
+      "/Users/feiwang/NewProject_4/assets/resources/images/profile/earn-1.png"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/spine/lod/tgbot.json": [
+      "/Users/feiwang/NewProject_4/assets/resources/spine/lod/tgbot.atlas"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/spine/minc/2.json": [
+      "/Users/feiwang/NewProject_4/assets/resources/spine/minc/2.atlas"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/spine/invite/tgbot.json": [
+      "/Users/feiwang/NewProject_4/assets/resources/spine/invite/tgbot.atlas"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/spine/Personal_Information/21.json": [
+      "/Users/feiwang/NewProject_4/assets/resources/spine/Personal_Information/21.atlas"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/spine/discover/tgbot.json": [
+      "/Users/feiwang/NewProject_4/assets/resources/spine/discover/tgbot.atlas"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/spine/link/tgbot.json": [
+      "/Users/feiwang/NewProject_4/assets/resources/spine/link/tgbot.atlas"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/plist/discover/login-1.plist": [
+      "/Users/feiwang/NewProject_4/assets/resources/plist/discover/login-1.png"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/plist/login/login-1.plist": [
+      "/Users/feiwang/NewProject_4/assets/resources/plist/login/login-1.png"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/plist/draw/login-1.plist": [
+      "/Users/feiwang/NewProject_4/assets/resources/plist/draw/login-1.png"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/plist/earn/login-1.plist": [
+      "/Users/feiwang/NewProject_4/assets/resources/plist/earn/login-1.png"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/plist/invite/login-1.plist": [
+      "/Users/feiwang/NewProject_4/assets/resources/plist/invite/login-1.png"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/plist/profile/login-1.plist": [
+      "/Users/feiwang/NewProject_4/assets/resources/plist/profile/login-1.png"
+    ]
+  },
+  "uuid": {
+    "/Users/feiwang/NewProject_4/assets/resources/spine/infj_f/infj.json": [
+      "f8a7560b-cd55-4bd5-835b-c85afadd6364@6c48a"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/spine/Personal_Information/21.json": [
+      "0ddd9da2-6113-4785-8cc7-48f686fa2ffa@6c48a"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/spine/minc/2.json": [
+      "650806f4-a247-439a-a9f6-e7d0af367425@6c48a"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/spine/lod/tgbot.json": [
+      "63f587c4-fd6c-45e5-910b-3a6379f3d4d8@6c48a",
+      "a4a3e3d6-69c6-4b3a-a47d-91971d75e1fe@6c48a"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/spine/link/tgbot.json": [
+      "b18a0ca2-4734-4d82-8d9f-ac88fd59eb37@6c48a",
+      "9e056a41-1e79-4694-b5cb-ade9e98124df@6c48a",
+      "12ed2dbb-d91a-48ff-91e4-8b9c4b13860d@6c48a",
+      "adc7e7f0-3e54-4d90-945b-dd4307a2b9c8@6c48a"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/spine/invite/tgbot.json": [
+      "43e3fff5-4254-4824-9a2c-37837f791107@6c48a",
+      "ef7c9cfc-7402-414c-831f-c3f5a44ea95a@6c48a"
+    ],
+    "/Users/feiwang/NewProject_4/assets/resources/spine/discover/tgbot.json": [
+      "4022177d-b447-45c6-9cc3-d0abc5a5185d@6c48a",
+      "5b8916d2-c2a8-49d7-9c9b-98f4c7998910@6c48a"
+    ]
+  }
+}

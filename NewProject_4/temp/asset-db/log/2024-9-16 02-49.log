@@ -1,0 +1,798 @@
+2024-9-16 02:49:47-debug: asset-db:worker-init (902ms)
+2024-9-16 02:49:47-debug: Preimport db internal success
+2024-9-16 02:49:47-debug: Preimport db assets success
+2024-9-16 02:49:48-debug: asset-db:worker-effect-data-processing (109ms)
+2024-9-16 02:49:50-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-9-16 02:49:50-debug: Start up the 'internal' database...
+2024-9-16 02:49:50-debug: asset-db:worker-init-script (1840ms)
+2024-9-16 02:49:50-debug: start asset-db with asset: 419
+2024-9-16 02:49:50-debug: Start up the 'assets' database...
+2024-9-16 02:49:50-debug: asset-db:worker-startup-database[internal] (3105ms)
+2024-9-16 02:49:50-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/scenes/MainScene.scenebackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:49:50-debug: start asset-db with asset: 38
+2024-9-16 02:49:50-debug: Asset DB is ready!
+2024-9-16 02:49:50-debug: asset-db:worker-startup-database[assets] (3084ms)
+2024-9-16 02:49:50-debug: init worker message success
+2024-9-16 02:49:52-debug: builder:worker-init (1140ms)
+2024-9-16 02:49:53-debug: programming:execute-script (4ms)
+2024-9-16 02:50:40-debug: start refresh asset from /Users/feiwang/NewProject_4/assets/resources/scripts/js...
+2024-9-16 02:50:40-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/resources/scripts/jsbackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:50:40-debug: refresh asset /Users/feiwang/NewProject_4/assets/resources/scripts success
+2024-9-16 02:50:40-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/resources/scriptsbackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:50:49-debug: refresh db internal success
+2024-9-16 02:50:49-debug: asset-db:worker-effect-data-processing (173ms)
+2024-9-16 02:50:49-debug: refresh db assets success
+2024-9-16 02:50:49-debug: asset-db:refresh-all-database (238ms)
+2024-9-16 02:50:53-debug: start move asset from /Users/feiwang/NewProject_4/assets/resources/scripts/js -> /Users/feiwang/NewProject_4/assets/resources/scripts/plugins...
+2024-9-16 02:50:53-debug: start refresh asset from /Users/feiwang/NewProject_4/assets/resources/scripts/plugins...
+2024-9-16 02:50:53-debug: refresh asset /Users/feiwang/NewProject_4/assets/resources/scripts success
+2024-9-16 02:50:53-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/resources/scripts/pluginsbackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:50:53-debug: start refresh asset from /Users/feiwang/NewProject_4/assets/resources/scripts...
+2024-9-16 02:50:53-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/resources/scriptsbackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:50:53-debug: refresh asset /Users/feiwang/NewProject_4/assets/resources success
+2024-9-16 02:50:53-debug: move asset from /Users/feiwang/NewProject_4/assets/resources/scripts/js -> /Users/feiwang/NewProject_4/assets/resources/scripts/plugins success
+2024-9-16 02:50:57-debug: start refresh asset from /Users/feiwang/NewProject_4/assets/resources/scripts/plugins/index.es.js...
+2024-9-16 02:50:57-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/resources/scripts/plugins/index.es.jsbackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:50:57-debug: refresh asset /Users/feiwang/NewProject_4/assets/resources/scripts/plugins success
+2024-9-16 02:50:58-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/resources/scripts/pluginsbackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:50:58-debug: refresh db internal success
+2024-9-16 02:50:58-debug: asset-db:worker-effect-data-processing (117ms)
+2024-9-16 02:50:58-debug: refresh db assets success
+2024-9-16 02:50:58-debug: asset-db:refresh-all-database (149ms)
+2024-9-16 02:51:06-debug: start refresh asset from /Users/feiwang/NewProject_4/assets/scenes/MainScene.scene...
+2024-9-16 02:51:06-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/scenes/MainScene.scenebackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:51:06-debug: refresh asset /Users/feiwang/NewProject_4/assets/scenes success
+2024-9-16 02:51:14-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/resources/scripts/plugins/index.es.jsbackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:51:15-debug: asset-db:reimport-assetfb772ea6-089c-47b2-9722-004c0d9e4987 (413ms)
+2024-9-16 02:51:19-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/resources/scripts/plugins/index.es.jsbackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:51:19-debug: asset-db:reimport-assetfb772ea6-089c-47b2-9722-004c0d9e4987 (3ms)
+2024-9-16 02:51:41-debug: refresh db internal success
+2024-9-16 02:51:41-debug: asset-db:worker-effect-data-processing (188ms)
+2024-9-16 02:51:41-debug: refresh db assets success
+2024-9-16 02:51:41-debug: asset-db:refresh-all-database (258ms)
+2024-9-16 02:51:46-debug: start refresh asset from /Users/feiwang/NewProject_4/assets/scenes/jumpGame.scene...
+2024-9-16 02:51:46-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/scenes/jumpGame.scenebackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:51:46-debug: refresh asset /Users/feiwang/NewProject_4/assets/scenes success
+2024-9-16 02:51:48-debug: Query all assets info in project
+2024-9-16 02:51:48-debug: BuildAssetLibrary query-assets with assets 529
+2024-9-16 02:51:48-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-9-16 02:51:48-debug:   Number of all scenes: 2
+2024-9-16 02:51:48-debug:   Number of other assets: 370
+2024-9-16 02:51:48-debug:   Number of all scripts: 13
+2024-9-16 02:51:48-debug: 查询 Asset Bundle start0%
+2024-9-16 02:51:48-debug: // ---- build task 查询 Asset Bundle ----
+2024-9-16 02:51:48-debug: Process: heapTotal 221.94MB heapUsed 195.57MB rss 101.25MB
+2024-9-16 02:51:48-debug: // ---- build task 查询 Asset Bundle ---- (26ms)
+2024-9-16 02:51:48-debug: Process: heapTotal 223.94MB heapUsed 195.84MB rss 107.20MB
+2024-9-16 02:51:48-debug: init bundle assets
+2024-9-16 02:51:48-debug: run build task 查询 Asset Bundle success in 26 ms √3%
+2024-9-16 02:51:48-debug: 查询使用的资源以及资源包配置 start3%
+2024-9-16 02:51:48-debug: // ---- build task 查询使用的资源以及资源包配置 ----
+2024-9-16 02:51:48-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-9-16 02:51:48-debug: Number of scenes: 2
+2024-9-16 02:51:48-debug: // ---- build task 查询使用的资源以及资源包配置 ---- (5ms)
+2024-9-16 02:51:48-debug: 整理脚本分组与脚本数据 start7%
+2024-9-16 02:51:48-debug: // ---- build task 整理脚本分组与脚本数据 ----
+2024-9-16 02:51:48-debug: Process: heapTotal 223.94MB heapUsed 196.01MB rss 108.31MB
+2024-9-16 02:51:48-debug: run build task 查询使用的资源以及资源包配置 success in 5 ms √7%
+2024-9-16 02:51:48-debug: sort script group...
+2024-9-16 02:51:48-debug: run build task 整理脚本分组与脚本数据 success in 1 ms √10%
+2024-9-16 02:51:48-debug: // ---- build task 整理脚本分组与脚本数据 ---- (1ms)
+2024-9-16 02:51:48-debug: 初始化 settings.json 与 config.json start10%
+2024-9-16 02:51:48-debug: // ---- build task 初始化 settings.json 与 config.json ----
+2024-9-16 02:51:48-debug: Process: heapTotal 223.94MB heapUsed 196.04MB rss 108.48MB
+2024-9-16 02:51:48-debug: // ---- build task 初始化 settings.json 与 config.json ---- (1ms)
+2024-9-16 02:51:48-debug: run build task 初始化 settings.json 与 config.json success in 1 ms √11%
+2024-9-16 02:51:48-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
+2024-9-16 02:51:48-debug: builder.tasks.settings.macro start11%
+2024-9-16 02:51:48-debug: // ---- build task builder.tasks.settings.macro ----
+2024-9-16 02:51:48-debug: Process: heapTotal 223.94MB heapUsed 196.07MB rss 109.30MB
+2024-9-16 02:51:48-debug: // ---- build task builder.tasks.settings.macro ---- (2ms)
+2024-9-16 02:51:48-debug: run build task builder.tasks.settings.macro success in 2 ms √11%
+2024-9-16 02:51:48-debug: 整理部分构建选项内数据到 settings.json start11%
+2024-9-16 02:51:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-9-16 02:51:48-debug: Process: heapTotal 223.94MB heapUsed 196.23MB rss 109.48MB
+2024-9-16 02:51:48-error: Error: ENOENT: no such file or directory, open '/Users/feiwang/NewProject_4/settings/splash.png'    at Object.openSync (fs.js:476:3)    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1846)    at readFileSync (fs.js:377:35)    at e.readFileSync (electron/js2c/asar_bundle.js:5:8872)    at formatSplashScreen (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:2114)    at BuildTask.handle (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:1386)    at BuildTask.runBuildTask (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:10065)    at BuildTask.getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7007)    at getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:5442)    at Ipc.<anonymous> (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)
+2024-9-16 02:51:48-error: 插屏图片拷贝失败，请检查插屏配置数据是否正常，splashScreen：{"displayRatio":1,"totalTime":2000,"watermarkLocation":"default","autoFit":true,"url":"project://settings/splash.png"}
+2024-9-16 02:51:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (8ms)
+2024-9-16 02:51:48-debug: run build task 整理部分构建选项内数据到 settings.json success in 8 ms √12%
+2024-9-16 02:51:48-debug: custom joint texture layouts start12%
+2024-9-16 02:51:48-debug: Process: heapTotal 223.94MB heapUsed 196.49MB rss 111.03MB
+2024-9-16 02:51:48-debug: // ---- build task custom joint texture layouts ----
+2024-9-16 02:51:48-debug: // ---- build task custom joint texture layouts ---- (1ms)
+2024-9-16 02:51:48-debug: custom joint physics start12%
+2024-9-16 02:51:48-debug: // ---- build task custom joint physics ----
+2024-9-16 02:51:48-debug: run build task custom joint texture layouts success in 1 ms √12%
+2024-9-16 02:51:48-debug: Process: heapTotal 223.94MB heapUsed 196.51MB rss 111.03MB
+2024-9-16 02:51:48-debug: run build task custom joint physics success in 0 ms √13%
+2024-9-16 02:51:48-debug: 填充脚本数据到 settings.json start13%
+2024-9-16 02:51:48-debug: Process: heapTotal 223.94MB heapUsed 196.53MB rss 111.03MB
+2024-9-16 02:51:48-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-9-16 02:51:48-debug: run build task 填充脚本数据到 settings.json success in 0 ms √13%
+2024-9-16 02:51:48-debug: 填充场景数据到 settings.json start13%
+2024-9-16 02:51:48-debug: // ---- build task 填充场景数据到 settings.json ----
+2024-9-16 02:51:48-debug: Process: heapTotal 223.94MB heapUsed 196.55MB rss 111.06MB
+2024-9-16 02:51:48-debug: run build task 填充场景数据到 settings.json success in 0 ms √14%
+2024-9-16 02:51:48-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2024-9-16 02:51:48-debug: Process: heapTotal 223.94MB heapUsed 196.57MB rss 111.09MB
+2024-9-16 02:51:48-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start14%
+2024-9-16 02:51:48-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ---- (1ms)
+2024-9-16 02:51:48-debug: Process: heapTotal 223.94MB heapUsed 196.63MB rss 111.70MB
+2024-9-16 02:51:48-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start14%
+2024-9-16 02:51:48-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2024-9-16 02:51:48-debug: run build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 success in 1 ms √14%
+2024-9-16 02:51:48-debug: options.md5Cache is false.
+2024-9-16 02:51:48-debug: run build task 从 suffixMap 生成 md5AssetsMap 到 settings.json success in 0 ms √15%
+2024-9-16 02:52:28-debug: refresh db internal success
+2024-9-16 02:52:28-debug: asset-db:worker-effect-data-processing (174ms)
+2024-9-16 02:52:28-debug: refresh db assets success
+2024-9-16 02:52:28-debug: asset-db:refresh-all-database (246ms)
+2024-9-16 02:54:20-debug: refresh db internal success
+2024-9-16 02:54:21-debug: asset-db:worker-effect-data-processing (170ms)
+2024-9-16 02:54:21-debug: refresh db assets success
+2024-9-16 02:54:21-debug: asset-db:refresh-all-database (236ms)
+2024-9-16 02:54:29-debug: refresh db internal success
+2024-9-16 02:54:30-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/resources/scripts/plugins/index.iife.jsbackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:54:30-debug: asset-db:worker-effect-data-processing (172ms)
+2024-9-16 02:54:30-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/resources/scripts/pluginsbackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:54:30-debug: refresh db assets success
+2024-9-16 02:54:30-debug: asset-db:refresh-all-database (224ms)
+2024-9-16 02:54:31-debug: Query all assets info in project
+2024-9-16 02:54:31-debug: BuildAssetLibrary query-assets with assets 530
+2024-9-16 02:54:31-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-9-16 02:54:31-debug: 查询 Asset Bundle start0%
+2024-9-16 02:54:31-debug:   Number of all scripts: 14
+2024-9-16 02:54:31-debug: Process: heapTotal 239.08MB heapUsed 204.10MB rss 171.83MB
+2024-9-16 02:54:31-debug:   Number of all scenes: 2
+2024-9-16 02:54:31-debug:   Number of other assets: 370
+2024-9-16 02:54:31-debug: // ---- build task 查询 Asset Bundle ----
+2024-9-16 02:54:32-debug: // ---- build task 查询 Asset Bundle ---- (87ms)
+2024-9-16 02:54:32-debug: // ---- build task 查询使用的资源以及资源包配置 ----
+2024-9-16 02:54:32-debug: run build task 查询 Asset Bundle success in 87 ms √3%
+2024-9-16 02:54:32-debug: init bundle assets
+2024-9-16 02:54:32-debug: Process: heapTotal 237.03MB heapUsed 198.02MB rss 82.91MB
+2024-9-16 02:54:32-debug: 查询使用的资源以及资源包配置 start3%
+2024-9-16 02:54:32-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-9-16 02:54:32-debug: Number of scenes: 2
+2024-9-16 02:54:32-debug: // ---- build task 查询使用的资源以及资源包配置 ---- (7ms)
+2024-9-16 02:54:32-debug: 整理脚本分组与脚本数据 start7%
+2024-9-16 02:54:32-debug: Process: heapTotal 237.03MB heapUsed 198.19MB rss 86.13MB
+2024-9-16 02:54:32-debug: run build task 查询使用的资源以及资源包配置 success in 7 ms √7%
+2024-9-16 02:54:32-debug: sort script group...
+2024-9-16 02:54:32-debug: // ---- build task 整理脚本分组与脚本数据 ----
+2024-9-16 02:54:32-debug: run build task 整理脚本分组与脚本数据 success in 0 ms √10%
+2024-9-16 02:54:32-debug: 初始化 settings.json 与 config.json start10%
+2024-9-16 02:54:32-debug: // ---- build task 初始化 settings.json 与 config.json ----
+2024-9-16 02:54:32-debug: Process: heapTotal 237.03MB heapUsed 198.21MB rss 86.13MB
+2024-9-16 02:54:32-debug: run build task 初始化 settings.json 与 config.json success in 1 ms √11%
+2024-9-16 02:54:32-debug: // ---- build task builder.tasks.settings.macro ----
+2024-9-16 02:54:32-debug: Process: heapTotal 237.03MB heapUsed 198.25MB rss 86.41MB
+2024-9-16 02:54:32-debug: builder.tasks.settings.macro start11%
+2024-9-16 02:54:32-debug: // ---- build task 初始化 settings.json 与 config.json ---- (1ms)
+2024-9-16 02:54:32-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
+2024-9-16 02:54:32-debug: // ---- build task builder.tasks.settings.macro ---- (1ms)
+2024-9-16 02:54:32-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-9-16 02:54:32-debug: 整理部分构建选项内数据到 settings.json start11%
+2024-9-16 02:54:32-debug: run build task builder.tasks.settings.macro success in 1 ms √11%
+2024-9-16 02:54:32-debug: Process: heapTotal 237.03MB heapUsed 198.27MB rss 86.44MB
+2024-9-16 02:54:32-error: Error: ENOENT: no such file or directory, open '/Users/feiwang/NewProject_4/settings/splash.png'    at Object.openSync (fs.js:476:3)    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1846)    at readFileSync (fs.js:377:35)    at e.readFileSync (electron/js2c/asar_bundle.js:5:8872)    at formatSplashScreen (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:2114)    at BuildTask.handle (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:1386)    at BuildTask.runBuildTask (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:10065)    at BuildTask.getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7007)    at getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:5442)    at Ipc.<anonymous> (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)
+2024-9-16 02:54:32-error: 插屏图片拷贝失败，请检查插屏配置数据是否正常，splashScreen：{"displayRatio":1,"totalTime":2000,"watermarkLocation":"default","autoFit":true,"url":"project://settings/splash.png"}
+2024-9-16 02:54:32-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
+2024-9-16 02:54:32-debug: custom joint texture layouts start12%
+2024-9-16 02:54:32-debug: // ---- build task custom joint texture layouts ----
+2024-9-16 02:54:32-debug: run build task 整理部分构建选项内数据到 settings.json success in 3 ms √12%
+2024-9-16 02:54:32-debug: Process: heapTotal 237.03MB heapUsed 198.45MB rss 88.08MB
+2024-9-16 02:54:32-debug: // ---- build task custom joint texture layouts ---- (1ms)
+2024-9-16 02:54:32-debug: custom joint physics start12%
+2024-9-16 02:54:32-debug: Process: heapTotal 237.03MB heapUsed 198.47MB rss 88.13MB
+2024-9-16 02:54:32-debug: run build task custom joint texture layouts success in 1 ms √12%
+2024-9-16 02:54:32-debug: // ---- build task custom joint physics ----
+2024-9-16 02:54:32-debug: run build task custom joint physics success in 0 ms √13%
+2024-9-16 02:54:32-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-9-16 02:54:32-debug: Process: heapTotal 237.03MB heapUsed 198.49MB rss 88.16MB
+2024-9-16 02:54:32-debug: 填充脚本数据到 settings.json start13%
+2024-9-16 02:54:32-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2024-9-16 02:54:32-debug: run build task 填充脚本数据到 settings.json success in 1 ms √13%
+2024-9-16 02:54:32-debug: 填充场景数据到 settings.json start13%
+2024-9-16 02:54:32-debug: // ---- build task 填充场景数据到 settings.json ----
+2024-9-16 02:54:32-debug: Process: heapTotal 237.03MB heapUsed 198.51MB rss 88.20MB
+2024-9-16 02:54:32-debug: // ---- build task 填充场景数据到 settings.json ---- (1ms)
+2024-9-16 02:54:32-debug: run build task 填充场景数据到 settings.json success in 1 ms √14%
+2024-9-16 02:54:32-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start14%
+2024-9-16 02:54:32-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2024-9-16 02:54:32-debug: Process: heapTotal 237.03MB heapUsed 198.53MB rss 88.25MB
+2024-9-16 02:54:32-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ---- (9ms)
+2024-9-16 02:54:32-debug: run build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 success in 9 ms √14%
+2024-9-16 02:54:32-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start14%
+2024-9-16 02:54:32-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2024-9-16 02:54:32-debug: Process: heapTotal 237.03MB heapUsed 198.60MB rss 82.23MB
+2024-9-16 02:54:32-debug: options.md5Cache is false.
+2024-9-16 02:54:32-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ---- (1ms)
+2024-9-16 02:54:32-debug: run build task 从 suffixMap 生成 md5AssetsMap 到 settings.json success in 1 ms √15%
+2024-9-16 02:54:37-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/resources/scripts/plugins/index.es.jsbackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:54:37-debug: asset-db:reimport-assetfb772ea6-089c-47b2-9722-004c0d9e4987 (2ms)
+2024-9-16 02:54:37-debug: Query all assets info in project
+2024-9-16 02:54:37-debug: BuildAssetLibrary query-assets with assets 530
+2024-9-16 02:54:37-debug:   Number of other assets: 370
+2024-9-16 02:54:37-debug: 查询 Asset Bundle start0%
+2024-9-16 02:54:37-debug: // ---- build task 查询 Asset Bundle ----
+2024-9-16 02:54:37-debug: Process: heapTotal 237.03MB heapUsed 201.40MB rss 55.31MB
+2024-9-16 02:54:37-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-9-16 02:54:37-debug:   Number of all scenes: 2
+2024-9-16 02:54:37-debug:   Number of all scripts: 14
+2024-9-16 02:54:37-debug: // ---- build task 查询 Asset Bundle ---- (9ms)
+2024-9-16 02:54:37-debug: // ---- build task 查询使用的资源以及资源包配置 ----
+2024-9-16 02:54:37-debug: init bundle assets
+2024-9-16 02:54:37-debug: 查询使用的资源以及资源包配置 start3%
+2024-9-16 02:54:37-debug: run build task 查询 Asset Bundle success in 9 ms √3%
+2024-9-16 02:54:37-debug: Process: heapTotal 237.03MB heapUsed 202.99MB rss 66.41MB
+2024-9-16 02:54:37-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-9-16 02:54:37-debug: Number of scenes: 2
+2024-9-16 02:54:37-debug: // ---- build task 查询使用的资源以及资源包配置 ---- (3ms)
+2024-9-16 02:54:37-debug: sort script group...
+2024-9-16 02:54:37-debug: Process: heapTotal 237.03MB heapUsed 203.14MB rss 70.52MB
+2024-9-16 02:54:37-debug: 整理脚本分组与脚本数据 start7%
+2024-9-16 02:54:37-debug: // ---- build task 整理脚本分组与脚本数据 ----
+2024-9-16 02:54:37-debug: run build task 查询使用的资源以及资源包配置 success in 3 ms √7%
+2024-9-16 02:54:37-debug: run build task 整理脚本分组与脚本数据 success in 0 ms √10%
+2024-9-16 02:54:37-debug: 初始化 settings.json 与 config.json start10%
+2024-9-16 02:54:37-debug: // ---- build task 初始化 settings.json 与 config.json ----
+2024-9-16 02:54:37-debug: Process: heapTotal 237.03MB heapUsed 203.17MB rss 70.69MB
+2024-9-16 02:54:37-debug: // ---- build task 初始化 settings.json 与 config.json ---- (1ms)
+2024-9-16 02:54:37-debug: // ---- build task builder.tasks.settings.macro ----
+2024-9-16 02:54:37-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
+2024-9-16 02:54:37-debug: Process: heapTotal 237.28MB heapUsed 203.49MB rss 71.70MB
+2024-9-16 02:54:37-debug: builder.tasks.settings.macro start11%
+2024-9-16 02:54:37-debug: run build task 初始化 settings.json 与 config.json success in 1 ms √11%
+2024-9-16 02:54:37-debug: // ---- build task builder.tasks.settings.macro ---- (1ms)
+2024-9-16 02:54:37-debug: run build task builder.tasks.settings.macro success in 1 ms √11%
+2024-9-16 02:54:37-debug: 整理部分构建选项内数据到 settings.json start11%
+2024-9-16 02:54:37-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-9-16 02:54:37-debug: Process: heapTotal 237.28MB heapUsed 203.51MB rss 71.78MB
+2024-9-16 02:54:37-error: Error: ENOENT: no such file or directory, open '/Users/feiwang/NewProject_4/settings/splash.png'    at Object.openSync (fs.js:476:3)    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1846)    at readFileSync (fs.js:377:35)    at e.readFileSync (electron/js2c/asar_bundle.js:5:8872)    at formatSplashScreen (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:2114)    at BuildTask.handle (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:1386)    at BuildTask.runBuildTask (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:10065)    at BuildTask.getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7007)    at getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:5442)    at Ipc.<anonymous> (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)
+2024-9-16 02:54:37-error: 插屏图片拷贝失败，请检查插屏配置数据是否正常，splashScreen：{"displayRatio":1,"totalTime":2000,"watermarkLocation":"default","autoFit":true,"url":"project://settings/splash.png"}
+2024-9-16 02:54:37-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
+2024-9-16 02:54:37-debug: custom joint texture layouts start12%
+2024-9-16 02:54:37-debug: // ---- build task custom joint texture layouts ----
+2024-9-16 02:54:37-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms √12%
+2024-9-16 02:54:37-debug: Process: heapTotal 237.28MB heapUsed 203.68MB rss 73.20MB
+2024-9-16 02:54:37-debug: run build task custom joint texture layouts success in 2 ms √12%
+2024-9-16 02:54:37-debug: Process: heapTotal 237.28MB heapUsed 203.70MB rss 73.27MB
+2024-9-16 02:54:37-debug: custom joint physics start12%
+2024-9-16 02:54:37-debug: // ---- build task custom joint physics ----
+2024-9-16 02:54:37-debug: // ---- build task custom joint texture layouts ---- (2ms)
+2024-9-16 02:54:37-debug: run build task custom joint physics success in 0 ms √13%
+2024-9-16 02:54:37-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-9-16 02:54:37-debug: Process: heapTotal 237.28MB heapUsed 203.72MB rss 73.34MB
+2024-9-16 02:54:37-debug: 填充脚本数据到 settings.json start13%
+2024-9-16 02:54:37-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2024-9-16 02:54:37-debug: 填充场景数据到 settings.json start13%
+2024-9-16 02:54:37-debug: run build task 填充脚本数据到 settings.json success in 1 ms √13%
+2024-9-16 02:54:37-debug: Process: heapTotal 237.28MB heapUsed 203.74MB rss 73.50MB
+2024-9-16 02:54:37-debug: // ---- build task 填充场景数据到 settings.json ----
+2024-9-16 02:54:37-debug: // ---- build task 填充场景数据到 settings.json ---- (1ms)
+2024-9-16 02:54:37-debug: run build task 填充场景数据到 settings.json success in 1 ms √14%
+2024-9-16 02:54:37-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2024-9-16 02:54:37-debug: Process: heapTotal 237.28MB heapUsed 203.76MB rss 73.58MB
+2024-9-16 02:54:37-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start14%
+2024-9-16 02:54:37-debug: run build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 success in 1 ms √14%
+2024-9-16 02:54:37-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start14%
+2024-9-16 02:54:37-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2024-9-16 02:54:37-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ---- (1ms)
+2024-9-16 02:54:37-debug: Process: heapTotal 237.28MB heapUsed 203.81MB rss 74.78MB
+2024-9-16 02:54:37-debug: options.md5Cache is false.
+2024-9-16 02:54:37-debug: run build task 从 suffixMap 生成 md5AssetsMap 到 settings.json success in 0 ms √15%
+2024-9-16 02:54:43-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/resources/scripts/plugins/index.iife.jsbackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:54:43-debug: asset-db:reimport-asset82373d6a-21f3-4a8d-b88e-57704ae4f8d8 (285ms)
+2024-9-16 02:54:44-debug: Query all assets info in project
+2024-9-16 02:54:44-debug: BuildAssetLibrary query-assets with assets 530
+2024-9-16 02:54:44-debug:   Number of all scripts: 14
+2024-9-16 02:54:44-debug: 查询 Asset Bundle start0%
+2024-9-16 02:54:44-debug: // ---- build task 查询 Asset Bundle ----
+2024-9-16 02:54:44-debug: Process: heapTotal 240.56MB heapUsed 215.17MB rss 145.56MB
+2024-9-16 02:54:44-debug:   Number of all scenes: 2
+2024-9-16 02:54:44-debug:   Number of other assets: 370
+2024-9-16 02:54:44-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-9-16 02:54:44-debug: run build task 查询 Asset Bundle success in 5 ms √3%
+2024-9-16 02:54:44-debug: // ---- build task 查询 Asset Bundle ---- (5ms)
+2024-9-16 02:54:44-debug: Process: heapTotal 240.56MB heapUsed 216.75MB rss 146.92MB
+2024-9-16 02:54:44-debug: 查询使用的资源以及资源包配置 start3%
+2024-9-16 02:54:44-debug: init bundle assets
+2024-9-16 02:54:44-debug: // ---- build task 查询使用的资源以及资源包配置 ----
+2024-9-16 02:54:44-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-9-16 02:54:44-debug: Number of scenes: 2
+2024-9-16 02:54:44-debug: // ---- build task 查询使用的资源以及资源包配置 ---- (3ms)
+2024-9-16 02:54:44-debug: run build task 查询使用的资源以及资源包配置 success in 3 ms √7%
+2024-9-16 02:54:44-debug: 整理脚本分组与脚本数据 start7%
+2024-9-16 02:54:44-debug: // ---- build task 整理脚本分组与脚本数据 ----
+2024-9-16 02:54:44-debug: Process: heapTotal 240.56MB heapUsed 216.90MB rss 147.72MB
+2024-9-16 02:54:44-debug: sort script group...
+2024-9-16 02:54:44-debug: run build task 整理脚本分组与脚本数据 success in 0 ms √10%
+2024-9-16 02:54:44-debug: 初始化 settings.json 与 config.json start10%
+2024-9-16 02:54:44-debug: // ---- build task 初始化 settings.json 与 config.json ----
+2024-9-16 02:54:44-debug: Process: heapTotal 240.56MB heapUsed 216.98MB rss 147.94MB
+2024-9-16 02:54:44-debug: // ---- build task 初始化 settings.json 与 config.json ---- (1ms)
+2024-9-16 02:54:44-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
+2024-9-16 02:54:44-debug: Process: heapTotal 240.56MB heapUsed 217.01MB rss 148.05MB
+2024-9-16 02:54:44-debug: // ---- build task builder.tasks.settings.macro ----
+2024-9-16 02:54:44-debug: run build task 初始化 settings.json 与 config.json success in 1 ms √11%
+2024-9-16 02:54:44-debug: builder.tasks.settings.macro start11%
+2024-9-16 02:54:44-debug: // ---- build task builder.tasks.settings.macro ---- (1ms)
+2024-9-16 02:54:44-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-9-16 02:54:44-debug: run build task builder.tasks.settings.macro success in 1 ms √11%
+2024-9-16 02:54:44-debug: 整理部分构建选项内数据到 settings.json start11%
+2024-9-16 02:54:44-debug: Process: heapTotal 240.56MB heapUsed 217.04MB rss 148.09MB
+2024-9-16 02:54:44-error: Error: ENOENT: no such file or directory, open '/Users/feiwang/NewProject_4/settings/splash.png'    at Object.openSync (fs.js:476:3)    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1846)    at readFileSync (fs.js:377:35)    at e.readFileSync (electron/js2c/asar_bundle.js:5:8872)    at formatSplashScreen (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:2114)    at BuildTask.handle (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:1386)    at BuildTask.runBuildTask (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:10065)    at BuildTask.getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7007)    at getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:5442)    at Ipc.<anonymous> (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)
+2024-9-16 02:54:44-error: 插屏图片拷贝失败，请检查插屏配置数据是否正常，splashScreen：{"displayRatio":1,"totalTime":2000,"watermarkLocation":"default","autoFit":true,"url":"project://settings/splash.png"}
+2024-9-16 02:54:44-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
+2024-9-16 02:54:44-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms √12%
+2024-9-16 02:54:44-debug: // ---- build task custom joint texture layouts ----
+2024-9-16 02:54:44-debug: custom joint texture layouts start12%
+2024-9-16 02:54:44-debug: Process: heapTotal 240.56MB heapUsed 217.20MB rss 148.75MB
+2024-9-16 02:54:44-debug: run build task custom joint texture layouts success in 4 ms √12%
+2024-9-16 02:54:44-debug: // ---- build task custom joint texture layouts ---- (4ms)
+2024-9-16 02:54:44-debug: Process: heapTotal 240.56MB heapUsed 217.23MB rss 148.78MB
+2024-9-16 02:54:44-debug: custom joint physics start12%
+2024-9-16 02:54:44-debug: // ---- build task custom joint physics ----
+2024-9-16 02:54:44-debug: // ---- build task custom joint physics ---- (1ms)
+2024-9-16 02:54:44-debug: run build task custom joint physics success in 1 ms √13%
+2024-9-16 02:54:44-debug: 填充脚本数据到 settings.json start13%
+2024-9-16 02:54:44-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-9-16 02:54:44-debug: Process: heapTotal 240.56MB heapUsed 217.24MB rss 148.80MB
+2024-9-16 02:54:44-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2024-9-16 02:54:44-debug: run build task 填充脚本数据到 settings.json success in 1 ms √13%
+2024-9-16 02:54:44-debug: 填充场景数据到 settings.json start13%
+2024-9-16 02:54:44-debug: // ---- build task 填充场景数据到 settings.json ----
+2024-9-16 02:54:44-debug: Process: heapTotal 240.56MB heapUsed 217.27MB rss 148.84MB
+2024-9-16 02:54:44-debug: // ---- build task 填充场景数据到 settings.json ---- (1ms)
+2024-9-16 02:54:44-debug: run build task 填充场景数据到 settings.json success in 1 ms √14%
+2024-9-16 02:54:44-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start14%
+2024-9-16 02:54:44-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2024-9-16 02:54:44-debug: Process: heapTotal 240.56MB heapUsed 217.29MB rss 148.80MB
+2024-9-16 02:54:44-debug: run build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 success in 0 ms √14%
+2024-9-16 02:54:44-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start14%
+2024-9-16 02:54:44-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2024-9-16 02:54:44-debug: Process: heapTotal 240.56MB heapUsed 217.33MB rss 148.98MB
+2024-9-16 02:54:44-debug: options.md5Cache is false.
+2024-9-16 02:54:44-debug: run build task 从 suffixMap 生成 md5AssetsMap 到 settings.json success in 0 ms √15%
+2024-9-16 02:54:46-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/resources/scripts/plugins/index.iife.jsbackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:54:46-debug: asset-db:reimport-asset82373d6a-21f3-4a8d-b88e-57704ae4f8d8 (15ms)
+2024-9-16 02:54:46-debug: Query all assets info in project
+2024-9-16 02:54:46-debug: BuildAssetLibrary query-assets with assets 530
+2024-9-16 02:54:46-debug:   Number of other assets: 370
+2024-9-16 02:54:46-debug: 查询 Asset Bundle start0%
+2024-9-16 02:54:46-debug: // ---- build task 查询 Asset Bundle ----
+2024-9-16 02:54:46-debug: Process: heapTotal 240.70MB heapUsed 219.75MB rss 60.70MB
+2024-9-16 02:54:46-debug:   Number of all scenes: 2
+2024-9-16 02:54:46-debug:   Number of all scripts: 14
+2024-9-16 02:54:46-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-9-16 02:54:46-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
+2024-9-16 02:54:46-debug: Process: heapTotal 240.70MB heapUsed 221.33MB rss 63.00MB
+2024-9-16 02:54:46-debug: run build task 查询 Asset Bundle success in 6 ms √3%
+2024-9-16 02:54:46-debug: // ---- build task 查询使用的资源以及资源包配置 ----
+2024-9-16 02:54:46-debug: 查询使用的资源以及资源包配置 start3%
+2024-9-16 02:54:46-debug: init bundle assets
+2024-9-16 02:54:46-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-9-16 02:54:46-debug: // ---- build task 查询使用的资源以及资源包配置 ---- (2ms)
+2024-9-16 02:54:46-debug: // ---- build task 整理脚本分组与脚本数据 ----
+2024-9-16 02:54:46-debug: Process: heapTotal 240.70MB heapUsed 221.48MB rss 64.39MB
+2024-9-16 02:54:46-debug: sort script group...
+2024-9-16 02:54:46-debug: Number of scenes: 2
+2024-9-16 02:54:46-debug: run build task 查询使用的资源以及资源包配置 success in 2 ms √7%
+2024-9-16 02:54:46-debug: 整理脚本分组与脚本数据 start7%
+2024-9-16 02:54:46-debug: run build task 整理脚本分组与脚本数据 success in 0 ms √10%
+2024-9-16 02:54:46-debug: Process: heapTotal 240.70MB heapUsed 221.50MB rss 64.48MB
+2024-9-16 02:54:46-debug: // ---- build task 初始化 settings.json 与 config.json ----
+2024-9-16 02:54:46-debug: 初始化 settings.json 与 config.json start10%
+2024-9-16 02:54:46-debug: run build task 初始化 settings.json 与 config.json success in 0 ms √11%
+2024-9-16 02:54:46-debug: builder.tasks.settings.macro start11%
+2024-9-16 02:54:46-debug: // ---- build task builder.tasks.settings.macro ----
+2024-9-16 02:54:46-debug: Process: heapTotal 240.70MB heapUsed 221.53MB rss 64.84MB
+2024-9-16 02:54:46-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
+2024-9-16 02:54:47-debug: // ---- build task builder.tasks.settings.macro ---- (1ms)
+2024-9-16 02:54:47-debug: 整理部分构建选项内数据到 settings.json start11%
+2024-9-16 02:54:47-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-9-16 02:54:47-debug: Process: heapTotal 240.70MB heapUsed 221.55MB rss 65.02MB
+2024-9-16 02:54:47-debug: run build task builder.tasks.settings.macro success in 1 ms √11%
+2024-9-16 02:54:47-error: Error: ENOENT: no such file or directory, open '/Users/feiwang/NewProject_4/settings/splash.png'    at Object.openSync (fs.js:476:3)    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1846)    at readFileSync (fs.js:377:35)    at e.readFileSync (electron/js2c/asar_bundle.js:5:8872)    at formatSplashScreen (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:2114)    at BuildTask.handle (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:1386)    at BuildTask.runBuildTask (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:10065)    at BuildTask.getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7007)    at getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:5442)    at Ipc.<anonymous> (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)
+2024-9-16 02:54:47-error: 插屏图片拷贝失败，请检查插屏配置数据是否正常，splashScreen：{"displayRatio":1,"totalTime":2000,"watermarkLocation":"default","autoFit":true,"url":"project://settings/splash.png"}
+2024-9-16 02:54:47-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
+2024-9-16 02:54:47-debug: run build task 整理部分构建选项内数据到 settings.json success in 4 ms √12%
+2024-9-16 02:54:47-debug: // ---- build task custom joint texture layouts ----
+2024-9-16 02:54:47-debug: custom joint texture layouts start12%
+2024-9-16 02:54:47-debug: Process: heapTotal 240.56MB heapUsed 215.16MB rss 70.17MB
+2024-9-16 02:54:47-debug: // ---- build task custom joint texture layouts ---- (1ms)
+2024-9-16 02:54:47-debug: run build task custom joint texture layouts success in 1 ms √12%
+2024-9-16 02:54:47-debug: custom joint physics start12%
+2024-9-16 02:54:47-debug: // ---- build task custom joint physics ----
+2024-9-16 02:54:47-debug: Process: heapTotal 240.56MB heapUsed 215.19MB rss 70.22MB
+2024-9-16 02:54:47-debug: run build task custom joint physics success in 0 ms √13%
+2024-9-16 02:54:47-debug: 填充脚本数据到 settings.json start13%
+2024-9-16 02:54:47-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-9-16 02:54:47-debug: Process: heapTotal 240.56MB heapUsed 215.21MB rss 70.23MB
+2024-9-16 02:54:47-debug: run build task 填充脚本数据到 settings.json success in 0 ms √13%
+2024-9-16 02:54:47-debug: // ---- build task 填充场景数据到 settings.json ----
+2024-9-16 02:54:47-debug: Process: heapTotal 240.56MB heapUsed 215.23MB rss 70.36MB
+2024-9-16 02:54:47-debug: 填充场景数据到 settings.json start13%
+2024-9-16 02:54:47-debug: run build task 填充场景数据到 settings.json success in 0 ms √14%
+2024-9-16 02:54:47-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start14%
+2024-9-16 02:54:47-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2024-9-16 02:54:47-debug: Process: heapTotal 240.56MB heapUsed 215.25MB rss 70.47MB
+2024-9-16 02:54:47-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ---- (2ms)
+2024-9-16 02:54:47-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start14%
+2024-9-16 02:54:47-debug: options.md5Cache is false.
+2024-9-16 02:54:47-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2024-9-16 02:54:47-debug: run build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 success in 2 ms √14%
+2024-9-16 02:54:47-debug: Process: heapTotal 240.56MB heapUsed 215.29MB rss 71.73MB
+2024-9-16 02:54:47-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ---- (1ms)
+2024-9-16 02:54:47-debug: run build task 从 suffixMap 生成 md5AssetsMap 到 settings.json success in 1 ms √15%
+2024-9-16 02:54:47-debug: start refresh asset from /Users/feiwang/NewProject_4/assets/scenes/jumpGame.scene...
+2024-9-16 02:54:47-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/scenes/jumpGame.scenebackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:54:47-debug: refresh asset /Users/feiwang/NewProject_4/assets/scenes success
+2024-9-16 02:54:53-debug: Query all assets info in project
+2024-9-16 02:54:53-debug: BuildAssetLibrary query-assets with assets 530
+2024-9-16 02:54:53-debug:   Number of all scripts: 14
+2024-9-16 02:54:53-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-9-16 02:54:53-debug: // ---- build task 查询 Asset Bundle ----
+2024-9-16 02:54:53-debug: Process: heapTotal 241.41MB heapUsed 219.17MB rss 57.89MB
+2024-9-16 02:54:53-debug:   Number of all scenes: 2
+2024-9-16 02:54:53-debug:   Number of other assets: 370
+2024-9-16 02:54:53-debug: 查询 Asset Bundle start0%
+2024-9-16 02:54:53-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
+2024-9-16 02:54:53-debug: // ---- build task 查询使用的资源以及资源包配置 ----
+2024-9-16 02:54:53-debug: Process: heapTotal 241.41MB heapUsed 220.75MB rss 60.33MB
+2024-9-16 02:54:53-debug: run build task 查询 Asset Bundle success in 4 ms √3%
+2024-9-16 02:54:53-debug: init bundle assets
+2024-9-16 02:54:53-debug: 查询使用的资源以及资源包配置 start3%
+2024-9-16 02:54:53-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-9-16 02:54:53-debug: Number of scenes: 2
+2024-9-16 02:54:53-debug: // ---- build task 查询使用的资源以及资源包配置 ---- (2ms)
+2024-9-16 02:54:53-debug: run build task 查询使用的资源以及资源包配置 success in 2 ms √7%
+2024-9-16 02:54:53-debug: 整理脚本分组与脚本数据 start7%
+2024-9-16 02:54:53-debug: // ---- build task 整理脚本分组与脚本数据 ----
+2024-9-16 02:54:53-debug: Process: heapTotal 241.41MB heapUsed 220.90MB rss 62.03MB
+2024-9-16 02:54:53-debug: sort script group...
+2024-9-16 02:54:53-debug: // ---- build task 整理脚本分组与脚本数据 ---- (1ms)
+2024-9-16 02:54:53-debug: run build task 整理脚本分组与脚本数据 success in 1 ms √10%
+2024-9-16 02:54:53-debug: 初始化 settings.json 与 config.json start10%
+2024-9-16 02:54:53-debug: // ---- build task 初始化 settings.json 与 config.json ----
+2024-9-16 02:54:53-debug: Process: heapTotal 241.41MB heapUsed 220.93MB rss 62.16MB
+2024-9-16 02:54:53-debug: run build task 初始化 settings.json 与 config.json success in 0 ms √11%
+2024-9-16 02:54:53-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
+2024-9-16 02:54:53-debug: builder.tasks.settings.macro start11%
+2024-9-16 02:54:53-debug: // ---- build task builder.tasks.settings.macro ----
+2024-9-16 02:54:53-debug: Process: heapTotal 241.41MB heapUsed 220.95MB rss 62.48MB
+2024-9-16 02:54:53-debug: 整理部分构建选项内数据到 settings.json start11%
+2024-9-16 02:54:53-debug: run build task builder.tasks.settings.macro success in 0 ms √11%
+2024-9-16 02:54:53-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-9-16 02:54:53-debug: Process: heapTotal 241.41MB heapUsed 220.97MB rss 62.61MB
+2024-9-16 02:54:53-error: Error: ENOENT: no such file or directory, open '/Users/feiwang/NewProject_4/settings/splash.png'    at Object.openSync (fs.js:476:3)    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1846)    at readFileSync (fs.js:377:35)    at e.readFileSync (electron/js2c/asar_bundle.js:5:8872)    at formatSplashScreen (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:2114)    at BuildTask.handle (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:1386)    at BuildTask.runBuildTask (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:10065)    at BuildTask.getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7007)    at getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:5442)    at Ipc.<anonymous> (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)
+2024-9-16 02:54:53-error: 插屏图片拷贝失败，请检查插屏配置数据是否正常，splashScreen：{"displayRatio":1,"totalTime":2000,"watermarkLocation":"default","autoFit":true,"url":"project://settings/splash.png"}
+2024-9-16 02:54:53-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2024-9-16 02:54:53-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms √12%
+2024-9-16 02:54:53-debug: Process: heapTotal 241.41MB heapUsed 221.14MB rss 64.14MB
+2024-9-16 02:54:53-debug: // ---- build task custom joint texture layouts ----
+2024-9-16 02:54:53-debug: custom joint texture layouts start12%
+2024-9-16 02:54:53-debug: // ---- build task custom joint texture layouts ---- (1ms)
+2024-9-16 02:54:53-debug: Process: heapTotal 241.41MB heapUsed 221.16MB rss 64.27MB
+2024-9-16 02:54:53-debug: // ---- build task custom joint physics ----
+2024-9-16 02:54:53-debug: custom joint physics start12%
+2024-9-16 02:54:53-debug: run build task custom joint texture layouts success in 1 ms √12%
+2024-9-16 02:54:53-debug: // ---- build task custom joint physics ---- (1ms)
+2024-9-16 02:54:53-debug: run build task custom joint physics success in 1 ms √13%
+2024-9-16 02:54:53-debug: 填充脚本数据到 settings.json start13%
+2024-9-16 02:54:53-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-9-16 02:54:53-debug: Process: heapTotal 241.41MB heapUsed 221.18MB rss 64.30MB
+2024-9-16 02:54:53-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2024-9-16 02:54:53-debug: run build task 填充脚本数据到 settings.json success in 1 ms √13%
+2024-9-16 02:54:53-debug: 填充场景数据到 settings.json start13%
+2024-9-16 02:54:53-debug: // ---- build task 填充场景数据到 settings.json ----
+2024-9-16 02:54:53-debug: Process: heapTotal 241.41MB heapUsed 221.20MB rss 64.42MB
+2024-9-16 02:54:53-debug: run build task 填充场景数据到 settings.json success in 0 ms √14%
+2024-9-16 02:54:53-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start14%
+2024-9-16 02:54:53-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2024-9-16 02:54:53-debug: Process: heapTotal 241.41MB heapUsed 221.22MB rss 64.53MB
+2024-9-16 02:54:53-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ---- (1ms)
+2024-9-16 02:54:53-debug: run build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 success in 1 ms √14%
+2024-9-16 02:54:53-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start14%
+2024-9-16 02:54:53-debug: options.md5Cache is false.
+2024-9-16 02:54:53-debug: Process: heapTotal 241.41MB heapUsed 221.27MB rss 65.86MB
+2024-9-16 02:54:53-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2024-9-16 02:54:53-debug: run build task 从 suffixMap 生成 md5AssetsMap 到 settings.json success in 0 ms √15%
+2024-9-16 02:55:11-debug: refresh db internal success
+2024-9-16 02:55:11-debug: asset-db:worker-effect-data-processing (179ms)
+2024-9-16 02:55:11-debug: refresh db assets success
+2024-9-16 02:55:11-debug: asset-db:refresh-all-database (213ms)
+2024-9-16 02:55:14-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/resources/scripts/plugins/index.iife.jsbackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:55:14-debug: asset-db:reimport-asset82373d6a-21f3-4a8d-b88e-57704ae4f8d8 (1ms)
+2024-9-16 02:55:14-debug: Query all assets info in project
+2024-9-16 02:55:15-debug: BuildAssetLibrary query-assets with assets 530
+2024-9-16 02:55:15-debug:   Number of all scripts: 14
+2024-9-16 02:55:15-debug: 查询 Asset Bundle start0%
+2024-9-16 02:55:15-debug: // ---- build task 查询 Asset Bundle ----
+2024-9-16 02:55:15-debug: Process: heapTotal 244.72MB heapUsed 205.73MB rss 212.42MB
+2024-9-16 02:55:15-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-9-16 02:55:15-debug:   Number of other assets: 370
+2024-9-16 02:55:15-debug:   Number of all scenes: 2
+2024-9-16 02:55:15-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
+2024-9-16 02:55:15-debug: 查询使用的资源以及资源包配置 start3%
+2024-9-16 02:55:15-debug: // ---- build task 查询使用的资源以及资源包配置 ----
+2024-9-16 02:55:15-debug: run build task 查询 Asset Bundle success in 7 ms √3%
+2024-9-16 02:55:15-debug: Process: heapTotal 242.19MB heapUsed 198.47MB rss 214.33MB
+2024-9-16 02:55:15-debug: init bundle assets
+2024-9-16 02:55:15-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-9-16 02:55:15-debug: Number of scenes: 2
+2024-9-16 02:55:15-debug: run build task 查询使用的资源以及资源包配置 success in 2 ms √7%
+2024-9-16 02:55:15-debug: Process: heapTotal 242.19MB heapUsed 198.63MB rss 214.41MB
+2024-9-16 02:55:15-debug: // ---- build task 查询使用的资源以及资源包配置 ---- (2ms)
+2024-9-16 02:55:15-debug: 整理脚本分组与脚本数据 start7%
+2024-9-16 02:55:15-debug: sort script group...
+2024-9-16 02:55:15-debug: // ---- build task 整理脚本分组与脚本数据 ----
+2024-9-16 02:55:15-debug: run build task 整理脚本分组与脚本数据 success in 0 ms √10%
+2024-9-16 02:55:15-debug: 初始化 settings.json 与 config.json start10%
+2024-9-16 02:55:15-debug: Process: heapTotal 242.19MB heapUsed 198.66MB rss 214.42MB
+2024-9-16 02:55:15-debug: // ---- build task 初始化 settings.json 与 config.json ----
+2024-9-16 02:55:15-debug: run build task 初始化 settings.json 与 config.json success in 0 ms √11%
+2024-9-16 02:55:15-debug: builder.tasks.settings.macro start11%
+2024-9-16 02:55:15-debug: Process: heapTotal 242.19MB heapUsed 198.68MB rss 214.48MB
+2024-9-16 02:55:15-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
+2024-9-16 02:55:15-debug: // ---- build task builder.tasks.settings.macro ----
+2024-9-16 02:55:15-debug: // ---- build task builder.tasks.settings.macro ---- (1ms)
+2024-9-16 02:55:15-debug: run build task builder.tasks.settings.macro success in 1 ms √11%
+2024-9-16 02:55:15-debug: 整理部分构建选项内数据到 settings.json start11%
+2024-9-16 02:55:15-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-9-16 02:55:15-debug: Process: heapTotal 242.19MB heapUsed 198.71MB rss 214.50MB
+2024-9-16 02:55:15-error: Error: ENOENT: no such file or directory, open '/Users/feiwang/NewProject_4/settings/splash.png'    at Object.openSync (fs.js:476:3)    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1846)    at readFileSync (fs.js:377:35)    at e.readFileSync (electron/js2c/asar_bundle.js:5:8872)    at formatSplashScreen (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:2114)    at BuildTask.handle (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:1386)    at BuildTask.runBuildTask (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:10065)    at BuildTask.getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7007)    at getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:5442)    at Ipc.<anonymous> (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)
+2024-9-16 02:55:15-error: 插屏图片拷贝失败，请检查插屏配置数据是否正常，splashScreen：{"displayRatio":1,"totalTime":2000,"watermarkLocation":"default","autoFit":true,"url":"project://settings/splash.png"}
+2024-9-16 02:55:15-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
+2024-9-16 02:55:15-debug: // ---- build task custom joint texture layouts ----
+2024-9-16 02:55:15-debug: custom joint texture layouts start12%
+2024-9-16 02:55:15-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms √12%
+2024-9-16 02:55:15-debug: Process: heapTotal 242.19MB heapUsed 198.88MB rss 214.73MB
+2024-9-16 02:55:15-debug: // ---- build task custom joint texture layouts ---- (1ms)
+2024-9-16 02:55:15-debug: custom joint physics start12%
+2024-9-16 02:55:15-debug: // ---- build task custom joint physics ----
+2024-9-16 02:55:15-debug: Process: heapTotal 242.19MB heapUsed 198.91MB rss 214.73MB
+2024-9-16 02:55:15-debug: run build task custom joint texture layouts success in 1 ms √12%
+2024-9-16 02:55:15-debug: run build task custom joint physics success in 0 ms √13%
+2024-9-16 02:55:15-debug: 填充脚本数据到 settings.json start13%
+2024-9-16 02:55:15-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-9-16 02:55:15-debug: Process: heapTotal 242.19MB heapUsed 198.92MB rss 214.73MB
+2024-9-16 02:55:15-debug: run build task 填充脚本数据到 settings.json success in 0 ms √13%
+2024-9-16 02:55:15-debug: 填充场景数据到 settings.json start13%
+2024-9-16 02:55:15-debug: // ---- build task 填充场景数据到 settings.json ----
+2024-9-16 02:55:15-debug: Process: heapTotal 242.19MB heapUsed 198.94MB rss 214.75MB
+2024-9-16 02:55:15-debug: // ---- build task 填充场景数据到 settings.json ---- (1ms)
+2024-9-16 02:55:15-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start14%
+2024-9-16 02:55:15-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2024-9-16 02:55:15-debug: Process: heapTotal 242.19MB heapUsed 198.96MB rss 214.73MB
+2024-9-16 02:55:15-debug: run build task 填充场景数据到 settings.json success in 1 ms √14%
+2024-9-16 02:55:15-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ---- (2ms)
+2024-9-16 02:55:15-debug: run build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 success in 2 ms √14%
+2024-9-16 02:55:15-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start14%
+2024-9-16 02:55:15-debug: Process: heapTotal 242.19MB heapUsed 199.02MB rss 214.77MB
+2024-9-16 02:55:15-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2024-9-16 02:55:15-debug: options.md5Cache is false.
+2024-9-16 02:55:15-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ---- (1ms)
+2024-9-16 02:55:15-debug: run build task 从 suffixMap 生成 md5AssetsMap 到 settings.json success in 1 ms √15%
+2024-9-16 02:55:15-debug: start refresh asset from /Users/feiwang/NewProject_4/assets/scenes/jumpGame.scene...
+2024-9-16 02:55:15-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/scenes/jumpGame.scenebackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:55:15-debug: refresh asset /Users/feiwang/NewProject_4/assets/scenes success
+2024-9-16 02:55:18-debug: Query all assets info in project
+2024-9-16 02:55:18-debug: BuildAssetLibrary query-assets with assets 530
+2024-9-16 02:55:18-debug:   Number of all scripts: 14
+2024-9-16 02:55:18-debug: 查询 Asset Bundle start0%
+2024-9-16 02:55:18-debug: // ---- build task 查询 Asset Bundle ----
+2024-9-16 02:55:18-debug: Process: heapTotal 243.03MB heapUsed 202.90MB rss 56.92MB
+2024-9-16 02:55:18-debug:   Number of other assets: 370
+2024-9-16 02:55:18-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-9-16 02:55:18-debug:   Number of all scenes: 2
+2024-9-16 02:55:18-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
+2024-9-16 02:55:18-debug: Process: heapTotal 242.47MB heapUsed 197.30MB rss 66.19MB
+2024-9-16 02:55:18-debug: 查询使用的资源以及资源包配置 start3%
+2024-9-16 02:55:18-debug: init bundle assets
+2024-9-16 02:55:18-debug: run build task 查询 Asset Bundle success in 7 ms √3%
+2024-9-16 02:55:18-debug: // ---- build task 查询使用的资源以及资源包配置 ----
+2024-9-16 02:55:18-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-9-16 02:55:18-debug: Number of scenes: 2
+2024-9-16 02:55:18-debug: // ---- build task 查询使用的资源以及资源包配置 ---- (22ms)
+2024-9-16 02:55:18-debug: 整理脚本分组与脚本数据 start7%
+2024-9-16 02:55:18-debug: // ---- build task 整理脚本分组与脚本数据 ----
+2024-9-16 02:55:18-debug: Process: heapTotal 242.47MB heapUsed 197.45MB rss 67.78MB
+2024-9-16 02:55:18-debug: sort script group...
+2024-9-16 02:55:18-debug: run build task 查询使用的资源以及资源包配置 success in 22 ms √7%
+2024-9-16 02:55:18-debug: run build task 整理脚本分组与脚本数据 success in 0 ms √10%
+2024-9-16 02:55:18-debug: 初始化 settings.json 与 config.json start10%
+2024-9-16 02:55:18-debug: // ---- build task 初始化 settings.json 与 config.json ----
+2024-9-16 02:55:18-debug: Process: heapTotal 242.47MB heapUsed 197.47MB rss 67.91MB
+2024-9-16 02:55:18-debug: run build task 初始化 settings.json 与 config.json success in 6 ms √11%
+2024-9-16 02:55:18-debug: // ---- build task builder.tasks.settings.macro ----
+2024-9-16 02:55:18-debug: builder.tasks.settings.macro start11%
+2024-9-16 02:55:18-debug: // ---- build task 初始化 settings.json 与 config.json ---- (6ms)
+2024-9-16 02:55:18-debug: Process: heapTotal 242.47MB heapUsed 197.50MB rss 68.22MB
+2024-9-16 02:55:18-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
+2024-9-16 02:55:18-debug: // ---- build task builder.tasks.settings.macro ---- (1ms)
+2024-9-16 02:55:18-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-9-16 02:55:18-debug: run build task builder.tasks.settings.macro success in 1 ms √11%
+2024-9-16 02:55:18-debug: 整理部分构建选项内数据到 settings.json start11%
+2024-9-16 02:55:18-debug: Process: heapTotal 242.47MB heapUsed 197.53MB rss 68.36MB
+2024-9-16 02:55:18-error: Error: ENOENT: no such file or directory, open '/Users/feiwang/NewProject_4/settings/splash.png'    at Object.openSync (fs.js:476:3)    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1846)    at readFileSync (fs.js:377:35)    at e.readFileSync (electron/js2c/asar_bundle.js:5:8872)    at formatSplashScreen (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:2114)    at BuildTask.handle (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:1386)    at BuildTask.runBuildTask (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:10065)    at BuildTask.getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7007)    at getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:5442)    at Ipc.<anonymous> (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)
+2024-9-16 02:55:18-error: 插屏图片拷贝失败，请检查插屏配置数据是否正常，splashScreen：{"displayRatio":1,"totalTime":2000,"watermarkLocation":"default","autoFit":true,"url":"project://settings/splash.png"}
+2024-9-16 02:55:18-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
+2024-9-16 02:55:18-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms √12%
+2024-9-16 02:55:18-debug: custom joint texture layouts start12%
+2024-9-16 02:55:18-debug: // ---- build task custom joint texture layouts ----
+2024-9-16 02:55:18-debug: Process: heapTotal 242.47MB heapUsed 197.69MB rss 69.86MB
+2024-9-16 02:55:18-debug: // ---- build task custom joint texture layouts ---- (1ms)
+2024-9-16 02:55:18-debug: run build task custom joint texture layouts success in 1 ms √12%
+2024-9-16 02:55:18-debug: custom joint physics start12%
+2024-9-16 02:55:18-debug: // ---- build task custom joint physics ----
+2024-9-16 02:55:18-debug: Process: heapTotal 242.47MB heapUsed 197.72MB rss 69.95MB
+2024-9-16 02:55:18-debug: // ---- build task custom joint physics ---- (1ms)
+2024-9-16 02:55:18-debug: run build task custom joint physics success in 1 ms √13%
+2024-9-16 02:55:18-debug: 填充脚本数据到 settings.json start13%
+2024-9-16 02:55:18-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-9-16 02:55:18-debug: Process: heapTotal 242.47MB heapUsed 197.74MB rss 69.97MB
+2024-9-16 02:55:18-debug: run build task 填充脚本数据到 settings.json success in 0 ms √13%
+2024-9-16 02:55:18-debug: 填充场景数据到 settings.json start13%
+2024-9-16 02:55:18-debug: // ---- build task 填充场景数据到 settings.json ----
+2024-9-16 02:55:18-debug: Process: heapTotal 242.47MB heapUsed 197.76MB rss 70.03MB
+2024-9-16 02:55:18-debug: run build task 填充场景数据到 settings.json success in 0 ms √14%
+2024-9-16 02:55:18-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start14%
+2024-9-16 02:55:18-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2024-9-16 02:55:18-debug: Process: heapTotal 242.47MB heapUsed 197.78MB rss 70.09MB
+2024-9-16 02:55:18-debug: run build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 success in 0 ms √14%
+2024-9-16 02:55:18-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start14%
+2024-9-16 02:55:18-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2024-9-16 02:55:18-debug: Process: heapTotal 242.47MB heapUsed 197.82MB rss 71.30MB
+2024-9-16 02:55:18-debug: options.md5Cache is false.
+2024-9-16 02:55:18-debug: run build task 从 suffixMap 生成 md5AssetsMap 到 settings.json success in 0 ms √15%
+2024-9-16 02:55:24-debug: refresh db internal success
+2024-9-16 02:55:24-debug: asset-db:worker-effect-data-processing (111ms)
+2024-9-16 02:55:24-debug: refresh db assets success
+2024-9-16 02:55:24-debug: asset-db:refresh-all-database (145ms)
+2024-9-16 02:55:27-debug: start refresh asset from /Users/feiwang/NewProject_4/assets/scenes/jumpGame.scene...
+2024-9-16 02:55:27-debug: %cImport%c: /Users/feiwang/NewProject_4/assets/scenes/jumpGame.scenebackground: #aaff85; color: #000;color: #000;
+2024-9-16 02:55:27-debug: refresh asset /Users/feiwang/NewProject_4/assets/scenes success
+2024-9-16 02:55:27-debug: Query all assets info in project
+2024-9-16 02:55:27-debug: BuildAssetLibrary query-assets with assets 530
+2024-9-16 02:55:27-debug:   Number of all scripts: 14
+2024-9-16 02:55:27-debug: 查询 Asset Bundle start0%
+2024-9-16 02:55:27-debug: // ---- build task 查询 Asset Bundle ----
+2024-9-16 02:55:27-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-9-16 02:55:27-debug:   Number of all scenes: 2
+2024-9-16 02:55:27-debug:   Number of other assets: 370
+2024-9-16 02:55:27-debug: Process: heapTotal 245.19MB heapUsed 203.24MB rss 96.30MB
+2024-9-16 02:55:27-debug: // ---- build task 查询 Asset Bundle ---- (14ms)
+2024-9-16 02:55:27-debug: run build task 查询 Asset Bundle success in 14 ms √3%
+2024-9-16 02:55:27-debug: 查询使用的资源以及资源包配置 start3%
+2024-9-16 02:55:27-debug: // ---- build task 查询使用的资源以及资源包配置 ----
+2024-9-16 02:55:27-debug: Process: heapTotal 245.19MB heapUsed 204.82MB rss 96.41MB
+2024-9-16 02:55:27-debug: init bundle assets
+2024-9-16 02:55:27-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-9-16 02:55:27-debug: Number of scenes: 2
+2024-9-16 02:55:27-debug: // ---- build task 查询使用的资源以及资源包配置 ---- (12ms)
+2024-9-16 02:55:27-debug: // ---- build task 整理脚本分组与脚本数据 ----
+2024-9-16 02:55:27-debug: sort script group...
+2024-9-16 02:55:27-debug: Process: heapTotal 245.19MB heapUsed 205.32MB rss 97.14MB
+2024-9-16 02:55:27-debug: run build task 查询使用的资源以及资源包配置 success in 12 ms √7%
+2024-9-16 02:55:27-debug: 整理脚本分组与脚本数据 start7%
+2024-9-16 02:55:27-debug: // ---- build task 初始化 settings.json 与 config.json ----
+2024-9-16 02:55:27-debug: run build task 整理脚本分组与脚本数据 success in 0 ms √10%
+2024-9-16 02:55:27-debug: 初始化 settings.json 与 config.json start10%
+2024-9-16 02:55:27-debug: Process: heapTotal 245.19MB heapUsed 205.35MB rss 97.19MB
+2024-9-16 02:55:27-debug: run build task 初始化 settings.json 与 config.json success in 0 ms √11%
+2024-9-16 02:55:27-debug: builder.tasks.settings.macro start11%
+2024-9-16 02:55:27-debug: // ---- build task builder.tasks.settings.macro ----
+2024-9-16 02:55:27-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
+2024-9-16 02:55:27-debug: Process: heapTotal 245.19MB heapUsed 205.37MB rss 97.31MB
+2024-9-16 02:55:27-debug: // ---- build task builder.tasks.settings.macro ---- (1ms)
+2024-9-16 02:55:27-debug: run build task builder.tasks.settings.macro success in 1 ms √11%
+2024-9-16 02:55:27-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-9-16 02:55:27-debug: Process: heapTotal 245.19MB heapUsed 205.40MB rss 97.34MB
+2024-9-16 02:55:27-debug: 整理部分构建选项内数据到 settings.json start11%
+2024-9-16 02:55:27-error: Error: ENOENT: no such file or directory, open '/Users/feiwang/NewProject_4/settings/splash.png'    at Object.openSync (fs.js:476:3)    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1846)    at readFileSync (fs.js:377:35)    at e.readFileSync (electron/js2c/asar_bundle.js:5:8872)    at formatSplashScreen (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:2114)    at BuildTask.handle (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:1386)    at BuildTask.runBuildTask (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:10065)    at BuildTask.getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7007)    at getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:5442)    at Ipc.<anonymous> (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)
+2024-9-16 02:55:27-error: 插屏图片拷贝失败，请检查插屏配置数据是否正常，splashScreen：{"displayRatio":1,"totalTime":2000,"watermarkLocation":"default","autoFit":true,"url":"project://settings/splash.png"}
+2024-9-16 02:55:27-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2024-9-16 02:55:27-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms √12%
+2024-9-16 02:55:27-debug: custom joint texture layouts start12%
+2024-9-16 02:55:27-debug: // ---- build task custom joint texture layouts ----
+2024-9-16 02:55:27-debug: Process: heapTotal 245.19MB heapUsed 205.57MB rss 98.11MB
+2024-9-16 02:55:27-debug: // ---- build task custom joint texture layouts ---- (1ms)
+2024-9-16 02:55:27-debug: run build task custom joint texture layouts success in 1 ms √12%
+2024-9-16 02:55:27-debug: // ---- build task custom joint physics ----
+2024-9-16 02:55:27-debug: custom joint physics start12%
+2024-9-16 02:55:27-debug: Process: heapTotal 245.19MB heapUsed 205.59MB rss 98.13MB
+2024-9-16 02:55:27-debug: run build task custom joint physics success in 0 ms √13%
+2024-9-16 02:55:27-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-9-16 02:55:27-debug: Process: heapTotal 245.19MB heapUsed 205.60MB rss 98.13MB
+2024-9-16 02:55:27-debug: 填充脚本数据到 settings.json start13%
+2024-9-16 02:55:27-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2024-9-16 02:55:27-debug: Process: heapTotal 245.19MB heapUsed 205.62MB rss 98.14MB
+2024-9-16 02:55:27-debug: run build task 填充脚本数据到 settings.json success in 1 ms √13%
+2024-9-16 02:55:27-debug: 填充场景数据到 settings.json start13%
+2024-9-16 02:55:27-debug: // ---- build task 填充场景数据到 settings.json ----
+2024-9-16 02:55:27-debug: run build task 填充场景数据到 settings.json success in 0 ms √14%
+2024-9-16 02:55:27-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2024-9-16 02:55:27-debug: Process: heapTotal 245.19MB heapUsed 205.64MB rss 98.16MB
+2024-9-16 02:55:27-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start14%
+2024-9-16 02:55:27-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ---- (1ms)
+2024-9-16 02:55:27-debug: run build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 success in 1 ms √14%
+2024-9-16 02:55:27-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start14%
+2024-9-16 02:55:27-debug: options.md5Cache is false.
+2024-9-16 02:55:27-debug: Process: heapTotal 245.19MB heapUsed 205.69MB rss 98.58MB
+2024-9-16 02:55:27-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2024-9-16 02:55:27-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ---- (1ms)
+2024-9-16 02:55:27-debug: run build task 从 suffixMap 生成 md5AssetsMap 到 settings.json success in 1 ms √15%
+2024-9-16 02:55:33-debug: Query all assets info in project
+2024-9-16 02:55:33-debug: BuildAssetLibrary query-assets with assets 530
+2024-9-16 02:55:33-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-9-16 02:55:33-debug:   Number of all scenes: 2
+2024-9-16 02:55:33-debug:   Number of all scripts: 14
+2024-9-16 02:55:33-debug:   Number of other assets: 370
+2024-9-16 02:55:33-debug: 查询 Asset Bundle start0%
+2024-9-16 02:55:33-debug: Process: heapTotal 245.19MB heapUsed 207.63MB rss 56.36MB
+2024-9-16 02:55:33-debug: // ---- build task 查询 Asset Bundle ----
+2024-9-16 02:55:33-debug: // ---- build task 查询 Asset Bundle ---- (14ms)
+2024-9-16 02:55:33-debug: run build task 查询 Asset Bundle success in 14 ms √3%
+2024-9-16 02:55:33-debug: // ---- build task 查询使用的资源以及资源包配置 ----
+2024-9-16 02:55:33-debug: Process: heapTotal 230.63MB heapUsed 200.86MB rss 65.33MB
+2024-9-16 02:55:33-debug: init bundle assets
+2024-9-16 02:55:33-debug: 查询使用的资源以及资源包配置 start3%
+2024-9-16 02:55:33-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-9-16 02:55:33-debug: Number of scenes: 2
+2024-9-16 02:55:33-debug: // ---- build task 查询使用的资源以及资源包配置 ---- (2ms)
+2024-9-16 02:55:33-debug: run build task 查询使用的资源以及资源包配置 success in 2 ms √7%
+2024-9-16 02:55:33-debug: 整理脚本分组与脚本数据 start7%
+2024-9-16 02:55:33-debug: // ---- build task 整理脚本分组与脚本数据 ----
+2024-9-16 02:55:33-debug: Process: heapTotal 230.63MB heapUsed 201.00MB rss 66.86MB
+2024-9-16 02:55:33-debug: sort script group...
+2024-9-16 02:55:33-debug: // ---- build task 整理脚本分组与脚本数据 ---- (1ms)
+2024-9-16 02:55:33-debug: run build task 整理脚本分组与脚本数据 success in 1 ms √10%
+2024-9-16 02:55:33-debug: // ---- build task 初始化 settings.json 与 config.json ----
+2024-9-16 02:55:33-debug: 初始化 settings.json 与 config.json start10%
+2024-9-16 02:55:33-debug: Process: heapTotal 230.63MB heapUsed 201.04MB rss 66.95MB
+2024-9-16 02:55:33-debug: run build task 初始化 settings.json 与 config.json success in 0 ms √11%
+2024-9-16 02:55:33-debug: Process: heapTotal 230.63MB heapUsed 201.06MB rss 67.23MB
+2024-9-16 02:55:33-debug: builder.tasks.settings.macro start11%
+2024-9-16 02:55:33-debug: // ---- build task builder.tasks.settings.macro ----
+2024-9-16 02:55:33-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
+2024-9-16 02:55:33-debug: run build task builder.tasks.settings.macro success in 0 ms √11%
+2024-9-16 02:55:33-debug: 整理部分构建选项内数据到 settings.json start11%
+2024-9-16 02:55:33-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-9-16 02:55:33-debug: Process: heapTotal 230.63MB heapUsed 201.08MB rss 67.33MB
+2024-9-16 02:55:33-error: Error: ENOENT: no such file or directory, open '/Users/feiwang/NewProject_4/settings/splash.png'    at Object.openSync (fs.js:476:3)    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1846)    at readFileSync (fs.js:377:35)    at e.readFileSync (electron/js2c/asar_bundle.js:5:8872)    at formatSplashScreen (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:2114)    at BuildTask.handle (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/setting-task/options.ccc:1:1386)    at BuildTask.runBuildTask (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:10065)    at BuildTask.getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7007)    at getPreviewSettings (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:5442)    at Ipc.<anonymous> (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)
+2024-9-16 02:55:33-error: 插屏图片拷贝失败，请检查插屏配置数据是否正常，splashScreen：{"displayRatio":1,"totalTime":2000,"watermarkLocation":"default","autoFit":true,"url":"project://settings/splash.png"}
+2024-9-16 02:55:33-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
+2024-9-16 02:55:33-debug: run build task 整理部分构建选项内数据到 settings.json success in 3 ms √12%
+2024-9-16 02:55:33-debug: custom joint texture layouts start12%
+2024-9-16 02:55:33-debug: // ---- build task custom joint texture layouts ----
+2024-9-16 02:55:33-debug: Process: heapTotal 230.63MB heapUsed 201.25MB rss 68.88MB
+2024-9-16 02:55:33-debug: // ---- build task custom joint texture layouts ---- (1ms)
+2024-9-16 02:55:33-debug: // ---- build task custom joint physics ----
+2024-9-16 02:55:33-debug: custom joint physics start12%
+2024-9-16 02:55:33-debug: Process: heapTotal 230.63MB heapUsed 201.28MB rss 68.94MB
+2024-9-16 02:55:33-debug: run build task custom joint texture layouts success in 1 ms √12%
+2024-9-16 02:55:33-debug: run build task custom joint physics success in 0 ms √13%
+2024-9-16 02:55:33-debug: 填充脚本数据到 settings.json start13%
+2024-9-16 02:55:33-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-9-16 02:55:33-debug: Process: heapTotal 230.63MB heapUsed 201.29MB rss 68.95MB
+2024-9-16 02:55:33-debug: run build task 填充脚本数据到 settings.json success in 0 ms √13%
+2024-9-16 02:55:33-debug: 填充场景数据到 settings.json start13%
+2024-9-16 02:55:33-debug: // ---- build task 填充场景数据到 settings.json ----
+2024-9-16 02:55:33-debug: Process: heapTotal 230.63MB heapUsed 201.31MB rss 69.08MB
+2024-9-16 02:55:33-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start14%
+2024-9-16 02:55:33-debug: run build task 填充场景数据到 settings.json success in 0 ms √14%
+2024-9-16 02:55:33-debug: Process: heapTotal 230.63MB heapUsed 201.33MB rss 69.17MB
+2024-9-16 02:55:33-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2024-9-16 02:55:33-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ---- (1ms)
+2024-9-16 02:55:33-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start14%
+2024-9-16 02:55:33-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2024-9-16 02:55:33-debug: run build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 success in 1 ms √14%
+2024-9-16 02:55:33-debug: Process: heapTotal 230.63MB heapUsed 201.38MB rss 70.47MB
+2024-9-16 02:55:33-debug: options.md5Cache is false.
+2024-9-16 02:55:33-debug: run build task 从 suffixMap 生成 md5AssetsMap 到 settings.json success in 0 ms √15%
+2024-9-16 02:55:40-debug: refresh db internal success
+2024-9-16 02:55:40-debug: asset-db:worker-effect-data-processing (177ms)
+2024-9-16 02:55:40-debug: refresh db assets success
+2024-9-16 02:55:40-debug: asset-db:refresh-all-database (229ms)

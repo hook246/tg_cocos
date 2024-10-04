@@ -1,0 +1,118 @@
+{
+  "__version__": "3.0.7",
+  "builder": {
+    "options": {
+      "web-desktop": {
+        "configID": "7721e2",
+        "services": [
+          {
+            "service_id": "235",
+            "service_component_name": "service-analytics",
+            "builder": "/Users/iopull/.CocosCreator/.service/analytics/builder/builder.js",
+            "enable": false,
+            "params": {}
+          }
+        ]
+      },
+      "wechatgame": {
+        "configID": "7721e2",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "web-mobile": {
+        "configID": "7721e2",
+        "services": []
+      }
+    },
+    "taskOptionsMap": {
+      "1679074765983": {
+        "configID": "7721e2",
+        "services": [
+          {
+            "service_id": "235",
+            "service_component_name": "service-analytics",
+            "builder": "/Users/iopull/.CocosCreator/.service/analytics/builder/builder.js",
+            "enable": false,
+            "params": {}
+          }
+        ]
+      },
+      "1679075621609": {
+        "configID": "7721e2",
+        "services": [
+          {
+            "service_id": "235",
+            "service_component_name": "service-analytics",
+            "builder": "/Users/iopull/.CocosCreator/.service/analytics/builder/builder.js",
+            "enable": false,
+            "params": {}
+          }
+        ],
+        "__version__": "3.0.5"
+      },
+      "1679075621609}": {
+        "configID": "7721e2",
+        "services": [
+          {
+            "service_id": "235",
+            "service_component_name": "service-analytics",
+            "builder": "/Users/iopull/.CocosCreator/.service/analytics/builder/builder.js",
+            "enable": false,
+            "params": {}
+          }
+        ],
+        "__version__": "3.0.5"
+      },
+      "1679077928951": {
+        "configID": "7721e2",
+        "services": [
+          {
+            "service_id": "235",
+            "service_component_name": "service-analytics",
+            "builder": "/Users/iopull/.CocosCreator/.service/analytics/builder/builder.js",
+            "enable": false,
+            "params": {}
+          }
+        ],
+        "__version__": "3.0.6"
+      },
+      "1679079614589": {
+        "configID": "7721e2",
+        "services": [
+          {
+            "service_id": "235",
+            "service_component_name": "service-analytics",
+            "builder": "/Users/iopull/.CocosCreator/.service/analytics/builder/builder.js",
+            "enable": false,
+            "params": {}
+          }
+        ],
+        "__version__": "3.0.6"
+      },
+      "1679154556869": {
+        "configID": "7721e2",
+        "services": [
+          {
+            "service_id": "235",
+            "service_component_name": "service-analytics",
+            "builder": "/Users/iopull/.CocosCreator/.service/analytics/builder/builder.js",
+            "enable": false,
+            "params": {}
+          }
+        ],
+        "__version__": "3.0.6"
+      },
+      "1726646894420": {
+        "configID": "7721e2",
+        "services": [],
+        "__version__": "3.0.7"
+      }
+    },
+    "__version__": "1.3.5"
+  },
+  "builder-options": {
+    "configID": "7721e2",
+    "services": [],
+    "__version__": "3.0.7"
+  }
+}

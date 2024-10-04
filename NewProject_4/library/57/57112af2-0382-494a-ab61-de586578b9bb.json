@@ -1,0 +1,501 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "21",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "mgcUMmKT1R7xwVph8zZ+Ix7TnYE",
+      "spine": "3.8.99",
+      "x": -107,
+      "y": -2988,
+      "width": 1120,
+      "height": 4485.8,
+      "images": "./images/",
+      "audio": "D:/spine/TG_BOT/TG_BOT/2"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "11",
+        "parent": "root",
+        "x": 490.58,
+        "y": -62.32
+      },
+      {
+        "name": "9",
+        "parent": "root",
+        "x": 475.95,
+        "y": -213.43
+      },
+      {
+        "name": "15",
+        "parent": "root",
+        "x": 510.31,
+        "y": -901.59
+      },
+      {
+        "name": "13",
+        "parent": "root",
+        "x": 510.31,
+        "y": 500.55
+      }
+    ],
+    "slots": [
+      {
+        "name": "14",
+        "bone": "root",
+        "attachment": "14"
+      },
+      {
+        "name": "13",
+        "bone": "13",
+        "attachment": "13"
+      },
+      {
+        "name": "15",
+        "bone": "15",
+        "attachment": "15"
+      },
+      {
+        "name": "12",
+        "bone": "root",
+        "attachment": "12"
+      },
+      {
+        "name": "11",
+        "bone": "11",
+        "attachment": "11"
+      },
+      {
+        "name": "10",
+        "bone": "root",
+        "attachment": "10"
+      },
+      {
+        "name": "9",
+        "bone": "9",
+        "attachment": "9"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "9": {
+            "9": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                537.05,
+                -286.57,
+                -582.95,
+                -286.57,
+                -582.95,
+                276.43,
+                537.05,
+                276.43
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 1120,
+              "height": 563
+            }
+          },
+          "10": {
+            "10": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                675,
+                -446,
+                -1,
+                -446,
+                -1,
+                1,
+                675,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 676,
+              "height": 447
+            }
+          },
+          "11": {
+            "11": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                285.42,
+                -294.68,
+                -300.58,
+                -294.68,
+                -300.58,
+                292.32,
+                285.42,
+                292.32
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 586,
+              "height": 587
+            }
+          },
+          "12": {
+            "12": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                751,
+                -447,
+                -1,
+                -447,
+                -1,
+                1,
+                751,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 752,
+              "height": 448
+            }
+          },
+          "13": {
+            "13": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                485.69,
+                -1991.75,
+                -510.31,
+                -1991.75,
+                -510.31,
+                997.25,
+                485.69,
+                997.25
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 996,
+              "height": 2989
+            }
+          },
+          "14": {
+            "14": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                751,
+                -1335,
+                -1,
+                -1335,
+                -1,
+                1,
+                751,
+                1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 752,
+              "height": 1336
+            }
+          },
+          "15": {
+            "15": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                485.69,
+                -2086.41,
+                -460.31,
+                -2086.41,
+                -460.31,
+                902.59,
+                485.69,
+                902.59
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 946,
+              "height": 2989
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "action": {
+        "bones": {
+          "9": {
+            "translate": [
+              {
+                "x": -273.67,
+                "y": -25.7,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": -212.66,
+                "y": -38.97,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "x": -227.48,
+                "y": 16.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.5,
+                "x": -169.57,
+                "y": 19.41,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333,
+                "x": -134.69,
+                "y": 43.04
+              }
+            ]
+          },
+          "11": {
+            "translate": [
+              {
+                "x": -22.58,
+                "y": -225.63
+              },
+              {
+                "time": 3.3333,
+                "x": 22.56,
+                "y": 20.75
+              }
+            ]
+          },
+          "13": {
+            "translate": [
+              {
+                "y": -237.06
+              },
+              {
+                "time": 3.3333,
+                "y": -485.8
+              }
+            ]
+          },
+          "15": {
+            "translate": [
+              {
+                "y": 338.36
+              },
+              {
+                "time": 3.3333,
+                "y": 587.08
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "0ddd9da2-6113-4785-8cc7-48f686fa2ffa@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "21.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\n21.png\nsize: 2536,3747\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n10\n  rotate: true\n  xy: 1948, 1726\n  size: 676, 447\n  orig: 676, 447\n  offset: 0, 0\n  index: -1\n11\n  rotate: false\n  xy: 1948, 3158\n  size: 586, 587\n  orig: 586, 587\n  offset: 0, 0\n  index: -1\n12\n  rotate: true\n  xy: 1948, 2404\n  size: 752, 448\n  orig: 752, 448\n  offset: 0, 0\n  index: -1\n13\n  rotate: false\n  xy: 2, 756\n  size: 996, 2989\n  orig: 996, 2989\n  offset: 0, 0\n  index: -1\n14\n  rotate: true\n  xy: 2, 2\n  size: 752, 1336\n  orig: 752, 1336\n  offset: 0, 0\n  index: -1\n15\n  rotate: false\n  xy: 1000, 756\n  size: 946, 2989\n  orig: 946, 2989\n  offset: 0, 0\n  index: -1\n9\n  rotate: false\n  xy: 1340, 191\n  size: 1120, 563\n  orig: 1120, 563\n  offset: 0, 0\n  index: -1\n"
+}

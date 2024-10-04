@@ -1,0 +1,38 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "ui",
+    "spriteFrames": [
+      "btn_close",
+      "35f4683b-8017-4de3-8c13-1b75f176dc6c@86d87",
+      "btn_rank",
+      "35f4683b-8017-4de3-8c13-1b75f176dc6c@9d68c",
+      "btn_restart",
+      "35f4683b-8017-4de3-8c13-1b75f176dc6c@8b189",
+      "btn_share",
+      "35f4683b-8017-4de3-8c13-1b75f176dc6c@39cdb",
+      "btn_start",
+      "35f4683b-8017-4de3-8c13-1b75f176dc6c@ac343",
+      "effect_1",
+      "35f4683b-8017-4de3-8c13-1b75f176dc6c@0009b",
+      "effect_2",
+      "35f4683b-8017-4de3-8c13-1b75f176dc6c@e71d3",
+      "game_name",
+      "35f4683b-8017-4de3-8c13-1b75f176dc6c@76706",
+      "image_1",
+      "35f4683b-8017-4de3-8c13-1b75f176dc6c@1d5e7",
+      "imge_ball",
+      "35f4683b-8017-4de3-8c13-1b75f176dc6c@5f2f4",
+      "num_4",
+      "35f4683b-8017-4de3-8c13-1b75f176dc6c@63063",
+      "num_5",
+      "35f4683b-8017-4de3-8c13-1b75f176dc6c@7a0f5",
+      "role",
+      "35f4683b-8017-4de3-8c13-1b75f176dc6c@2659e",
+      "window_1",
+      "35f4683b-8017-4de3-8c13-1b75f176dc6c@091f8",
+      "window_2",
+      "35f4683b-8017-4de3-8c13-1b75f176dc6c@50328"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///Users/feiwang/NewProject_4/assets/resources/scripts/home/GloabalClass.ts"],"names":["GlobalData","token"],"mappings":";;;iBAAMA,U;;;;;;;;;;;AAAAA,MAAAA,U,GAAN,MAAMA,UAAN,CAAiB;AAAA;AAAA,eACbC,KADa;AAAA;;AAAA,O;;yBAGF,IAAID,UAAJ,E","sourcesContent":["class GlobalData {\n    token: any\n}\nexport default new GlobalData()"]}

@@ -1,0 +1,53 @@
+[
+    1,
+    0,
+    0,
+    [
+        "cc.SpriteAtlas"
+    ],
+    0,
+    [
+        {
+            "name": "ui",
+            "spriteFrames": [
+                "btn_close",
+                "359Gg7gBdN44wTG3Xxdtxs@86d87",
+                "btn_rank",
+                "359Gg7gBdN44wTG3Xxdtxs@9d68c",
+                "btn_restart",
+                "359Gg7gBdN44wTG3Xxdtxs@8b189",
+                "btn_share",
+                "359Gg7gBdN44wTG3Xxdtxs@39cdb",
+                "btn_start",
+                "359Gg7gBdN44wTG3Xxdtxs@ac343",
+                "effect_1",
+                "359Gg7gBdN44wTG3Xxdtxs@0009b",
+                "effect_2",
+                "359Gg7gBdN44wTG3Xxdtxs@e71d3",
+                "game_name",
+                "359Gg7gBdN44wTG3Xxdtxs@76706",
+                "image_1",
+                "359Gg7gBdN44wTG3Xxdtxs@1d5e7",
+                "imge_ball",
+                "359Gg7gBdN44wTG3Xxdtxs@5f2f4",
+                "num_4",
+                "359Gg7gBdN44wTG3Xxdtxs@63063",
+                "num_5",
+                "359Gg7gBdN44wTG3Xxdtxs@7a0f5",
+                "role",
+                "359Gg7gBdN44wTG3Xxdtxs@2659e",
+                "window_1",
+                "359Gg7gBdN44wTG3Xxdtxs@091f8",
+                "window_2",
+                "359Gg7gBdN44wTG3Xxdtxs@50328"
+            ]
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [],
+    [],
+    []
+]

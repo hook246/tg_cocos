@@ -1,0 +1,12 @@
+{
+  "name": "NewProject_4",
+  "uuid": "0df0f0a9-4bf3-4d4e-a426-f81e5b3377b5",
+  "creator": {
+    "version": "3.7.3"
+  },
+  "_sourceId": "70c321cd-3209-43d5-bfaa-291890976f24",
+  "_storeId": "ae749a4ae92d85bbf5cd4bdb02a2769c",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
