@@ -50,8 +50,8 @@ export class loginView extends basePageView {
     }
 
     routeToHome(){
-        this.node.setPosition(-5000 ,0)
-        this.discover.setPosition(0, 0)
+        // this.node.setPosition(-5000 ,0)
+        // this.discover.setPosition(0, 0)
     }
 
     controlLoading(visible: boolean){

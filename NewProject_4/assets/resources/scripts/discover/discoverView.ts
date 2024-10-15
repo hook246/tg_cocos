@@ -16,6 +16,8 @@ import WebUtils from "../common/WebUtils";
 import { UIScrollSelectHorizontal } from "./UIScrollSelectHorizontal";
 const { ccclass, property } = _decorator;
 
+const discoverView_arrow = 'discoverView_arrow'
+
 @ccclass("discoverView")
 export class discoverView extends basePageView {
   @property(Node)
@@ -44,6 +46,12 @@ export class discoverView extends basePageView {
 
   @property(Label)
   ugc_tittle: Label = null;
+
+  @property(Node)
+  arrow: Node;
+
+  @property(Node)
+  arrow_s: Node;
 
   shift_btns: Node[] = [];
 
@@ -77,6 +85,13 @@ export class discoverView extends basePageView {
 
   start() {
     this, (this.shift_btns = [this.btn_shift_game, this.btn_shift_ugc]);
+    if(localStorage.getItem(discoverView_arrow)){
+      this.arrow.active = false
+      this.arrow_s.active = true
+    }
+
+    // this.node.getComponent(ScrollView).scrollToBottom()
+    // this.node.getComponent(ScrollView).scrollToTop()
     // this.game_father_node.on(Node.EventType.TOUCH_START, (event) => {
     //     this.currentGameScrollOffset = this.game_father_node.getComponent(ScrollView).getScrollOffset()
     // });
@@ -182,7 +197,7 @@ export class discoverView extends basePageView {
     hp.getComponent(UIScrollSelectHorizontal).discover_view = this.node.getComponent(discoverView)
     father_node.addChild(hp);
     hp.setPosition(0, 0);
-    this.setCurrentPlayInfo(list[0])
+    list[0].type === 1 ? this.setCurrentPlayInfo(list[1]) : this.setCurrentPlayInfo(list[0])
     list.forEach((play, index) => {
 
     });
@@ -212,12 +227,31 @@ export class discoverView extends basePageView {
   }
 
   openCurrentPlayUrl(event, data:string){
+    const gameInitData = new URLSearchParams(window.location.search).get("gameData");
     if(data === '1'){
-        window.Telegram.WebApp.openTelegramLink(`${this.current_game_info.url}?startapp=${window?.Telegram?.WebApp?.initDataUnsafe?.user?.id}`, { tryInstantView: true });
+      if(window?.Telegram?.WebApp?.initData){
+        window.Telegram.WebApp.openTelegramLink(`${this.current_game_info.url}?startapp=TG${window?.Telegram?.WebApp?.initDataUnsafe?.user?.id}`, { tryInstantView: true });
+      }else if(gameInitData){
+        const urlComponent = decodeURIComponent(window.atob(gameInitData))
+        const tgId = JSON.parse(decodeURIComponent(urlComponent).split('&')[1].split('=')[1]).id
+        window.Telegram.WebApp.openTelegramLink(`${this.current_game_info.url}?startapp=TG${tgId}`, { tryInstantView: true });
+      }
     }else{
-        window.Telegram.WebApp.openTelegramLink(`${this.current_ugc_info.url}?startapp=${window.btoa(window?.Telegram?.WebApp?.initData)}`, { tryInstantView: true });
+
+        if(window?.Telegram?.WebApp?.initData){
+          window.Telegram.WebApp.openTelegramLink(`${this.current_ugc_info.url}?startapp=${window.btoa(window?.Telegram?.WebApp?.initData)}`, { tryInstantView: true });
+        }else if(gameInitData){
+          window.Telegram.WebApp.openTelegramLink(`${this.current_ugc_info.url}?startapp=${gameInitData}`, { tryInstantView: true });
+        }
+        
         console.log('====Telegram', `${this.current_ugc_info.url}?startapp=${window.btoa(window?.Telegram?.WebApp?.initData)}`)
     }
+  }
+
+  markArrow(){
+    localStorage.setItem(discoverView_arrow, 'discoverView_arrow')
+    this.arrow.active = false
+    this.arrow_s.active = true
   }
 
   currentPageClose() {}

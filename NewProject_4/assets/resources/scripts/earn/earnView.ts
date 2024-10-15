@@ -19,6 +19,8 @@ import WebUtils from "../common/WebUtils";
 import { profileView } from "../profile/profileView";
 const { ccclass, property } = _decorator;
 
+const earnView_arrow = 'earnView_arrow'
+
 export enum ChangeType {
   INIT = 0,
   CLICK = 1,
@@ -50,7 +52,9 @@ export interface TaskData {
   value1: number;
   value2: string;
   status: number;
-  unlock: number
+  unlock: number;
+  icon1: string;
+  icon2: string;
 }
 
 export interface TaskDataList {
@@ -68,7 +72,9 @@ export interface TaskDataList {
     value1: number;
     value2: string;
     status: number;
-    unlock: number
+    unlock: number;
+    icon1: string;
+    icon2: string;
   }[];
   taskModelId: number;
   taskModelName: string;
@@ -83,11 +89,11 @@ export interface completeTaskResponse{
 }
 
 export const taskUrls = {
-  SearchTask: "https://api.infinitytest.cc/api/v1/task/list",
-  ClaimReward: "https://api.infinitytest.cc/api/v1/task/claim",
-  CompleteTask: "https://api.infinitytest.cc/api/v1/task/complete",
-  CheckIn: "https://api.infinitytest.cc/api/v1/task/checkIn",
-  RefreshTwitter: "https://api.infinitytest.cc/api/v1/oauth/refreshTwitterCode",
+  SearchTask:  GlobalData.isProduction ? "https://api.infinityg.ai/api/v1/task/list" : "https://api.infinitytest.cc/api/v1/task/list",
+  ClaimReward: GlobalData.isProduction ? "https://api.infinityg.ai/api/v1/task/claim" : "https://api.infinitytest.cc/api/v1/task/claim",
+  CompleteTask: GlobalData.isProduction ? "https://api.infinityg.ai/api/v1/task/complete" : "https://api.infinitytest.cc/api/v1/task/complete",
+  CheckIn: GlobalData ? "https://api.infinityg.ai/api/v1/task/checkIn" : "https://api.infinitytest.cc/api/v1/task/checkIn",
+  RefreshTwitter: GlobalData ? "https://api.infinityg.ai/api/v1/oauth/refreshTwitterCode" : "https://api.infinitytest.cc/api/v1/oauth/refreshTwitterCode",
 };
 
 @ccclass("earnView")
@@ -113,7 +119,23 @@ export class earnView extends basePageView {
   @property({ type: [Node] })
   check_btns: Node[] = [];
 
-  start() {}
+  start() {
+    window['up'] = (index: number)=>{
+      this.up(index)
+  } 
+
+  window['down'] = (index: number)=>{
+      this.down(index)
+  } 
+
+  window['up_d'] = (index: number)=>{
+    this.up_d(index)
+} 
+
+window['down_d'] = (index: number)=>{
+    this.down_d(index)
+} 
+  }
 
   async refreshTwitterCode(){
     const data = await window.axios.post<completeTaskResponse>(
@@ -144,16 +166,33 @@ export class earnView extends basePageView {
     return bindData
   }
 
-  freshDailyTask(){
+  freshTasks(){
     this.daily_parent.children.forEach((node)=>{
         const info = node.getComponent(taskNodeInfo).taskInfo
         GlobalData.taskData.data.data.taskModelResponses[1].taskResponseList.find((list)=>{
             if(list.taskId === info.taskId){
-                info.status = list.status
+                if(list.status === 2 && (info.status === 1 || info.status === 0)){
+                  this.setDailyTaskCompleted(node)
+                  this.upDaily(this.daily_parent.children.indexOf(node))
+                  info.status = list.status
+                }
             }
         })
-
     })
+
+    this.social_parent.children.forEach((node)=>{
+      const info = node.getComponent(taskNodeInfo).taskInfo
+      GlobalData.taskData.data.data.taskModelResponses[0].taskResponseList.find((list)=>{
+          if(list.taskId === info.taskId){
+            if(list.status === 2 && (info.status === 1 || info.status === 0)){
+              this.setSocialTaskCompleted(node)
+              //this.up(this.social_parent.children.indexOf(node))
+              this.upSocial(this.social_parent.children.indexOf(node))
+              info.status = list.status
+            }
+          }
+      })
+  })
   }
 
   async checkIn(index: number) {
@@ -169,7 +208,7 @@ export class earnView extends basePageView {
     await (window.axios as any)(config)
       .then(async (taskList: taskListResponseType) => {
         if (taskList.data.code === "90000") {
-          this.changeCheckTaskState(index);
+          this.setCheckInClaimed(index);
           await this.homePage.getComponent(homeView).invitePage.getComponent(inviteModel).initData()
         }
       })
@@ -196,12 +235,26 @@ export class earnView extends basePageView {
 
   initTaskNode(info: taskListResponseType) {
     info.data.data.checkInList.forEach((task, index) => {
+      this.setCheckInUnable(index)
+
+
+      const now = new Date();
+      const year = now.getFullYear();
+      const month =
+        now.getMonth() + 1 < 10
+          ? `0${now.getMonth() + 1}`
+          : now.getMonth() + 1;
+      const day = now.getDate() < 10 ? `0${now.getDate()}` : now.getDate();
+
+      const date = `${year}-${month}-${day}`;
+      if (date === task.date) {
+        this.setCheckInComplete(index);
+      }
       this.setCheckTaskNode(task, index);
       this.check_btns[index].on(
         Button.EventType.CLICK,
         async () => {
           const now = new Date();
-
           const year = now.getFullYear();
           const month =
             now.getMonth() + 1 < 10
@@ -281,15 +334,77 @@ export class earnView extends basePageView {
       });
   }
 
+  setSocialTaskUncompleted(node: Node){
+    node.getChildByName('uncomplete').active = true
+    node.getChildByName('complete').active = false
+    node.getChildByName('claimed').active = false
+    node.getChildByName('locked').active = false
+  }
+
+  setSocialTaskCompleted(node: Node){
+    node.getChildByName('uncomplete').active = false
+    node.getChildByName('complete').active = true
+    node.getChildByName('claimed').active = false
+    node.getChildByName('locked').active = false
+  }
+
+  setSocialTaskClaimed(node: Node){
+    node.getChildByName('uncomplete').active = false
+    node.getChildByName('complete').active = false
+    node.getChildByName('claimed').active = true
+    node.getChildByName('locked').active = false
+  }
+
+  setSocialTaskLock(node: Node){
+    node.getChildByName('uncomplete').active = false
+    node.getChildByName('complete').active = false
+    node.getChildByName('claimed').active = false
+    node.getChildByName('locked').active = true
+  }
+
+  ////
+  setDailyTaskUncompleted(node: Node){
+
+    node.getChildByName('un_complete_bg').active = true
+    node.getChildByName('complete_bg').active = false
+    node.getChildByName('claimed').active = false
+    node.getChildByName('locked').active = false
+  }
+
+  setDailyTaskCompleted(node: Node){
+
+    node.getChildByName('un_complete_bg').active = false
+    node.getChildByName('complete_bg').active = true
+    node.getChildByName('claimed').active = false
+    node.getChildByName('locked').active = false
+  }
+
+  setDailyTaskClaimed(node: Node){
+
+    node.getChildByName('un_complete_bg').active = false
+    node.getChildByName('complete_bg').active = false
+    node.getChildByName('claimed').active = true
+    node.getChildByName('locked').active = false
+  }
+
+  setDailyTaskLock(node: Node){
+
+    node.getChildByName('un_complete_bg').active = false
+    node.getChildByName('complete_bg').active = false
+    node.getChildByName('claimed').active = false
+    node.getChildByName('locked').active = true
+  }
+
   initSocialTaskNode(info: TaskDataList) {
     const socialTasks = this.sortByStatus(info);
     socialTasks.forEach((task, index) => {
       const child = instantiate(this.social_prefab);
       child.getComponent(taskNodeInfo).taskInfo = task;
-      if(task.unlock === 0){
-        child.getChildByName('locked').active = true;
-      }
+      child.getComponent(taskNodeInfo).index = index
       this.updateSocialTaskUiByState(child, ChangeType.INIT, index);
+      if(task.unlock === 0){
+        this.setSocialTaskLock(child)
+      }
       child.on(
         Button.EventType.CLICK,
         async () => {
@@ -386,10 +501,11 @@ export class earnView extends basePageView {
     dailyTasks.forEach((task, index) => {
       const child = instantiate(this.daily_prefab);
       child.getComponent(taskNodeInfo).taskInfo = task;
-      if(task.unlock === 0){
-        child.getChildByName('locked').active = true;
-      }
+      child.getComponent(taskNodeInfo).index = index
       this.updateDailyTaskUiByState(child, ChangeType.INIT, index);
+      if(task.unlock === 0){
+        this.setDailyTaskLock(child)
+      }
       child.on(
         Button.EventType.CLICK,
         async () => {
@@ -417,7 +533,16 @@ export class earnView extends basePageView {
             child.getComponent(taskNodeInfo).taskInfo.status === 0
           ) {
             //跳转大厅
-            this.homePage
+            if(child.getComponent(taskNodeInfo).taskInfo?.remark?.length){
+              const gameInitData = new URLSearchParams(window.location.search).get("gameData");
+              if(window?.Telegram?.WebApp?.initData){
+                window.Telegram.WebApp.openTelegramLink(`${child.getComponent(taskNodeInfo).taskInfo.remark}?startapp=${window.btoa(window?.Telegram?.WebApp?.initData)}`, { tryInstantView: true });
+              }else if(gameInitData){
+                window.Telegram.WebApp.openTelegramLink(`${child.getComponent(taskNodeInfo).taskInfo.remark}?startapp=${gameInitData}`, { tryInstantView: true });
+              }
+              
+            }else{
+              this.homePage
               .getComponent(homeView)
               .shiftCurrentPage(
                 {
@@ -426,6 +551,8 @@ export class earnView extends basePageView {
                 } as EventTouch,
                 "0"
               );
+            }
+
             // this.discoverPage.setPosition(0, 0);
             // this.node.setPosition(-5000, 0);
             //await this.completeTask(task.taskId);
@@ -443,7 +570,163 @@ export class earnView extends basePageView {
     });
   }
 
+  up(index){
+    const indexPos = this.social_parent.children[index].getPosition()
+    const firstPos = this.social_parent.children[0].getPosition()
+    this.social_parent.children[0].setPosition(indexPos)
+    this.social_parent.children[index].setPosition(firstPos)
+
+    this.social_parent.children[0].getComponent(taskNodeInfo).index === index
+    this.social_parent.children[index].getComponent(taskNodeInfo).index = 0
+
+    const temp = this.social_parent.children[index]
+    this.social_parent.children[index] = this.social_parent.children[0]
+    this.social_parent.children[0] = temp
+
+    console.log('======up', this.node.children)
+}
+
+down(index){
+  console.log('======down',index, this.node.children)
+    let lengthUnclaimed = 0
+    this.social_parent.children.forEach((node)=>{
+      if(node.getComponent(taskNodeInfo).taskInfo.status !== 3){
+        lengthUnclaimed = lengthUnclaimed + 1
+      }
+    })
+    const indexPos = this.social_parent.children[index].getPosition()
+    const lastPos = this.social_parent.children[lengthUnclaimed - 1].getPosition()
+    this.social_parent.children[lengthUnclaimed - 1].setPosition(indexPos)
+    this.social_parent.children[index].setPosition(lastPos)
+
+    this.social_parent.children[index].getComponent(taskNodeInfo).index === lengthUnclaimed - 1
+    this.social_parent.children[lengthUnclaimed - 1].getComponent(taskNodeInfo).index = index
+
+    const temp = this.social_parent.children[index]
+    this.social_parent.children[index] = this.social_parent.children[lengthUnclaimed - 1]
+    this.social_parent.children[lengthUnclaimed - 1] = temp
+
+    console.log('======down',index, this.node.children)
+}
+
+up_d(index){
+  const indexPos = this.daily_parent.children[index].getPosition()
+  const firstPos = this.daily_parent.children[0].getPosition()
+  this.daily_parent.children[0].setPosition(indexPos)
+  this.daily_parent.children[index].setPosition(firstPos)
+  const temp = this.daily_parent.children[index]
+  this.daily_parent.children[index] = this.daily_parent.children[0]
+  this.daily_parent.children[0] = temp
+
+  console.log('======up',index, this.node.children)
+}
+
+down_d(index){
+  console.log('======down',index, this.node.children)
+    let lengthUnclaimed = 0
+    this.daily_parent.children.forEach((node)=>{
+      if(node.getComponent(taskNodeInfo).taskInfo.status !== 3){
+        lengthUnclaimed = lengthUnclaimed + 1
+      }
+    })
+    const indexPos = this.daily_parent.children[index].getPosition()
+    const lastPos = this.daily_parent.children[lengthUnclaimed - 1].getPosition()
+    this.daily_parent.children[lengthUnclaimed - 1].setPosition(indexPos)
+    this.daily_parent.children[index].setPosition(lastPos)
+
+    this.daily_parent.children[index].getComponent(taskNodeInfo).index === lengthUnclaimed - 1
+    this.daily_parent.children[lengthUnclaimed - 1].getComponent(taskNodeInfo).index = index
+
+    const temp = this.daily_parent.children[index]
+    this.daily_parent.children[index] = this.daily_parent.children[lengthUnclaimed - 1]
+    this.daily_parent.children[lengthUnclaimed - 1] = temp
+
+    console.log('======down',index, this.node.children)
+}
+
+upSocial(startIndex: number){
+  for(let index = startIndex; index >= 1; index--){
+    this.swapSocial(index, index - 1)
+  }
+}
+
+downSocial(startIndex: number){
+  // let lengthUnclaimed = 0
+  // this.social_parent.children.forEach((node)=>{
+  //   if(node.getComponent(taskNodeInfo).taskInfo.status !== 3){
+  //     lengthUnclaimed = lengthUnclaimed + 1
+  //   }
+  // })
+  for(let index = startIndex; index <= this.social_parent.children.length - 2; index++){
+    this.swapSocial(index, index + 1)
+  }
+}
+
+upDaily(startIndex: number){
+  for(let index = startIndex; index >= 1; index--){
+    this.swapDaily(index, index - 1)
+  }
+}
+
+downDaily(startIndex: number){
+  // let lengthUnclaimed = 0
+  // this.social_parent.children.forEach((node)=>{
+  //   if(node.getComponent(taskNodeInfo).taskInfo.status !== 3){
+  //     lengthUnclaimed = lengthUnclaimed + 1
+  //   }
+  // })
+  for(let index = startIndex; index <= this.daily_parent.children.length - 2; index++){
+    this.swapDaily(index, index + 1)
+  }
+}
+
+swapDaily(indexFrom, indexTo){
+  const indexPos = this.daily_parent.children[indexFrom].getPosition()
+  const firstPos = this.daily_parent.children[indexTo].getPosition()
+  this.daily_parent.children[indexTo].setPosition(indexPos)
+  this.daily_parent.children[indexFrom].setPosition(firstPos)
+  const temp = this.daily_parent.children[indexFrom]
+  this.daily_parent.children[indexFrom] = this.daily_parent.children[indexTo]
+  this.daily_parent.children[indexTo] = temp
+}
+
+swapSocial(indexFrom, indexTo){
+  const indexPos = this.social_parent.children[indexFrom].getPosition()
+  const firstPos = this.social_parent.children[indexTo].getPosition()
+  this.social_parent.children[indexTo].setPosition(indexPos)
+  this.social_parent.children[indexFrom].setPosition(firstPos)
+  const temp = this.social_parent.children[indexFrom]
+  this.social_parent.children[indexFrom] = this.social_parent.children[indexTo]
+  this.social_parent.children[indexTo] = temp
+}
+
   shiftTaskRange(index: number, type: TaskNodeChangeType, taskType: TaskType){
+
+    const nodes = taskType === TaskType.SOCIAL ? this.social_parent.children : this.daily_parent.children
+
+    // if(type === TaskNodeChangeType.UP){
+    //   const indexPos = nodes[index].getPosition()
+    //   const firstPos = nodes[0].getPosition()
+    //   this.node.children[0].setPosition(indexPos)
+    //   this.node.children[index].setPosition(firstPos)
+    //   const temp = nodes[index]
+    //   this.node.children[index] = nodes[0]
+    //   nodes[0] = temp
+    // }else{
+    //   const indexPos = nodes[index].getPosition()
+    //   const lastPos = nodes[this.node.children.length - 1].getPosition()
+    //   nodes[this.node.children.length - 1].setPosition(indexPos)
+    //   nodes[index].setPosition(lastPos)
+    //   const temp = this.node.children[index]
+    //   nodes[index] = nodes[nodes.length - 1]
+    //   nodes[nodes.length - 1] = temp
+    // }
+
+
+
+
+
+
     // const tasks = taskType === TaskType.SOCIAL ? this.social_parent.children : this.social_parent.children
     // if (index < 0 || index >= tasks.length) {
     //     throw new Error('Index out of bounds');
@@ -452,6 +735,26 @@ export class earnView extends basePageView {
     // tasks.forEach((task, index)=>{
     //     taskNodePosY.push(task.getPosition())
     // })
+    // const indexPos = taskNodePosY[index]
+    // const firstPos = taskNodePosY[0]
+    // const lastPos = taskNodePosY[tasks.length - 1]
+    // const nodes = taskType === TaskType.SOCIAL ? this.social_parent.children : this.daily_parent.children
+    // if(type === TaskNodeChangeType.UP){
+    //   nodes[0].setPosition(indexPos)
+    //   nodes[index].setPosition(firstPos)
+    //   const temp = nodes[index]
+    //   nodes[index] = nodes[0]
+    //   nodes[0] = temp
+    // }else{
+    //   nodes[tasks.length - 1].setPosition(indexPos)
+    //   nodes[index].setPosition(lastPos)
+    //   const temp = nodes[index]
+    //   nodes[index] = nodes[tasks.length - 1]
+    //   nodes[tasks.length - 1] = temp
+    // }
+
+
+
     // if(type === TaskNodeChangeType.UP){
     //   // 将指定索引的元素移动到数组的最后面
     //   const [pointToMove] = taskNodePosY.splice(index, 1); // 移除指定索引的元素
@@ -466,7 +769,7 @@ export class earnView extends basePageView {
   }
 
   checkTwitterPre(){
-        const twitterOauthUrl = `https://www.infinitytest.cc?tgId=${GlobalData.token}`
+        const twitterOauthUrl = GlobalData.isProduction ? `https://www.infinityg.ai?tgId=${GlobalData.token}` : `https://www.infinitytest.cc?tgId=${GlobalData.token}`
         //this.profileView.closeProfile()
         window.Telegram.WebApp.showPopup({
             title: 'Please bind your twitter',
@@ -501,15 +804,32 @@ export class earnView extends basePageView {
     this.check_btns[index].getChildByName("count").getComponent(Label).string =
       String(GlobalData.taskData.data.data.checkInList[index].point);
     if (info.status === 1) {
-      this.changeCheckTaskState(index);
+      this.setCheckInClaimed(index);
     }
   }
 
   changeCheckTaskState(index: number) {
+    this.check_btns[index].getChildByName("uncoplete").active = true;
+    this.check_btns[index].getChildByName("complete").active = false;
+    this.check_btns[index].getChildByName("clam").active = false;
+  }
+
+  setCheckInUnable(index: number){
+    this.check_btns[index].getChildByName("uncoplete").active = true;
+    this.check_btns[index].getChildByName("complete").active = false;
+    this.check_btns[index].getChildByName("clam").active = false;
+  }
+
+  setCheckInComplete(index: number){
     this.check_btns[index].getChildByName("uncoplete").active = false;
     this.check_btns[index].getChildByName("complete").active = true;
-    this.check_btns[index].getChildByName("check").active = true;
-    this.check_btns[index].getChildByName("dollar").active = false;
+    this.check_btns[index].getChildByName("clam").active = false;
+  }
+
+  setCheckInClaimed(index: number){
+    this.check_btns[index].getChildByName("uncoplete").active = false;
+    this.check_btns[index].getChildByName("complete").active = false;
+    this.check_btns[index].getChildByName("clam").active = true;
   }
 
   changeDailyOrSocialTaskState(type, index, node: Node) {
@@ -525,48 +845,36 @@ export class earnView extends basePageView {
 
   async updateDailyTaskUiByState(node, type: ChangeType, index: number) {
     const info = node.getComponent(taskNodeInfo).taskInfo;
-    WebUtils.getRemoteImg(info.icon, node.getChildByName("icon"))
+    WebUtils.getRemoteImg(info.icon1, node.getChildByName("icon"))
+    WebUtils.getRemoteImg(info.icon2, node.getChildByName('complete_bg').getChildByName("icon"))
     node.getChildByName("count").getComponent(Label).string = info.taskReward;
+
     node.getChildByName("desc").getComponent(Label).string = info.taskName;
+    node.getChildByName('complete_bg').getChildByName("count").getComponent(Label).string = info.taskReward;
+
+    node.getChildByName('complete_bg').getChildByName("desc").getComponent(Label).string = info.taskName;
     //node.getChildByName('ProgressBar').getComponent(ProgressBar).value = info
 
     if (type === ChangeType.INIT) {
       if (info.status === 1 || info.status === 0) {
-        node.getChildByName("un_complete_bg").active = true;
-        node.getChildByName("complete_bg").active = false;
-        node.getChildByName("dollar").active = true;
-        node.getChildByName("count").active = true;
-        node.getChildByName("check").active = false;
-        node.getChildByName("ProgressBar").getComponent(ProgressBar).value = 0;
+        this.setDailyTaskUncompleted(node)
+        node.getChildByName("ProgressBar").getComponent(ProgressBar).progress = info.value1 / info.totalValue1;
+        node.getChildByName('progress_text').getComponent(Label).string = `${info.value1 / info.totalValue1 * 100}%`
       }else if (info.status === 2) {
-        node.getChildByName("un_complete_bg").active = false;
-        node.getChildByName("complete_bg").active = true;
-        node.getChildByName("dollar").active = true;
-        node.getChildByName("count").active = true;
-        node.getChildByName("check").active = false;
-        node.getChildByName("ProgressBar").getComponent(ProgressBar).value = 1;
+        this.setDailyTaskCompleted(node)
+        node.getChildByName("ProgressBar").getComponent(ProgressBar).progress = info.value1 / info.totalValue1;
+                node.getChildByName('progress_text').getComponent(Label).string = `${info.value1 / info.totalValue1 * 100}%`
       }else if (info.status === 3) {
-        node.getChildByName("un_complete_bg").active = false;
-        node.getChildByName("complete_bg").active = true;
-        node.getChildByName("dollar").active = false;
-        node.getChildByName("count").active = false;
-        node.getChildByName("check").active = true;
-        node.getChildByName("ProgressBar").getComponent(ProgressBar).value = 1;
+        this.setDailyTaskClaimed(node)
+        node.getChildByName("ProgressBar").getComponent(ProgressBar).progress = info.value1 / info.totalValue1;
+                node.getChildByName('progress_text').getComponent(Label).string = `${info.value1 / info.totalValue1 * 100}%`
       }
     } else {
       if (info.status === 1 || info.status === 0) {
-        // node.getChildByName("un_complete_bg").active = false;
-        // node.getChildByName("complete_bg").active = true;
-        // node.getChildByName("dollar").active = true;
-        // node.getChildByName("count").active = true;
-        // node.getChildByName("check").active = false;
-        // node.getChildByName("ProgressBar").getComponent(ProgressBar).value = 1;
+
       }else if (info.status === 2) {
-        node.getChildByName("un_complete_bg").active = false;
-        node.getChildByName("complete_bg").active = true;
-        node.getChildByName("dollar").active = false;
-        node.getChildByName("count").active = false;
-        node.getChildByName("check").active = true;
+        this.setDailyTaskClaimed(node)
+        this.downDaily(this.daily_parent.children.indexOf(node))
         node.getChildByName("ProgressBar").getComponent(ProgressBar).value = 1;
       }
     }
@@ -574,44 +882,31 @@ export class earnView extends basePageView {
 
   updateSocialTaskUiByState(node, type: ChangeType, index: number) {
     const info = node.getComponent(taskNodeInfo).taskInfo;
-    WebUtils.getRemoteImg(info.icon, node.getChildByName("icon"))
+    WebUtils.getRemoteImg(info.icon1, node.getChildByName("icon"))
+    WebUtils.getRemoteImg(info.icon2, node.getChildByName('complete').getChildByName("icon"))
     node.getChildByName("count").getComponent(Label).string = info.taskReward;
     node.getChildByName("desc").getComponent(Label).string = info.taskName;
-
+    node.getChildByName('complete').getChildByName("count").getComponent(Label).string = info.taskReward;
+    node.getChildByName('complete').getChildByName("desc").getComponent(Label).string = info.taskName;
     if (type == ChangeType.INIT) {
       if (info.status === 1 || info.status === 0) {
-        node.getChildByName("uncomplete").active = true;
-        node.getChildByName("complete").active = false;
-        node.getChildByName("dollar").active = true;
-        node.getChildByName("count").active = true;
-        node.getChildByName("check").active = false;
+        this.setSocialTaskUncompleted(node)
       }else if (info.status === 2) {
-        node.getChildByName("uncomplete").active = false;
-        node.getChildByName("complete").active = true;
-        node.getChildByName("dollar").active = true;
-        node.getChildByName("count").active = true;
-        node.getChildByName("check").active = false;
+        this.setSocialTaskCompleted(node)
+
       }else if (info.status === 3) {
-        node.getChildByName("uncomplete").active = false;
-        node.getChildByName("complete").active = true;
-        node.getChildByName("dollar").active = false;
-        node.getChildByName("count").active = false;
-        node.getChildByName("check").active = true;
+        this.setSocialTaskClaimed(node)
+
       }
     } else {
       if (info.status === 1 || info.status === 0) {
-        node.getChildByName("uncomplete").active = false;
-        node.getChildByName("complete").active = true;
-        node.getChildByName("dollar").active = true;
-        node.getChildByName("count").active = true;
-        node.getChildByName("check").active = false;
+        this.setSocialTaskCompleted(node)
+        // this.up(this.social_parent.children.indexOf(node))
+        this.upSocial(this.social_parent.children.indexOf(node))
         info.status = 2;
       }else if (info.status === 2) {
-        node.getChildByName("uncomplete").active = false;
-        node.getChildByName("complete").active = true;
-        node.getChildByName("dollar").active = false;
-        node.getChildByName("count").active = false;
-        node.getChildByName("check").active = true;
+        this.setSocialTaskClaimed(node)
+        this.downSocial(this.social_parent.children.indexOf(node))
         info.status = 3;
       }
     }

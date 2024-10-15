@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 5140.31204199791,
+      "mTimestamp": 5299.553541958332,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,8 +619,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 43365011.899832964,
-      "chunkId": "b8253e50d22ecbc6c47cec65c83f530b71f0d239",
+      "mTimestamp": 96533449.67525,
+      "chunkId": "ab40dbd51e2ac6e8a4e53b9f2e9a3f4be824c3da",
       "imports": [
         {
           "value": "file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
@@ -637,7 +637,7 @@
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -646,497 +646,511 @@
             },
             "end": {
               "line": 5,
-              "column": 309
+              "column": 318
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/BoxCtl.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/BoxCtl.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 5,
-              "column": 325
+              "column": 334
             },
             "end": {
               "line": 5,
-              "column": 396
+              "column": 414
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/EventDispatcher.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/EventDispatcher.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
               "line": 5,
-              "column": 412
+              "column": 430
             },
             "end": {
               "line": 5,
-              "column": 492
+              "column": 519
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/GameData.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/GameData.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
               "line": 5,
-              "column": 508
+              "column": 535
             },
             "end": {
               "line": 5,
-              "column": 581
+              "column": 617
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
               "line": 5,
-              "column": 597
+              "column": 633
             },
             "end": {
               "line": 5,
-              "column": 677
+              "column": 722
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/HeroCtl.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
               "line": 5,
-              "column": 693
+              "column": 738
             },
             "end": {
               "line": 5,
-              "column": 765
+              "column": 819
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/JumpTo.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/JumpTo.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 781
+              "column": 835
             },
             "end": {
               "line": 5,
-              "column": 852
+              "column": 915
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/LogicCtl.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/LogicCtl.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 868
+              "column": 931
             },
             "end": {
               "line": 5,
-              "column": 941
+              "column": 1013
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/MainCtl.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/MainCtl.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
               "line": 5,
-              "column": 957
+              "column": 1029
             },
             "end": {
               "line": 5,
-              "column": 1029
+              "column": 1110
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/OverCtl.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/OverCtl.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1045
+              "column": 1126
             },
             "end": {
               "line": 5,
-              "column": 1117
+              "column": 1207
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/RankCtl.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/RankCtl.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1133
+              "column": 1223
             },
             "end": {
               "line": 5,
-              "column": 1205
+              "column": 1304
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/SoundCtl.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/SoundCtl.ts",
           "resolved": "__unresolved_12",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1221
+              "column": 1320
             },
             "end": {
               "line": 5,
-              "column": 1294
+              "column": 1402
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/common/WebUtils.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts",
           "resolved": "__unresolved_13",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1310
+              "column": 1418
             },
             "end": {
               "line": 5,
-              "column": 1390
+              "column": 1511
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/common/basePageModel.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/WebUtils.ts",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1406
+              "column": 1527
             },
             "end": {
               "line": 5,
-              "column": 1491
+              "column": 1616
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/common/basePageView.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts",
           "resolved": "__unresolved_15",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1507
+              "column": 1632
             },
             "end": {
               "line": 5,
-              "column": 1591
+              "column": 1726
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/discover/UIScrollSelectHorizontal.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1607
+              "column": 1742
             },
             "end": {
               "line": 5,
-              "column": 1705
+              "column": 1835
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/discover/discoverModel.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/UIScrollSelectHorizontal.ts",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1721
+              "column": 1851
             },
             "end": {
               "line": 5,
-              "column": 1808
+              "column": 1958
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/discover/discoverView.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverModel.ts",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1824
+              "column": 1974
             },
             "end": {
               "line": 5,
-              "column": 1910
+              "column": 2070
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/discover/gamesScrollControl.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts",
           "resolved": "__unresolved_19",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1926
+              "column": 2086
             },
             "end": {
               "line": 5,
-              "column": 2018
+              "column": 2181
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/discover/scrollTest.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/gamesScrollControl.ts",
           "resolved": "__unresolved_20",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2034
+              "column": 2197
             },
             "end": {
               "line": 5,
-              "column": 2118
+              "column": 2298
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/draw/drawModel.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts",
           "resolved": "__unresolved_21",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2134
+              "column": 2314
             },
             "end": {
               "line": 5,
-              "column": 2213
+              "column": 2407
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/draw/drawView.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts",
           "resolved": "__unresolved_22",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2229
+              "column": 2423
             },
             "end": {
               "line": 5,
-              "column": 2307
+              "column": 2511
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/earn/earnModel.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts",
           "resolved": "__unresolved_23",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2323
+              "column": 2527
             },
             "end": {
               "line": 5,
-              "column": 2402
+              "column": 2614
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/earn/earnView.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnModel.ts",
           "resolved": "__unresolved_24",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2418
+              "column": 2630
             },
             "end": {
               "line": 5,
-              "column": 2496
+              "column": 2718
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/earn/taskNodeInfo.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnView.ts",
           "resolved": "__unresolved_25",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2512
+              "column": 2734
             },
             "end": {
               "line": 5,
-              "column": 2594
+              "column": 2821
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/home/GloabalClass.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/taskNodeInfo.ts",
           "resolved": "__unresolved_26",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2610
+              "column": 2837
             },
             "end": {
               "line": 5,
-              "column": 2692
+              "column": 2928
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/home/GlobalConfig.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts",
           "resolved": "__unresolved_27",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2708
+              "column": 2944
             },
             "end": {
               "line": 5,
-              "column": 2790
+              "column": 3035
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/home/homeModel.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GlobalConfig.ts",
           "resolved": "__unresolved_28",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2806
+              "column": 3051
             },
             "end": {
               "line": 5,
-              "column": 2885
+              "column": 3142
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/home/homeView.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeModel.ts",
           "resolved": "__unresolved_29",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2901
+              "column": 3158
             },
             "end": {
               "line": 5,
-              "column": 2979
+              "column": 3246
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/invite/inviteModel.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts",
           "resolved": "__unresolved_30",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2995
+              "column": 3262
             },
             "end": {
               "line": 5,
-              "column": 3078
+              "column": 3349
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/invite/inviteView.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteModel.ts",
           "resolved": "__unresolved_31",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3094
+              "column": 3365
             },
             "end": {
               "line": 5,
-              "column": 3176
+              "column": 3457
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/login/loginModel.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteView.ts",
           "resolved": "__unresolved_32",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3192
+              "column": 3473
             },
             "end": {
               "line": 5,
-              "column": 3273
+              "column": 3564
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/login/loginView.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts",
           "resolved": "__unresolved_33",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3289
+              "column": 3580
             },
             "end": {
               "line": 5,
-              "column": 3369
+              "column": 3670
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/profile/profileModel.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginView.ts",
           "resolved": "__unresolved_34",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3385
+              "column": 3686
             },
             "end": {
               "line": 5,
-              "column": 3470
+              "column": 3775
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/profile/profileView.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileModel.ts",
           "resolved": "__unresolved_35",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3486
+              "column": 3791
             },
             "end": {
               "line": 5,
-              "column": 3570
+              "column": 3885
             }
           }
         },
         {
-          "value": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/test/testSortChildren.ts",
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts",
           "resolved": "__unresolved_36",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3586
+              "column": 3901
             },
             "end": {
               "line": 5,
-              "column": 3672
+              "column": 3994
+            }
+          }
+        },
+        {
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts",
+          "resolved": "__unresolved_37",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4010
+            },
+            "end": {
+              "line": 5,
+              "column": 4105
             }
           }
         }
@@ -1153,252 +1167,259 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/BoxCtl.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/BoxCtl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/EventDispatcher.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/EventDispatcher.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/GameData.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/GameData.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/HeroCtl.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/JumpTo.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/JumpTo.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/LogicCtl.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/LogicCtl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/MainCtl.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/MainCtl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/OverCtl.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/OverCtl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/RankCtl.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/RankCtl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/SoundCtl.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/SoundCtl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/common/WebUtils.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/common/basePageModel.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/WebUtils.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/common/basePageView.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/discover/UIScrollSelectHorizontal.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/discover/discoverModel.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/UIScrollSelectHorizontal.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/discover/discoverView.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverModel.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/discover/gamesScrollControl.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/discover/scrollTest.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/gamesScrollControl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/draw/drawModel.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/draw/drawView.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/earn/earnModel.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/earn/earnView.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnModel.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/earn/taskNodeInfo.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnView.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/home/GloabalClass.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/taskNodeInfo.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/home/GlobalConfig.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/home/homeModel.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GlobalConfig.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/home/homeView.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeModel.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/invite/inviteModel.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/invite/inviteView.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteModel.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/login/loginModel.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteView.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/login/loginView.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/profile/profileModel.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginView.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/profile/profileView.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileModel.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/feiwang/NewProject_4/assets/resources/scripts/test/testSortChildren.ts"
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts"
           },
           "messages": []
         }
@@ -1790,7 +1811,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1727906073187,
+      "mTimestamp": 1728809769577,
       "chunkId": "84741ad843cea9a440c5d8c2d379669b6551400d",
       "imports": [],
       "type": "esm",
@@ -11716,6 +11737,3392 @@
           },
           "messages": []
         },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts": {
+      "mTimestamp": {
+        "mtime": 1726824238783.6287,
+        "uuid": "e4497cb9-a066-4310-8ff4-3b2e8dddc29a"
+      },
+      "chunkId": "43360201c0e109b2b2871640837f7527a7924584",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/BoxCtl.ts": {
+      "mTimestamp": {
+        "mtime": 1726306497395.83,
+        "uuid": "60a87634-3296-4bb4-b8c0-6f09a97365b0"
+      },
+      "chunkId": "40dcaf03b51232fc6b82588a36c60a9e44e85ce9",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 70
+            },
+            "end": {
+              "line": 1,
+              "column": 74
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/EventDispatcher.ts": {
+      "mTimestamp": {
+        "mtime": 1726306497395.4607,
+        "uuid": "6b9abebd-be55-4bb1-80bd-26642b232d67"
+      },
+      "chunkId": "796b60df5d9295e2c3de5f0484ee658ab2b87a27",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 32
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/GameData.ts": {
+      "mTimestamp": {
+        "mtime": 1726306497395.115,
+        "uuid": "6fb90b3c-8359-4d94-b2ae-75e8b147a518"
+      },
+      "chunkId": "2a089626c60255ce51e439c62b6094bb73ad6e6c",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts": {
+      "mTimestamp": {
+        "mtime": 1726306497394.6775,
+        "uuid": "cfcded6b-927a-42b9-b3b5-cb3582fd5abd"
+      },
+      "chunkId": "ba59b824c848e2b296e777adb867f0502a717820",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 108
+            },
+            "end": {
+              "line": 1,
+              "column": 112
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts": {
+      "mTimestamp": {
+        "mtime": 1726306497394.2732,
+        "uuid": "a635afc8-5e8a-4cc3-8f97-0db972172f97"
+      },
+      "chunkId": "62a426e0ab6aa1276936b3cc6c64669f8def0595",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 113
+            },
+            "end": {
+              "line": 1,
+              "column": 117
+            }
+          }
+        },
+        {
+          "value": "./BoxCtl",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./HeroColliderCtl",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 32
+            },
+            "end": {
+              "line": 3,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/BoxCtl.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/JumpTo.ts": {
+      "mTimestamp": {
+        "mtime": 1726306497393.9219,
+        "uuid": "4b62bf79-da82-4150-bcb3-d20062f74a6d"
+      },
+      "chunkId": "386ee83fa41f09547f7c7fc2e45567b30fec63fd",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 37
+            },
+            "end": {
+              "line": 1,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/LogicCtl.ts": {
+      "mTimestamp": {
+        "mtime": 1726306497393.5332,
+        "uuid": "00d56214-51e9-453d-bda4-357005c69a26"
+      },
+      "chunkId": "1d21e28557c117b8b6bb9474ffb6340c6a2c9b66",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 138
+            },
+            "end": {
+              "line": 1,
+              "column": 142
+            }
+          }
+        },
+        {
+          "value": "./BoxCtl",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./EventDispatcher",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 32
+            },
+            "end": {
+              "line": 3,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "./GameData",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 25
+            },
+            "end": {
+              "line": 4,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./HeroCtl",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 24
+            },
+            "end": {
+              "line": 5,
+              "column": 35
+            }
+          }
+        },
+        {
+          "value": "./SoundCtl",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 25
+            },
+            "end": {
+              "line": 6,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/BoxCtl.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/EventDispatcher.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/GameData.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/SoundCtl.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/SoundCtl.ts": {
+      "mTimestamp": {
+        "mtime": 1726306497392.1829,
+        "uuid": "8727f4e9-c985-49fa-a54c-1c508bf69e40"
+      },
+      "chunkId": "988d39d8ef5fc3840b31851c772d02074db5ec69",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 68
+            },
+            "end": {
+              "line": 1,
+              "column": 72
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/MainCtl.ts": {
+      "mTimestamp": {
+        "mtime": 1726306497393.2175,
+        "uuid": "9298ad9c-1e57-4367-8105-7263a6564b19"
+      },
+      "chunkId": "4d7ce2c75fe615189939b006a90e7653b9b5fb23",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 58
+            },
+            "end": {
+              "line": 1,
+              "column": 62
+            }
+          }
+        },
+        {
+          "value": "./EventDispatcher",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 32
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "./GameData",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./LogicCtl",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 25
+            },
+            "end": {
+              "line": 4,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/EventDispatcher.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/GameData.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/LogicCtl.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/OverCtl.ts": {
+      "mTimestamp": {
+        "mtime": 1726306497392.8867,
+        "uuid": "a76512a0-be63-4480-addf-41cb657d2847"
+      },
+      "chunkId": "d6b39ab3df4f0f9e98534852b912889be06b7268",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "./EventDispatcher",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 32
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "./GameData",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/EventDispatcher.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/GameData.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/RankCtl.ts": {
+      "mTimestamp": {
+        "mtime": 1726306497392.568,
+        "uuid": "8694fc9d-f591-455d-8355-d66fbbaa1f9c"
+      },
+      "chunkId": "876c5f74dd39dace147ed67d9ac895aa2a597aa4",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 72
+            },
+            "end": {
+              "line": 1,
+              "column": 76
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/WebUtils.ts": {
+      "mTimestamp": {
+        "mtime": 1727171625268.4612,
+        "uuid": "f93351be-9ce2-46a8-8b4a-ba25bf36e88f"
+      },
+      "chunkId": "147f410eca24cc124f96f8b75702f54f9e646bb3",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 9
+            },
+            "end": {
+              "line": 17,
+              "column": 13
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts": {
+      "mTimestamp": {
+        "mtime": 1726516797305.197,
+        "uuid": "fd2e212b-6fc8-4653-a0df-96c7db973efa"
+      },
+      "chunkId": "417757558fa7dbc67b6f871c5f8d0fb3785a4b28",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts": {
+      "mTimestamp": {
+        "mtime": 1728470215965.2036,
+        "uuid": "718f88d9-95f0-4725-9707-8135b763f69e"
+      },
+      "chunkId": "cc4b614d636cc891f72b7ca7a99a5337e17d6342",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/UIScrollSelectHorizontal.ts": {
+      "mTimestamp": {
+        "mtime": 1728731759133.075,
+        "uuid": "7ff0aa4f-a61f-4727-9bc1-e141a6173610"
+      },
+      "chunkId": "3cd6876c6be25a008394f058f348afc7bde55741",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 126
+            },
+            "end": {
+              "line": 1,
+              "column": 130
+            }
+          }
+        },
+        {
+          "value": "../common/WebUtils",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/WebUtils.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverModel.ts": {
+      "mTimestamp": {
+        "mtime": 1728731592342.779,
+        "uuid": "53070a39-a0c3-4c95-9900-0ec42d1c0c41"
+      },
+      "chunkId": "235c4004ba0c060fd2c1642e52de650e5abef23f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 66
+            },
+            "end": {
+              "line": 1,
+              "column": 70
+            }
+          }
+        },
+        {
+          "value": "../home/GloabalClass",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "./discoverView",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 29
+            },
+            "end": {
+              "line": 3,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "../common/basePageModel",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 30
+            },
+            "end": {
+              "line": 4,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts": {
+      "mTimestamp": {
+        "mtime": 1728893546197.4568,
+        "uuid": "7614d2ac-abc0-452b-b7e7-0d3265f15e37"
+      },
+      "chunkId": "381a1349d97da22a57207a1c4e54adc366d5f04b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts": {
+      "mTimestamp": {
+        "mtime": 1728740294503.9453,
+        "uuid": "ea571d3f-3ef4-4810-a66e-f057805899c6"
+      },
+      "chunkId": "c48f799d3f77afd78f95687a0601d2cc1d3f0f07",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 7
+            },
+            "end": {
+              "line": 13,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "../common/basePageView",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 29
+            },
+            "end": {
+              "line": 14,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./UIScrollSelectHorizontal",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 41
+            },
+            "end": {
+              "line": 16,
+              "column": 69
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/UIScrollSelectHorizontal.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/gamesScrollControl.ts": {
+      "mTimestamp": {
+        "mtime": 1727059568203.1619,
+        "uuid": "aa166b57-68be-4136-8685-ee3ad0f94376"
+      },
+      "chunkId": "e49bf0043e64267b872dcf5a4bfc025374eee643",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 71
+            },
+            "end": {
+              "line": 1,
+              "column": 75
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts": {
+      "mTimestamp": {
+        "mtime": 1727076641245.7212,
+        "uuid": "38f32755-3823-4c1e-bce7-a84d809a28d7"
+      },
+      "chunkId": "9c675bed3c9975c9b70a669de774b5fc00e52e4f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 95
+            },
+            "end": {
+              "line": 1,
+              "column": 99
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts": {
+      "mTimestamp": {
+        "mtime": 1728629865070.1343,
+        "uuid": "75e1cda3-2ccd-40d0-ad6d-b0028029fede"
+      },
+      "chunkId": "e2096359ee130a3dd22ea1f5a6140e5154c9e603",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../common/basePageModel",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 30
+            },
+            "end": {
+              "line": 2,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "./drawView",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 25
+            },
+            "end": {
+              "line": 5,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "../home/GloabalClass",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 23
+            },
+            "end": {
+              "line": 6,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts": {
+      "mTimestamp": {
+        "mtime": 1728391972176.5486,
+        "uuid": "4fe2b8ec-76ee-4e44-b9d0-46447a598be8"
+      },
+      "chunkId": "20e4e89b0c22369a343d35f7c68f35fa5743cc7c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "../common/basePageView",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 29
+            },
+            "end": {
+              "line": 2,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "../home/GloabalClass",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 23
+            },
+            "end": {
+              "line": 3,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnModel.ts": {
+      "mTimestamp": {
+        "mtime": 1727526717120.4763,
+        "uuid": "3b30203b-40bb-4d46-909c-c85317a2d2cd"
+      },
+      "chunkId": "ef238d5d6d237af4630c023ded47212f05a6621b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../common/basePageModel",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 30
+            },
+            "end": {
+              "line": 3,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "./earnView",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 25
+            },
+            "end": {
+              "line": 4,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "../home/GloabalClass",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 23
+            },
+            "end": {
+              "line": 6,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnView.ts": {
+      "mTimestamp": {
+        "mtime": 1728739709118.1038,
+        "uuid": "e7879bf4-7e3d-40e6-8019-23a0e83fedb0"
+      },
+      "chunkId": "f3cd28505de9f4d43ea81f45335a80e9e99fbc23",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 7
+            },
+            "end": {
+              "line": 12,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "../common/basePageView",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 29
+            },
+            "end": {
+              "line": 13,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "../invite/inviteModel",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 50
+            },
+            "end": {
+              "line": 14,
+              "column": 73
+            }
+          }
+        },
+        {
+          "value": "../home/GloabalClass",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 23
+            },
+            "end": {
+              "line": 15,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "../home/homeView",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 25
+            },
+            "end": {
+              "line": 16,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./taskNodeInfo",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 29
+            },
+            "end": {
+              "line": 17,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "../common/WebUtils",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 21
+            },
+            "end": {
+              "line": 18,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "../profile/profileView",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 28
+            },
+            "end": {
+              "line": 19,
+              "column": 52
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/taskNodeInfo.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/WebUtils.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteModel.ts": {
+      "mTimestamp": {
+        "mtime": 1728629917131.266,
+        "uuid": "2123be2a-646d-495f-ba7b-2f1b4b6f0c04"
+      },
+      "chunkId": "75cf08cfee4c10652f35bf6b00744113c9a06341",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../home/GloabalClass",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "../common/basePageModel",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 30
+            },
+            "end": {
+              "line": 4,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "./inviteView",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 27
+            },
+            "end": {
+              "line": 5,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "../home/homeView",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 25
+            },
+            "end": {
+              "line": 7,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteView.ts": {
+      "mTimestamp": {
+        "mtime": 1728723222306.133,
+        "uuid": "02208442-f9a8-4340-8e3a-b8af256ef342"
+      },
+      "chunkId": "6ac10c8dad917eeb04a08109ca9c7e1b5804d7f8",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "end": {
+              "line": 9,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "../common/basePageView",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 29
+            },
+            "end": {
+              "line": 10,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "../home/GloabalClass",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 23
+            },
+            "end": {
+              "line": 11,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts": {
+      "mTimestamp": {
+        "mtime": 1728491021660.0493,
+        "uuid": "afa9d64d-4820-4cc4-bb1e-3cee9dded27f"
+      },
+      "chunkId": "3ada2a9af2d6ea2b7e0139b258acb09c2ac95cfd",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 107
+            },
+            "end": {
+              "line": 1,
+              "column": 111
+            }
+          }
+        },
+        {
+          "value": "../invite/inviteModel",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 28
+            },
+            "end": {
+              "line": 3,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../profile/profileModel",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 29
+            },
+            "end": {
+              "line": 4,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "../earn/earnView",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 25
+            },
+            "end": {
+              "line": 5,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "../common/WebUtils",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 21
+            },
+            "end": {
+              "line": 6,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/WebUtils.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileModel.ts": {
+      "mTimestamp": {
+        "mtime": 1728629955462.53,
+        "uuid": "a590a80c-2170-4f99-bf90-f8540f3bd8a6"
+      },
+      "chunkId": "180b36a9dad717f9a0506c29b862a27855feed93",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "../common/basePageModel",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 30
+            },
+            "end": {
+              "line": 2,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "../home/GloabalClass",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 23
+            },
+            "end": {
+              "line": 3,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "./profileView",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 28
+            },
+            "end": {
+              "line": 4,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "../home/homeView",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 25
+            },
+            "end": {
+              "line": 5,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "../invite/inviteModel",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 28
+            },
+            "end": {
+              "line": 7,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteModel.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts": {
+      "mTimestamp": {
+        "mtime": 1728629965855.0051,
+        "uuid": "8b1ebd57-2c89-4783-bdd1-5cddbaa8aef2"
+      },
+      "chunkId": "a1bc65b6c43336e34a3faaf39490eca89b648d54",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 90
+            },
+            "end": {
+              "line": 1,
+              "column": 94
+            }
+          }
+        },
+        {
+          "value": "../common/basePageView",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 29
+            },
+            "end": {
+              "line": 3,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "../home/GloabalClass",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 23
+            },
+            "end": {
+              "line": 4,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "../common/WebUtils",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 21
+            },
+            "end": {
+              "line": 5,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "../home/homeView",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 25
+            },
+            "end": {
+              "line": 6,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/WebUtils.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/taskNodeInfo.ts": {
+      "mTimestamp": {
+        "mtime": 1728480910120.9668,
+        "uuid": "04d33e3e-5ba3-42fc-892a-dbafdd68991d"
+      },
+      "chunkId": "abef588014173be57be48272470228b00f523937",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GlobalConfig.ts": {
+      "mTimestamp": {
+        "mtime": 1726639657104.2056,
+        "uuid": "fbec250b-2ccc-4e26-8941-53834bda025e"
+      },
+      "chunkId": "73edfbb5024f7100728645eac565ebfd310fe435",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeModel.ts": {
+      "mTimestamp": {
+        "mtime": 1726486261922.6987,
+        "uuid": "ff2e3134-f878-4a61-8556-f8226adad799"
+      },
+      "chunkId": "1ea07b0c276571504850925d21cf4ca497c1dde0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts": {
+      "mTimestamp": {
+        "mtime": 1728906207837.5417,
+        "uuid": "de999a9a-ca10-4dec-8c95-95ded740a038"
+      },
+      "chunkId": "918b6e6c8247f5e2603860feb59bc581e5e095de",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../common/basePageModel",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 30
+            },
+            "end": {
+              "line": 2,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "./loginView",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "../home/GloabalClass",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 23
+            },
+            "end": {
+              "line": 6,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "../draw/drawModel",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 26
+            },
+            "end": {
+              "line": 7,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "../discover/discoverModel",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 30
+            },
+            "end": {
+              "line": 8,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "../home/homeView",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 25
+            },
+            "end": {
+              "line": 9,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "../invite/inviteModel",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 38
+            },
+            "end": {
+              "line": 10,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "../earn/earnModel",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 26
+            },
+            "end": {
+              "line": 12,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "../profile/profileModel",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 29
+            },
+            "end": {
+              "line": 13,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileModel.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginView.ts": {
+      "mTimestamp": {
+        "mtime": 1728413817219.3896,
+        "uuid": "444c41eb-e918-4d0d-bfff-f0260a2b0ebd"
+      },
+      "chunkId": "46d8a1c001f07a857c951683d452d397b83b0347",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 60
+            },
+            "end": {
+              "line": 1,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "../common/basePageView",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 29
+            },
+            "end": {
+              "line": 2,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts": {
+      "mTimestamp": {
+        "mtime": 1728550850781.7615,
+        "uuid": "2d6fd001-c308-4b9a-877f-effddb06db8f"
+      },
+      "chunkId": "40333bfc3badcfac96c04fb3fd315b7bb1e8fdb9",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 57
+            },
+            "end": {
+              "line": 1,
+              "column": 61
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts": {
+      "mTimestamp": {
+        "mtime": 1728397831382.8044,
+        "uuid": "b13a86c9-1d52-4761-b45c-93f342dacc37"
+      },
+      "chunkId": "1cded195268a4e296635948bed414c712b5fb0e3",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
         {
           "resolved": {
             "type": "module",

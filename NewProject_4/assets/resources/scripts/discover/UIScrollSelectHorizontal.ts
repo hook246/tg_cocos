@@ -1,8 +1,19 @@
-import { _decorator, Component, Node, CCInteger, CCFloat, EventHandler, log, UITransform, error, instantiate, sp } from "cc";
+import { _decorator, Component, Node, CCInteger, CCFloat, EventHandler, log, UITransform, error, instantiate, sp, math } from "cc";
 import WebUtils from "../common/WebUtils";
 import { drawView } from "../draw/drawView";
 import { discoverView } from "./discoverView";
 const { ccclass, property } = _decorator;
+
+const dataUrl = {
+	game:[
+		'images/avatar/btrump',
+		'images/avatar/cat',
+		'images/avatar/cat',
+	],
+	ugc:[
+		'images/avatar/ugc'
+	]
+}
 
 export enum EventType {
 	SCROLL_START,
@@ -72,11 +83,33 @@ export class UIScrollSelectHorizontal extends Component {
 		type: number;
 		url: string;
 	  }[]
+	currentCenterNode: number = 1;
 
 	onLoad() {
+		//this.scrollChildrenInfo[0].type === 1 && (this.scrollChildrenInfo = [this.scrollChildrenInfo[1], this.scrollChildrenInfo[0]])
 		for (var i = 0; i < this.scrollChildrenCount; i++) {
 			const node_child = instantiate(this.instantiate_node)
-			WebUtils.getRemoteImg(this.scrollChildrenInfo[i].icon,node_child.getChildByName('icon'))
+			//WebUtils.getRemoteImg(this.scrollChildrenInfo[i].icon,node_child.getChildByName('icon'))
+			if(this.scrollChildrenInfo[i].type === 1){
+
+					WebUtils.getResouceImg(dataUrl.game[i],node_child.getChildByName('icon'))
+
+					WebUtils.getResouceImg(dataUrl.game[i],node_child.getChildByName('icon'))
+					if(i === 0){
+						node_child.on(Node.EventType.TOUCH_START, ()=>{
+							this.scrollToLeft()
+						})
+					}
+
+					if(i === 1){
+						node_child.on(Node.EventType.TOUCH_START, ()=>{
+							this.scrollToRight()
+						})
+					}
+				
+			}else{
+				WebUtils.getResouceImg(dataUrl.ugc[i],node_child.getChildByName('icon'))
+			}
 			node_child.active = true
 			this.content.addChild(node_child)
 		}
@@ -92,6 +125,8 @@ export class UIScrollSelectHorizontal extends Component {
 		this._touchId = null;
 		// this.currentIndex = 0;
 		this.scrollTo(0, false);
+		//this.scrollChildrenInfo[i].type === 1 && this.scrollToLeft()
+		this.scrollToLeft()
 	}
 	/** 滚动到指定节点 
 	 * @param anim 是否带移动动画
@@ -100,6 +135,7 @@ export class UIScrollSelectHorizontal extends Component {
 		if (idx < 0 && idx >= this.childs.length) {
 			return error(this.node.name + '->移动超出边界面')
 		}
+		this.currentCenterNode = idx
 		this.currentIndex = idx;
 		this.discover_view.setCurrentPlayInfo(this.scrollChildrenInfo[this.currentIndex])
 		this.moveAim = idx;
@@ -119,13 +155,15 @@ export class UIScrollSelectHorizontal extends Component {
 	/** 向左滚一个点 */
 	scrollToLeft() {
 		this._toMoveX = 1
-		this.scrollTo((this.currentIndex - 1 + this.childs.length) % this.childs.length)
+		this.scrollChildrenInfo.length >= 2 && this.scrollTo(1)
+		//this.scrollTo((this.currentIndex - 1 + this.childs.length) % this.childs.length)
 	}
 
 	/** 向左滚一个点 */
 	scrollToRight() {
 		this._toMoveX = -1
-		this.scrollTo((this.currentIndex + 1 + this.childs.length) % this.childs.length)
+		this.scrollTo(0)
+		//this.scrollTo((this.currentIndex + 1 + this.childs.length) % this.childs.length)
 	}
 
 	_checkChildX(child, x) {
@@ -141,10 +179,13 @@ export class UIScrollSelectHorizontal extends Component {
 	}
 
 	start() {
-		this.content.on(Node.EventType.TOUCH_START, this._onTouch, this);
-		this.content.on(Node.EventType.TOUCH_MOVE, this._onTouch, this);
-		this.content.on(Node.EventType.TOUCH_END, this._onTouchEnd, this);
-		this.content.on(Node.EventType.TOUCH_CANCEL, this._onTouchEnd, this);
+		if(this.scrollChildrenInfo[0].type === 1){
+			// this.content.on(Node.EventType.TOUCH_START, this._onTouch, this);
+			// this.content.on(Node.EventType.TOUCH_MOVE, this._onTouch, this);
+			// this.content.on(Node.EventType.TOUCH_END, this._onTouchEnd, this);
+			// this.content.on(Node.EventType.TOUCH_CANCEL, this._onTouchEnd, this);
+		}
+
 	}
 	_onTouch(event) {
 		if (this._touchId != null && (event.touch._startPoint.x != this._touchId._startPoint.x) && (event.touch._startPoint.y != this._touchId._startPoint.y)) {
@@ -226,6 +267,11 @@ export class UIScrollSelectHorizontal extends Component {
 		}
 		var stepx = this._toMoveX * dt * this.scrollSpeed
 		let lx = this.childs[this.moveAim].position.x
+
+		//!2个child 先这么写过😧
+		if(Math.abs(this.childs[this.currentCenterNode].getPosition().x) <= 20){
+			return
+		}
 		for (var i = 0; i < this.childs.length; i++) {
 			this._checkChildX(this.childs[i], this.childs[i].position.x + stepx)
 		}
@@ -234,25 +280,26 @@ export class UIScrollSelectHorizontal extends Component {
 		var idx = Math.round(x / this.deltaX);
 		var tox = this.deltaX * idx;
 		let cx = this.childs[this.moveAim].position.x
-		if (lx * cx < 0 && Math.abs(cx) < this.deltaX) {
-			this.isTestX = false;
-			for (let i = 0; i < this.childs.length; i++) {
-				if (Math.abs(this.childs[i].position.x) <= Math.abs(stepx)) {
-					this.currentIndex = i;
-					this.discover_view.setCurrentPlayInfo(this.scrollChildrenInfo[this.currentIndex])
-					break;
-				}
-			}
-			for (var i = 0; i < this.childs.length; i++) {
-				this._checkChildX(this.childs[i], this.childs[i].position.x + tox - x)
-			}
-			var event = {
-				target: this,
-				type: EventType.SCROLL_END,
-				index: this.currentIndex
-			}
-			Component.EventHandler.emitEvents(this.selectEvents, event);
-		}
+		//!2个child 先这么写过😧
+		// if (lx * cx < 0 && Math.abs(cx) < this.deltaX) {
+		// 	this.isTestX = false;
+		// 	for (let i = 0; i < this.childs.length; i++) {
+		// 		if (Math.abs(this.childs[i].position.x) <= Math.abs(stepx)) {
+		// 			this.currentIndex = i;
+		// 			this.discover_view.setCurrentPlayInfo(this.scrollChildrenInfo[this.currentIndex])
+		// 			break;
+		// 		}
+		// 	}
+		// 	for (var i = 0; i < this.childs.length; i++) {
+		// 		this._checkChildX(this.childs[i], this.childs[i].position.x + tox - x)
+		// 	}
+		// 	var event = {
+		// 		target: this,
+		// 		type: EventType.SCROLL_END,
+		// 		index: this.currentIndex
+		// 	}
+		// 	Component.EventHandler.emitEvents(this.selectEvents, event);
+		// }
 	}
 
 	scrolling() {

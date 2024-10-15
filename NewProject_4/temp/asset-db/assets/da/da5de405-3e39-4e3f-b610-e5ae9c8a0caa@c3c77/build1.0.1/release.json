@@ -29,9 +29,9 @@
             },
             "rotated": false,
             "capInsets": [
+                20,
                 0,
-                0,
-                0,
+                53,
                 0
             ],
             "vertices": {

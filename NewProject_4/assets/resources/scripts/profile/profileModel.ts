@@ -21,7 +21,7 @@ export class profileModel extends basePageModel {
     }
 
     async unBindTwitter(){
-        const unbindTwitterUrl = 'https://api.infinitytest.cc/api/v1/oauth/unboundTwitter'
+        const unbindTwitterUrl = GlobalData.isProduction ? 'https://api.infinityg.ai/api/v1/oauth/unboundTwitter' : 'https://api.infinitytest.cc/api/v1/oauth/unboundTwitter'
         try {
             //登录成功
             const bindData = await window.axios.post<any>(
@@ -40,7 +40,7 @@ export class profileModel extends basePageModel {
     }
 
     bindTwitter(){
-        const twitterOauthUrl = `https://www.infinitytest.cc?tgId=${GlobalData.token}`
+        const twitterOauthUrl = GlobalData.isProduction ? `https://www.infinityg.ai?tgId=${GlobalData.token}` : `https://www.infinitytest.cc?tgId=${GlobalData.token}`
         //this.profileView.closeProfile()
         window.Telegram.WebApp.showPopup({
             title: 'Please select an option',

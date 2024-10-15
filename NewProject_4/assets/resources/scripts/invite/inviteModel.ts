@@ -8,10 +8,10 @@ import { homeView } from "../home/homeView";
 const { ccclass, property } = _decorator;
 
 export const taskUrls = {
-  SearchTask: "https://api.infinitytest.cc/api/v1/task/list",
-  ClaimReward: "https://api.infinitytest.cc/api/v1/task/claim",
-  CompleteTask: "https://api.infinitytest.cc/api/v1/task/complete",
-  CheckIn: "https://api.infinitytest.cc/api/v1/task/checkIn",
+  SearchTask: GlobalData.isProduction ? "https://api.infinityg.ai/api/v1/task/list" : "https://api.infinitytest.cc/api/v1/task/list",
+  ClaimReward: GlobalData.isProduction ? "https://api.infinityg.ai/api/v1/task/claim" : "https://api.infinitytest.cc/api/v1/task/claim",
+  CompleteTask: GlobalData.isProduction ? "https://api.infinityg.ai/api/v1/task/complete" : "https://api.infinitytest.cc/api/v1/task/complete",
+  CheckIn: GlobalData.isProduction ? "https://api.infinityg.ai/api/v1/task/checkIn" : "https://api.infinitytest.cc/api/v1/task/checkIn",
 };
 
 export interface taskListResponseType {
@@ -74,7 +74,7 @@ export class inviteModel extends basePageModel {
   async getTaskList() {
         var config = {
             method: 'post',
-            url: 'https://api.infinitytest.cc/api/v1/task/list',
+            url: GlobalData.isProduction ? 'https://api.infinityg.ai/api/v1/task/list' : 'https://api.infinitytest.cc/api/v1/task/list',
             headers: { 
               'User-Agent': 'Apifox/1.0.0 (https://apifox.com)', 
               'Authorization': `Bearer ${GlobalData.token}`

@@ -1,9 +1,10 @@
-import { _decorator, Component, EditBox, EventTouch, Label, Node } from 'cc';
+import { _decorator, Component, EditBox, EventTouch, Label, Node, tween, UIOpacity } from 'cc';
 import { basePageModel } from '../common/basePageModel';
 import { basePageView } from '../common/basePageView';
 import GlobalData from '../home/GloabalClass';
 import WebUtils from '../common/WebUtils';
 import { homeView } from '../home/homeView';
+import { profileModel } from './profileModel';
 const { ccclass, property } = _decorator;
 
 const avatars =[
@@ -93,7 +94,7 @@ export class profileView extends basePageView {
 
         this.tgId.string = `${window?.Telegram?.WebApp?.initDataUnsafe?.user?.id}`
         WebUtils.getResouceImg(GlobalData.avatar,this.user_avatar)
-        if(GlobalData.username){
+        if(GlobalData?.username?.length){
             this.user_name.string = GlobalData.username
 
         }else if(window?.Telegram?.WebApp?.initDataUnsafe?.user?.username){
@@ -111,12 +112,12 @@ export class profileView extends basePageView {
 
     async editUserInfo(){
         try {
-            const url = 'https://api.infinitytest.cc/api/v1/user/info/edit'
+            const url = GlobalData.isProduction ? 'https://api.infinityg.ai/api/v1/user/info/edit' : 'https://api.infinitytest.cc/api/v1/user/info/edit'
             const userInfo = await window.axios.post<any>(
                 url
               ,{
                 avatar: this.avatar,
-                userName: this.edit_username.string
+                userName: this.edit_username.string ? this.edit_username.string : GlobalData.username
               
               },{
                   headers: { 
@@ -125,7 +126,7 @@ export class profileView extends basePageView {
               });
               WebUtils.getResouceImg(this.avatar,this.user_avatar)
               this.home.getComponent(homeView).setProfile(this.avatar)
-              this.user_name.string = this.edit_username.string
+              this.user_name.string = this.edit_username.string ? this.edit_username.string : GlobalData.username
               window.Telegram.WebApp.showAlert("success!", () => {
                 console.log("");
               });
@@ -144,7 +145,10 @@ export class profileView extends basePageView {
 
 
     closeProfile(){
-        this.node.setPosition(-5000, 0)
+        tween(this.node.getComponent(UIOpacity)).to(0.5, { opacity: 0 }).call(()=>{
+            this.node.setPosition(-5000, 0)
+        }).start();
+
     }
 }
 

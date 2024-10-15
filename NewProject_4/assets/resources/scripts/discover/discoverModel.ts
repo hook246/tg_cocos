@@ -5,8 +5,8 @@ import { basePageModel } from '../common/basePageModel';
 const { ccclass, property } = _decorator;
 
 export const gamesUrls = {
-    paly_list: 'https://api.infinitytest.cc/hall/api/discover/list',
-    click : 'https://api.infinitytest.cc/hall/api/discover/click'
+    paly_list: GlobalData.isProduction ? 'https://api.infinityg.ai/hall/api/discover/list' : 'https://api.infinitytest.cc/hall/api/discover/list',
+    click : GlobalData.isProduction ?'https://api.infinityg.ai/hall/api/discover/click' : 'https://api.infinitytest.cc/hall/api/discover/click'
 }
 
 export interface GamesDataType{
@@ -22,7 +22,7 @@ export interface GamesDataType{
         tags: string[],
         type: number,
         url: string
-    }
+    }[]
     message: string;
 }
 
@@ -31,7 +31,18 @@ export interface GamesDataType{
 @ccclass('discoverModel')
 export class discoverModel extends basePageModel {
 
-    game_list: any
+    game_list: {
+        desc:string,
+        hot: number,
+        id: number,
+        icon: string,
+        name: string,
+        position: number,
+        sort: number,
+        tags: string[],
+        type: number,
+        url: string
+    }[]
     play_list: any
     discoverView: discoverView
 
@@ -46,7 +57,7 @@ export class discoverModel extends basePageModel {
     async initData(){
         this.game_list = await this.getGames()
         this.play_list = await this.getUgcs()
-        this.discoverView.initGameViews(this.game_list)
+        this.discoverView.initGameViews(this.game_list.reverse())
         this.discoverView.initUgcViews(this.play_list)
     }
 

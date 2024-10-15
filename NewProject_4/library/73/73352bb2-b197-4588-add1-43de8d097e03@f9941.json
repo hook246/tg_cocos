@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ugc",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 451
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 420,
+      "height": 451
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -210,
+        -225.5,
+        0,
+        210,
+        -225.5,
+        0,
+        -210,
+        225.5,
+        0,
+        210,
+        225.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        451,
+        420,
+        451,
+        0,
+        0,
+        420,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -210,
+        "y": -225.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 210,
+        "y": 225.5,
+        "z": 0
+      }
+    },
+    "texture": "73352bb2-b197-4588-add1-43de8d097e03@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

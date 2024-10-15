@@ -17,6 +17,9 @@ export class drawView extends basePageView {
   @property(Label)
   address: Label;
 
+  @property(Node)
+  home: Node;
+
   async start() {
 
   }
@@ -37,18 +40,21 @@ export class drawView extends basePageView {
 
   showConnectWalletBtns() {
     this.controlConnectWalletBtnsVisible(true);
+    this.home.getChildByName('tap_btns').active = false
+
   }
 
   setWalletInfo(address: string) {
-    GlobalData.wallet_address = address;
+    GlobalData.wallet_address = address
     this.controlBindBtnVisible(false);
     this.controlUnbindBtnVisible(true);
-    this.address.string = address;
+    this.address.string =  `${address.substring(0, 6)}...${address.substring(address.length - 6)}`;
   }
 
   copyWalletInfo() {}
 
   closeBtnConnectWallets() {
     this.controlConnectWalletBtnsVisible(false);
+    this.home.getChildByName('tap_btns').active = true
   }
 }

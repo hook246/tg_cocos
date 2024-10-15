@@ -53,6 +53,62 @@
     ],
     "/Users/feiwang/NewProject_4/assets/resources/plist/profile/login-1.plist": [
       "/Users/feiwang/NewProject_4/assets/resources/plist/profile/login-1.png"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/profile/earn-2.plist": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/profile/earn-2.png"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/ui.plist": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/ui.png"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/login-1.plist": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/login-1.png"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/profile/earn-1.plist": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/profile/earn-1.png"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/earn/earn-1.plist": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/earn/earn-1.png"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/boxs.plist": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/boxs.png"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/login-1.plist": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/login-1.png"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/login/login-1.plist": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/login/login-1.png"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/earn/login-1.plist": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/earn/login-1.png"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/link/tgbot.json": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/link/tgbot.atlas"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/invite/login-1.plist": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/invite/login-1.png"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/profile/login-1.plist": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/profile/login-1.png"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/2-3/2_3.json": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/2-3/2_3.atlas"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/2-2/2_2.json": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/2-2/2_2.atlas"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/1-1/1_1.json": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/1-1/1_1.atlas"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/RLShader.effect": [
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/sprite-vs.chunk",
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/sprite-fs.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/sprite-vs.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/sprite-fs.chunk"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/out_put/logo.json": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/out_put/logo.atlas"
     ]
   },
   "uuid": {
@@ -82,6 +138,26 @@
     "/Users/feiwang/NewProject_4/assets/resources/spine/discover/tgbot.json": [
       "4022177d-b447-45c6-9cc3-d0abc5a5185d@6c48a",
       "5b8916d2-c2a8-49d7-9c9b-98f4c7998910@6c48a"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/link/tgbot.json": [
+      "12ed2dbb-d91a-48ff-91e4-8b9c4b13860d@6c48a",
+      "adc7e7f0-3e54-4d90-945b-dd4307a2b9c8@6c48a"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/2-2/2_2.json": [
+      "0f86c1e9-b81d-4c1a-85c6-d94cf98384c0@6c48a"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/2-3/2_3.json": [
+      "a6364be3-0f15-4110-8c94-48132d336c72@6c48a"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/1-1/1_1.json": [
+      "5cbc673d-5aff-41a8-8c70-bc25c43cda2b@6c48a"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/material.mtl": [
+      "50421766-e713-462f-959d-a0522d615a44",
+      "10a772ba-3cd5-4327-9f90-43be8965d5d1"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/out_put/logo.json": [
+      "9db8d639-a7be-44de-ace1-34b30f1c1a7e@6c48a"
     ]
   }
 }

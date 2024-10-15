@@ -1,6 +1,7 @@
 import { taskListResponseType } from "../invite/inviteModel"
 
 class GlobalData {
+    isProduction: boolean = true
     token: any
     inviteCode: any
     taskData: taskListResponseType

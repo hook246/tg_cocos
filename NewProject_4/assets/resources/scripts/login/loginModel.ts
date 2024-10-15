@@ -13,9 +13,16 @@ import { earnModel } from "../earn/earnModel";
 import { profileModel } from "../profile/profileModel";
 const { ccclass, property } = _decorator;
 
-const init_id = "query_id=AAF7JpQPAwAAAHsmlA9TXysA&user=%7B%22id%22%3A6703818363%2C%22first_name%22%3A%22fei%22%2C%22last_name%22%3A%22wang%22%2C%22language_code%22%3A%22zh-hans%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1727930737&hash=925ce85d0e54a2b4efa6ee5c3ea3644e73318cb4b83f2111a2332645027bca30";
+const init_id = "query_id=AAGqe7QbAwAAAKp7tBsBtSzB&user=%7B%22id%22%3A6907263914%2C%22first_name%22%3A%22Infinity%20Ground%22%2C%22last_name%22%3A%22%22%2C%22username%22%3A%22InfinityGround_11%22%2C%22language_code%22%3A%22zh-hans%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1728804036&hash=edb3dfb61fee2f83975d927d31b976e97d1c85d353d9b5da6f05640dfe27233e";
+const id = 6703818363
 const macSHA_secret =
   "0d42f108fb7d74f3735c61b1ecdeb8662bef043f2afed10fb3cd3aba3007e0ff";
+
+const startWithSrc = 'srcTG'
+
+const pathMaps = [
+  'funking',
+]
 
 export interface AxiosResponse<T = any, D = any> {
   data: T;
@@ -45,15 +52,17 @@ export enum walletType {}
 
 export enum walletChain {}
 
+export const trackUrl = GlobalData.isProduction ? 'https://api.infinityg.ai/hall/api/telegram/user/src/add' : 'https://api.infinitytest.cc/hall/api/telegram/user/src/add'
+
 export const loginUrls = {
-  firstLoginCheck: "https://api.infinitytest.cc/api/v1/user/auth/first_login",
-  tgLogin: "https://api.infinitytest.cc/api/v1/user/auth/tg_login/webapp",
-  pwdLogin: "https://api.infinitytest.cc/api/v1/user/auth/pwd_login",
+  firstLoginCheck: GlobalData.isProduction ? "https://api.infinityg.ai/api/v1/user/auth/first_login" : "https://api.infinitytest.cc/api/v1/user/auth/first_login",
+  tgLogin: GlobalData.isProduction ? "https://api.infinityg.ai/api/v1/user/auth/tg_login/webapp" : "https://api.infinitytest.cc/api/v1/user/auth/tg_login/webapp",
+  pwdLogin: GlobalData.isProduction ? "https://api.infinityg.ai/api/v1/user/auth/pwd_login" : "https://api.infinitytest.cc/api/v1/user/auth/pwd_login",
 };
 
 export const twitterOauth = {
-  bindTwitter: "https://api.infinitytest.cc/api/v1/oauth/getTwitterCode",
-  unBindTwitter: "https://api.infinitytest.cc/api/v1/oauth/unboundTwitter",
+  bindTwitter: GlobalData.isProduction ? "https://api.infinityg.ai/api/v1/oauth/getTwitterCode" : "https://api.infinitytest.cc/api/v1/oauth/getTwitterCode",
+  unBindTwitter: GlobalData.isProduction ? "https://api.infinityg.ai/api/v1/oauth/unboundTwitter" : "https://api.infinitytest.cc/api/v1/oauth/unboundTwitter",
 };
 
 export interface bindTwitterResponse {
@@ -118,6 +127,7 @@ export interface pwdLoginDataType {
 export interface pwdLoginResponseType {
   code: string;
   data: {
+    totalPoint: any;
     avatar: string;
     email: string;
     expiration: number;
@@ -164,6 +174,7 @@ export class loginModel extends basePageModel {
     const tgId = new URLSearchParams(window.location.search).get("tgId");
     const code = new URLSearchParams(window.location.search).get("code");
     const state = new URLSearchParams(window.location.search).get("state");
+
     if (this.isUseMock) {
     }
     this.view.setPosition(0, 0);
@@ -179,12 +190,23 @@ export class loginModel extends basePageModel {
 
   update(deltaTime: number) {}
 
+  async trackPath(path: string){
+    const track = await window.axios.post<any>(
+      trackUrl,
+      {
+        tgId: window.Telegram.WebApp.initDataUnsafe.user.id,
+        source: path,
+        name: window.Telegram.WebApp.initDataUnsafe.user.username
+      }
+    );
+  }
+
   async checkLoginFirst() {
     try {
       const isFirstLogin = await window.axios.post<firstLoginCheckResponseType>(
         loginUrls.firstLoginCheck,
         {
-          id: window.Telegram.WebApp.initDataUnsafe.user.id,
+          id: window?.Telegram?.WebApp?.initDataUnsafe?.user?.id ? window?.Telegram?.WebApp?.initDataUnsafe?.user?.id : id,
         }
       );
       return isFirstLogin.data.data.firstLogin;
@@ -213,21 +235,26 @@ export class loginModel extends basePageModel {
 
   async tgLogin() {
     try {
+      const gameInitData = new URLSearchParams(window.location.search).get("gameData");
       const inviteCode = new URLSearchParams(window.location.search).get(
         "tgWebAppStartParam"
       );
+      console.log("initData", window?.Telegram?.WebApp?.initData);
+      console.log('gameData',gameInitData)
       const loginData = await window.axios.post<tgLoginResponseType>(
         loginUrls.tgLogin,
         {
           initData: window?.Telegram?.WebApp?.initData
-            ? window?.Telegram?.WebApp?.initData
+            ? window?.Telegram?.WebApp?.initData : gameInitData ? window.atob(gameInitData)
             : init_id,
           // photoUrl: `${
           //   window.Telegram.WebApp.initDataUnsafe.user.photo_url ? window.Telegram.WebApp.initDataUnsafe.user.photo_url : ''
           // }`,
-          inviteCode: inviteCode
-            ? JSON.parse(window.atob(inviteCode)).inviteCode
+          inviteCode: !inviteCode?.startsWith(startWithSrc) && pathMaps.indexOf(inviteCode) < 0 && inviteCode
+            ? JSON.parse(window.atob(inviteCode))?.inviteCode
             : "",
+          //!tg登录来源
+          source: inviteCode?.startsWith(startWithSrc) ? inviteCode?.substring(startWithSrc.length) : pathMaps?.indexOf(inviteCode) >= 0 ? inviteCode : ''
         }
       );
       console.log("=========", loginData);
@@ -242,8 +269,25 @@ export class loginModel extends basePageModel {
         this.home.getComponent(homeView).game_point.string = String(
           loginData.data.data.totalPoint
         );
+        this.loginView.controlLoading(true);
         this.loginView.routeToHome();
         await this.initOtherModel();
+        this.scheduleOnce(()=>{
+          this.node.setPosition(-5000 ,0)
+          this.discover.setPosition(0, 0)
+          this.loginView.controlLoading(false);
+          console.log('=====close loading')
+        }, 3)
+
+        const path = new URLSearchParams(window.location.search).get(
+          "tgWebAppStartParam"
+        );
+        if(pathMaps?.indexOf(path) >= 0){
+          this.trackPath(path)
+        }
+        if(path?.startsWith(startWithSrc)){
+          this.trackPath(path.substring(startWithSrc.length))
+        }
       }
     } catch (error) {
       console.log(error);
@@ -266,10 +310,10 @@ export class loginModel extends basePageModel {
     // )
     //然后window.btoa(src_str)
     //拼在https://t.me/infinity_ground_bot/infinity_ground_app?startapp=src_str
-    const srcData = new URLSearchParams(window.location.search).get(
-      "tgWebAppStartParam"
-    );
-    const srcObject = srcData && JSON.parse(window.atob(srcData))
+    // const srcData = new URLSearchParams(window.location.search).get(
+    //   "tgWebAppStartParam"
+    // );
+    // const srcObject = srcData && JSON.parse(window.atob(srcData))
     //console.log('srcObject===>', srcObject)
   }
 
@@ -289,12 +333,16 @@ export class loginModel extends basePageModel {
       const inviteCode = new URLSearchParams(window.location.search).get(
         "tgWebAppStartParam"
       );
+      
+      const gameInitData = new URLSearchParams(window.location.search).get("gameData");
+      console.log("initData", window?.Telegram?.WebApp?.initData);
+      console.log('gameData',gameInitData)
       const loginData = await window.axios.post<pwdLoginResponseType>(
         loginUrls.pwdLogin,
         {
           accountUserName: this.loginView.getAccountInputString(),
           initData: window?.Telegram?.WebApp?.initData
-            ? window?.Telegram?.WebApp?.initData
+            ? window?.Telegram?.WebApp?.initData : gameInitData ? window.atob(gameInitData)
             : init_id,
           loginChannel: "GAME_LOBBY",
           password: this.loginView.getPasswordInputString(),
@@ -309,10 +357,24 @@ export class loginModel extends basePageModel {
       );
 
       if (loginData?.data?.data?.token) {
+        this.trackSrc()
         GlobalData.token = loginData?.data?.data?.token;
+        GlobalData.inviteCode = loginData?.data?.data?.inviteCode;
         GlobalData.username = loginData.data.data.userName
         GlobalData.avatar = loginData.data.data.avatar
+        this.home.getComponent(homeView).setProfile(GlobalData.avatar)
+        this.home.getComponent(homeView).game_point.string = String(
+          loginData.data?.data?.totalPoint
+        );
+        this.loginView.controlLoading(true);
         this.loginView.routeToHome();
+        await this.initOtherModel();
+        this.scheduleOnce(()=>{
+          this.node.setPosition(-5000 ,0)
+          this.discover.setPosition(0, 0)
+          this.loginView.controlLoading(false);
+          console.log('=====close loading')
+        }, 3)
       }
     } catch (error) {
       console.log(error);

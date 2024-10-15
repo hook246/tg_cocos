@@ -26,10 +26,10 @@ declare global {
 }
 
 export const walletUrls = {
-  bindWallet: "https://api.infinitytest.cc/api/v1/user/info/edit/bindWallet",
-  unbindWallet:
+  bindWallet: GlobalData.isProduction ? "https://api.infinityg.ai/api/v1/user/info/edit/bindWallet" : "https://api.infinitytest.cc/api/v1/user/info/edit/bindWallet",
+  unbindWallet: GlobalData.isProduction ? "https://api.infinityg.ai/api/v1/user/info/edit/unbindWallet":
     "https://api.infinitytest.cc/api/v1/user/info/edit/unbindWallet",
-  queryBindWallet:
+  queryBindWallet: GlobalData.isProduction ? "https://api.infinityg.ai/api/v1/user/info/queryBindWallet":
     "https://api.infinitytest.cc/api/v1/user/info/queryBindWallet",
 };
 
@@ -74,7 +74,7 @@ export class drawModel extends basePageModel {
 
     console.log("INIT the tonconnect ", this.tonConnectUI);
     //提供一个manifest的json文件记录一些标题图标等数据用于UI连接时的展示
-    const manifest = "https://test.tonspay.top/api/manifest";
+    const manifest = "https://catoss.s3.ap-southeast-1.amazonaws.com/telegram/manifest.json";
     console.log(manifest);
     //获得TON_CONNECT_UI的实例
     this.tonConnectUI = new window.TON_CONNECT_UI.TonConnectUI({
@@ -106,6 +106,7 @@ export class drawModel extends basePageModel {
       console.log("change : ", walletAndwalletInfo);
       this.account = walletAndwalletInfo;
       this.drawPage.controlConnectWalletBtnsVisible(false)
+      this.drawPage.home.getChildByName('tap_btns').active = true
       const walletInfo = await window.axios.post<BindWalletResponse>(
         walletUrls.bindWallet,{
           walletAddress: walletAndwalletInfo.account.address,
@@ -131,6 +132,7 @@ export class drawModel extends basePageModel {
   async bindUxuyWallet() {
     try {
       this.drawPage.controlConnectWalletBtnsVisible(false)
+      this.drawPage.home.getChildByName('tap_btns').active = true
       let walletAddress
       let walletChain
       if(window.uxuyethereum._account.address){

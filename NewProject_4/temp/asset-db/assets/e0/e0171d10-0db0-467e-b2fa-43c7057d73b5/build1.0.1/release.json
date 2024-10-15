@@ -1,7 +1,10 @@
 [
     1,
     [
-        "dfXsQ2wphEuZ2OBDGpAooP@f9941"
+        "dfXsQ2wphEuZ2OBDGpAooP@f9941",
+        "99q2PiblBI2oRxoUJNirOy@f9941",
+        "49ZpYijpRNEpr2ZJTWTh/E@f9941",
+        "c9xDjQtSVOspOOv4y1z+oS@f9941"
     ],
     [
         "node",
@@ -20,13 +23,15 @@
                 "_prefab",
                 "_components",
                 "_parent",
-                "_children"
+                "_children",
+                "_lscale"
             ],
             1,
             4,
             9,
             1,
-            12
+            12,
+            5
         ],
         [
             "cc.Node",
@@ -214,6 +219,7 @@
             5,
             3,
             2,
+            6,
             3
         ],
         [
@@ -342,6 +348,12 @@
                 [],
                 -1,
                 0
+            ],
+            [
+                1,
+                0.8,
+                0.8,
+                1
             ]
         ],
         [
@@ -905,9 +917,9 @@
         1
     ],
     [
-        0,
-        0,
-        0,
+        1,
+        2,
+        3,
         0,
         0
     ]
