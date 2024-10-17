@@ -1,0 +1,40 @@
+2024-10-16 14:55:42-debug: asset-db:worker-init (968ms)
+2024-10-16 14:55:42-debug: Preimport db internal success
+2024-10-16 14:55:42-debug: Preimport db assets success
+2024-10-16 14:55:42-debug: asset-db:worker-effect-data-processing (126ms)
+2024-10-16 14:55:46-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-10-16 14:55:46-debug: Start up the 'internal' database...
+2024-10-16 14:55:46-debug: asset-db:worker-init-script (17ms)
+2024-10-16 14:55:46-debug: start asset-db with asset: 419
+2024-10-16 14:55:46-debug: Start up the 'assets' database...
+2024-10-16 14:55:46-debug: asset-db:worker-startup-database[internal] (4300ms)
+2024-10-16 14:55:46-debug: start asset-db with asset: 210
+2024-10-16 14:55:46-debug: Asset DB is ready!
+2024-10-16 14:55:46-debug: asset-db:worker-startup-database[assets] (4405ms)
+2024-10-16 14:55:46-debug: init worker message success
+2024-10-16 14:55:48-debug: builder:worker-init (1807ms)
+2024-10-16 14:55:49-debug: programming:execute-script (5ms)
+2024-10-16 15:02:02-debug: refresh db internal success
+2024-10-16 15:02:03-debug: asset-db:worker-effect-data-processing (266ms)
+2024-10-16 15:02:03-debug: refresh db assets success
+2024-10-16 15:02:03-debug: asset-db:refresh-all-database (435ms)
+2024-10-16 15:10:31-debug: refresh db internal success
+2024-10-16 15:10:32-debug: asset-db:worker-effect-data-processing (307ms)
+2024-10-16 15:10:32-debug: refresh db assets success
+2024-10-16 15:10:32-debug: asset-db:refresh-all-database (504ms)
+2024-10-16 15:12:48-debug: refresh db internal success
+2024-10-16 15:12:48-debug: asset-db:worker-effect-data-processing (221ms)
+2024-10-16 15:12:48-debug: refresh db assets success
+2024-10-16 15:12:48-debug: asset-db:refresh-all-database (397ms)
+2024-10-16 15:15:21-debug: refresh db internal success
+2024-10-16 15:15:21-debug: asset-db:worker-effect-data-processing (183ms)
+2024-10-16 15:15:21-debug: refresh db assets success
+2024-10-16 15:15:21-debug: asset-db:refresh-all-database (410ms)
+2024-10-16 17:15:58-debug: refresh db internal success
+2024-10-16 17:15:58-debug: asset-db:worker-effect-data-processing (406ms)
+2024-10-16 17:15:58-debug: refresh db assets success
+2024-10-16 17:15:58-debug: asset-db:refresh-all-database (649ms)
+2024-10-17 13:59:42-debug: refresh db internal success
+2024-10-17 13:59:43-debug: asset-db:worker-effect-data-processing (474ms)
+2024-10-17 13:59:43-debug: refresh db assets success
+2024-10-17 13:59:43-debug: asset-db:refresh-all-database (760ms)

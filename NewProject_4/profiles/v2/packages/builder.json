@@ -34,7 +34,7 @@
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "2024-10-14 15:55:22 build success in 37895 ms!",
+        "message": "2024-10-17 16:26:49 build success in 23193 ms!",
         "options": {
           "name": "NewProject_4",
           "platform": "web-mobile",
@@ -71,7 +71,7 @@
           "__version__": "1.3.5",
           "server": "https://catoss.s3.ap-southeast-1.amazonaws.com/develop_remote/infinity_grount_remote/"
         },
-        "time": "10-14-2024 15:54",
+        "time": "10-17-2024 16:26",
         "dirty": false
       },
       "1728626190501": {
@@ -80,7 +80,7 @@
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "2024-10-14 19:45:18 build success in 17046 ms!",
+        "message": "2024-10-17 16:42:19 build success in 17853 ms!",
         "options": {
           "name": "production",
           "platform": "web-mobile",
@@ -117,7 +117,7 @@
           "packages": {},
           "__version__": "1.3.5"
         },
-        "time": "10-14-2024 19:45",
+        "time": "10-17-2024 16:42",
         "dirty": false
       }
     }

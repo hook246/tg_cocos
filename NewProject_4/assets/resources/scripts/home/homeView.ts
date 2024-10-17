@@ -51,7 +51,12 @@ export class homeView extends Component {
     prePageIndex = 0
     
     start() {
-        window?.Telegram?.WebApp.setHeaderColor('#000000')
+        try {
+            window?.Telegram?.WebApp.setHeaderColor('#000000')
+        } catch (error) {
+            
+        }
+
         this.pageArray = [
             this.discoverPage,
             this.invitePage,

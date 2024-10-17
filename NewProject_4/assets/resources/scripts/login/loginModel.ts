@@ -13,7 +13,7 @@ import { earnModel } from "../earn/earnModel";
 import { profileModel } from "../profile/profileModel";
 const { ccclass, property } = _decorator;
 
-const init_id = "query_id=AAGqe7QbAwAAAKp7tBsBtSzB&user=%7B%22id%22%3A6907263914%2C%22first_name%22%3A%22Infinity%20Ground%22%2C%22last_name%22%3A%22%22%2C%22username%22%3A%22InfinityGround_11%22%2C%22language_code%22%3A%22zh-hans%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1728804036&hash=edb3dfb61fee2f83975d927d31b976e97d1c85d353d9b5da6f05640dfe27233e";
+const init_id = "query_id=AAF7JpQPAwAAAHsmlA88_ipa&user=%7B%22id%22%3A6703818363%2C%22first_name%22%3A%22fei%22%2C%22last_name%22%3A%22wang%22%2C%22username%22%3A%22dfgsadsggfdn%22%2C%22language_code%22%3A%22zh-hans%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1728999656&hash=c6805e2ff4528066767547caa44115df7f452a54a59bf326841c39e8b60e2fa6";
 const id = 6703818363
 const macSHA_secret =
   "0d42f108fb7d74f3735c61b1ecdeb8662bef043f2afed10fb3cd3aba3007e0ff";

@@ -685,7 +685,7 @@
   "/Users/feiwang/NewProject_4/assets/resources/images/discover/1-3.png": {
     "time": 1726814427155.9644,
     "uuid": "548b578e-80e2-4e50-84a3-9a05f8f6a47f",
-    "missing": false
+    "missing": true
   },
   "/Users/feiwang/NewProject_4/assets/resources/images/discover/1-2-1.png": {
     "time": 1726814427155.9695,
@@ -2007,12 +2007,12 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images": {
-    "time": 1728960068529.2944,
+    "time": 1729151111881.579,
     "uuid": "1a2c13a8-58e9-44fa-b8df-6ab9066190bc",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist": {
-    "time": 1728469361893.0876,
+    "time": 1729147129891.9338,
     "uuid": "addf13d1-4cac-47f9-b490-4073b45b9deb",
     "missing": false
   },
@@ -2027,7 +2027,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts": {
-    "time": 1728044421422.5042,
+    "time": 1729150707708.517,
     "uuid": "e8431e0f-bb32-423b-959d-15705c240cf8",
     "missing": false
   },
@@ -2052,7 +2052,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/discover": {
-    "time": 1728134576256.722,
+    "time": 1728978301796.1353,
     "uuid": "7f2f58f4-4515-4d49-97f5-971a558103b5",
     "missing": false
   },
@@ -2102,7 +2102,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view": {
-    "time": 1728469095522.3518,
+    "time": 1729144883912.616,
     "uuid": "0a8a16aa-25aa-40c4-ab70-d91e521ed09e",
     "missing": false
   },
@@ -2292,7 +2292,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts": {
-    "time": 1728893546197.4568,
+    "time": 1729153962334.3892,
     "uuid": "7614d2ac-abc0-452b-b7e7-0d3265f15e37",
     "missing": false
   },
@@ -2307,7 +2307,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts": {
-    "time": 1728491021660.0493,
+    "time": 1728983998397.8782,
     "uuid": "afa9d64d-4820-4cc4-bb1e-3cee9dded27f",
     "missing": false
   },
@@ -2322,7 +2322,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts": {
-    "time": 1728906207837.5417,
+    "time": 1729000339242.5137,
     "uuid": "de999a9a-ca10-4dec-8c95-95ded740a038",
     "missing": false
   },
@@ -2565,7 +2565,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/scenes/MainScene.scene": {
-    "time": 1728960164419.5627,
+    "time": 1729154506972.5178,
     "uuid": "f11e16cf-17d0-46c9-8f37-cff7c2e71d7c",
     "missing": false
   },
@@ -2575,7 +2575,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/scenes/testScene.scene": {
-    "time": 1728478693157.63,
+    "time": 1729157976036.5256,
     "uuid": "1f4068fe-62fd-493f-8ef9-a8fdad58be08",
     "missing": false
   },
@@ -2857,11 +2857,6 @@
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/discover/1-2.png": {
     "time": 1726814427157.1582,
     "uuid": "8c5fa1cc-61c9-4cb0-a145-157928e99cf6",
-    "missing": false
-  },
-  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/discover/1-3.png": {
-    "time": 1726814427155.9644,
-    "uuid": "548b578e-80e2-4e50-84a3-9a05f8f6a47f",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/discover/icon.jpg": {
@@ -3205,9 +3200,6 @@
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/discover/1-2-1.png.meta": {
     "time": 1726814427251.892
-  },
-  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/discover/1-3.png.meta": {
-    "time": 1726814427231.3298
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/discover/1-2.png.meta": {
     "time": 1726814427286.7515
@@ -3669,6 +3661,78 @@
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/uxuy.png": {
     "time": 1728960068506.6091,
     "uuid": "7b6f7e60-3ce5-43f0-9573-a203a9011750",
+    "missing": false
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/loadingBg.png.meta": {
+    "time": 1728985958205.6794
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/loadingBg.png": {
+    "time": 1728985958159.7832,
+    "uuid": "14fd4ccc-7e6b-4c9e-a35b-6a042bc42f9d",
+    "missing": false
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗.jpg.meta": {
+    "time": 1729144883988.8267
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗字号.jpg.meta": {
+    "time": 1729144883997.9026
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗.jpg": {
+    "time": 1729144883898.7014,
+    "uuid": "0360c080-f1e2-439e-aa7f-ef9e05e548ec",
+    "missing": false
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗字号.jpg": {
+    "time": 1729144883899.345,
+    "uuid": "79f6644d-64c0-45aa-b924-5a7d18f23b03",
+    "missing": false
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/welcome.meta": {
+    "time": 1729147129894.9062
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/welcome": {
+    "time": 1729147138192.8267,
+    "uuid": "b8ed4a19-0e4b-4757-b4a8-2001d2309c42",
+    "missing": false
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/welcome/welcome.plist.meta": {
+    "time": 1729147138217.2163
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/welcome/welcome.png.meta": {
+    "time": 1729147138312.386
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/welcome/welcome.plist": {
+    "time": 1729147138180.6323,
+    "uuid": "731706c2-4f0a-4cdd-82da-c33c496d9288",
+    "missing": false
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/welcome/welcome.png": {
+    "time": 1729147138181.37,
+    "uuid": "66b78c9d-23e5-4c2d-a71d-ca343527dc8e",
+    "missing": false
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome.meta": {
+    "time": 1729150707711.1472
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome": {
+    "time": 1729150721881.9727,
+    "uuid": "8f607c7a-271b-4aea-ba2a-7b0453de0723",
+    "missing": false
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts.meta": {
+    "time": 1729150721886.484
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts": {
+    "time": 1729150752618.9912,
+    "uuid": "860b76ca-03d8-4016-b7e6-dd7d34aeb057",
+    "missing": false
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/bg.png.meta": {
+    "time": 1729151111938.9395
+  },
+  "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/bg.png": {
+    "time": 1729151102163.2344,
+    "uuid": "1e4889d8-7291-4867-9f67-4d9de3567cfc",
     "missing": false
   }
 }

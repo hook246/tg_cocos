@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "welcome",
+    "spriteFrames": [
+      "1",
+      "731706c2-4f0a-4cdd-82da-c33c496d9288@c30fb",
+      "2",
+      "731706c2-4f0a-4cdd-82da-c33c496d9288@c86cc",
+      "3",
+      "731706c2-4f0a-4cdd-82da-c33c496d9288@e7223",
+      "4",
+      "731706c2-4f0a-4cdd-82da-c33c496d9288@a795c",
+      "5",
+      "731706c2-4f0a-4cdd-82da-c33c496d9288@e7d45",
+      "6",
+      "731706c2-4f0a-4cdd-82da-c33c496d9288@116ec",
+      "7",
+      "731706c2-4f0a-4cdd-82da-c33c496d9288@855b3"
+    ]
+  }
+}

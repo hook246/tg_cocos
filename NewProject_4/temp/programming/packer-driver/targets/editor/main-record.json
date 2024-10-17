@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 5299.553541958332,
+      "mTimestamp": 7011.769250035286,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,8 +619,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 96533449.67525,
-      "chunkId": "ab40dbd51e2ac6e8a4e53b9f2e9a3f4be824c3da",
+      "mTimestamp": 9152910.375542045,
+      "chunkId": "875d3aa0be14896943ebbeadf0332631d7ec0c43",
       "imports": [
         {
           "value": "file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
@@ -1153,6 +1153,20 @@
               "column": 4105
             }
           }
+        },
+        {
+          "value": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts",
+          "resolved": "__unresolved_38",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4121
+            },
+            "end": {
+              "line": 5,
+              "column": 4210
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1420,6 +1434,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts"
           },
           "messages": []
         }
@@ -1811,7 +1832,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1728809769577,
+      "mTimestamp": 1729144812858,
       "chunkId": "84741ad843cea9a440c5d8c2d379669b6551400d",
       "imports": [],
       "type": "esm",
@@ -13054,7 +13075,7 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts": {
       "mTimestamp": {
-        "mtime": 1728893546197.4568,
+        "mtime": 1729153962334.3892,
         "uuid": "7614d2ac-abc0-452b-b7e7-0d3265f15e37"
       },
       "chunkId": "381a1349d97da22a57207a1c4e54adc366d5f04b",
@@ -14115,10 +14136,10 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts": {
       "mTimestamp": {
-        "mtime": 1728491021660.0493,
+        "mtime": 1728983998397.8782,
         "uuid": "afa9d64d-4820-4cc4-bb1e-3cee9dded27f"
       },
-      "chunkId": "3ada2a9af2d6ea2b7e0139b258acb09c2ac95cfd",
+      "chunkId": "2ca8a8d09bdc39ccf26ca39b776a94ea3d04afc7",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -14724,10 +14745,10 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts": {
       "mTimestamp": {
-        "mtime": 1728906207837.5417,
+        "mtime": 1729000339242.5137,
         "uuid": "de999a9a-ca10-4dec-8c95-95ded740a038"
       },
-      "chunkId": "918b6e6c8247f5e2603860feb59bc581e5e095de",
+      "chunkId": "6b15dd6f10a6015fb400d5f99f24beef20af7ba6",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -15123,6 +15144,58 @@
       ],
       "type": "esm",
       "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts": {
+      "mTimestamp": {
+        "mtime": 1729150752618.9912,
+        "uuid": "860b76ca-03d8-4016-b7e6-dd7d34aeb057"
+      },
+      "chunkId": "00cb3b81b010f859eda6d84482822f936ea82d14",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
         {
           "resolved": {
             "type": "module",

@@ -1,0 +1,51 @@
+2024-10-15 17:40:20-debug: asset-db:worker-init (1134ms)
+2024-10-15 17:40:20-debug: Preimport db internal success
+2024-10-15 17:40:20-debug: Preimport db assets success
+2024-10-15 17:40:21-debug: asset-db:worker-effect-data-processing (142ms)
+2024-10-15 17:40:26-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-10-15 17:40:26-debug: asset-db:worker-init-script (64ms)
+2024-10-15 17:40:26-debug: Start up the 'internal' database...
+2024-10-15 17:40:26-debug: start asset-db with asset: 419
+2024-10-15 17:40:26-debug: Start up the 'assets' database...
+2024-10-15 17:40:26-debug: asset-db:worker-startup-database[internal] (5644ms)
+2024-10-15 17:40:26-debug: start asset-db with asset: 209
+2024-10-15 17:40:26-debug: Asset DB is ready!
+2024-10-15 17:40:26-debug: asset-db:worker-startup-database[assets] (5932ms)
+2024-10-15 17:40:26-debug: init worker message success
+2024-10-15 17:40:26-debug: programming:execute-script (1ms)
+2024-10-15 17:40:29-debug: builder:worker-init (2241ms)
+2024-10-15 17:40:30-debug: programming:execute-script (7ms)
+2024-10-15 17:40:33-debug: refresh db internal success
+2024-10-15 17:40:34-debug: asset-db:worker-effect-data-processing (191ms)
+2024-10-15 17:40:34-debug: refresh db assets success
+2024-10-15 17:40:34-debug: asset-db:refresh-all-database (507ms)
+2024-10-15 17:40:45-debug: refresh db internal success
+2024-10-15 17:40:45-debug: refresh db assets success
+2024-10-15 17:40:47-debug: asset-db:worker-effect-data-processing (195ms)
+2024-10-15 17:40:47-debug: asset-db:refresh-all-database (305ms)
+2024-10-15 17:43:32-debug: refresh db internal success
+2024-10-15 17:43:32-debug: asset-db:worker-effect-data-processing (286ms)
+2024-10-15 17:43:32-debug: refresh db assets success
+2024-10-15 17:43:32-debug: asset-db:refresh-all-database (608ms)
+2024-10-15 17:43:53-debug: refresh db internal success
+2024-10-15 17:43:53-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/lodingBg.png...
+2024-10-15 17:43:53-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/lodingBg.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-15 17:43:53-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/lodingBg.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-15 17:43:53-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/lodingBg.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-15 17:43:54-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/images success
+2024-10-15 17:43:54-debug: asset-db:worker-effect-data-processing (311ms)
+2024-10-15 17:43:54-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/imagesbackground: #aaff85; color: #000;color: #000;
+2024-10-15 17:43:54-debug: refresh db assets success
+2024-10-15 17:43:54-debug: asset-db:refresh-all-database (409ms)
+2024-10-15 17:45:07-debug: refresh db internal success
+2024-10-15 17:45:07-debug: asset-db:worker-effect-data-processing (291ms)
+2024-10-15 17:45:07-debug: refresh db assets success
+2024-10-15 17:45:07-debug: asset-db:refresh-all-database (435ms)
+2024-10-15 17:46:09-debug: refresh db internal success
+2024-10-15 17:46:10-debug: asset-db:worker-effect-data-processing (211ms)
+2024-10-15 17:46:10-debug: refresh db assets success
+2024-10-15 17:46:10-debug: asset-db:refresh-all-database (303ms)
+2024-10-15 17:46:30-debug: refresh db internal success
+2024-10-15 17:46:30-debug: asset-db:worker-effect-data-processing (204ms)
+2024-10-15 17:46:30-debug: refresh db assets success
+2024-10-15 17:46:30-debug: asset-db:refresh-all-database (276ms)

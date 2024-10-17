@@ -1,0 +1,37 @@
+[
+    1,
+    0,
+    0,
+    [
+        "cc.SpriteAtlas"
+    ],
+    0,
+    [
+        {
+            "name": "welcome",
+            "spriteFrames": [
+                "1",
+                "73FwbCTwpM3YLawzxJbZKI@c30fb",
+                "2",
+                "73FwbCTwpM3YLawzxJbZKI@c86cc",
+                "3",
+                "73FwbCTwpM3YLawzxJbZKI@e7223",
+                "4",
+                "73FwbCTwpM3YLawzxJbZKI@a795c",
+                "5",
+                "73FwbCTwpM3YLawzxJbZKI@e7d45",
+                "6",
+                "73FwbCTwpM3YLawzxJbZKI@116ec",
+                "7",
+                "73FwbCTwpM3YLawzxJbZKI@855b3"
+            ]
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [],
+    [],
+    []
+]
