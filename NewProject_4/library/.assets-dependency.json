@@ -54,17 +54,11 @@
     "/Users/feiwang/NewProject_4/assets/resources/plist/profile/login-1.plist": [
       "/Users/feiwang/NewProject_4/assets/resources/plist/profile/login-1.png"
     ],
-    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/profile/earn-2.plist": [
-      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/profile/earn-2.png"
-    ],
     "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/ui.plist": [
       "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/ui.png"
     ],
     "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/login-1.plist": [
       "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/login-1.png"
-    ],
-    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/profile/earn-1.plist": [
-      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/profile/earn-1.png"
     ],
     "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/earn/earn-1.plist": [
       "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/images/earn/earn-1.png"
@@ -112,6 +106,40 @@
     ],
     "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/welcome/welcome.plist": [
       "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/welcome/welcome.png"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/flow.effect": [
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/vs.chunk",
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/cc-global.chunk",
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/cc-local.chunk",
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/common-define.chunk",
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/fs.chunk",
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/alpha-test.chunk",
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/output.chunk",
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/debug/debug-view-define.chunk",
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common-define.chunk",
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/sprite-texture.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/vs.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/cc-global.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/cc-local.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/common/common-define.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/fs.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/alpha-test.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/output.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/common/color/gamma.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/common/debug/debug-view-define.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/common-define.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/sprite-texture.chunk"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/RLShader1.effect": [
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/sprite-vs.chunk",
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/sprite-fs.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/sprite-vs.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/sprite-fs.chunk"
     ]
   },
   "uuid": {
@@ -161,6 +189,26 @@
     ],
     "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/spine/out_put/logo.json": [
       "9db8d639-a7be-44de-ace1-34b30f1c1a7e@6c48a"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/material1.mtl": [
+      "10a772ba-3cd5-4327-9f90-43be8965d5d1",
+      "3b4ba656-0b6f-4a3c-90d2-983ca6e5ec56"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/00SpriteStandard/SpriteStandard.mtl": [
+      "b1491f53-a9a6-4dd4-a1fb-823e078db42d"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/SpriteStandard.mtl": [
+      "b1491f53-a9a6-4dd4-a1fb-823e078db42d"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/FlowLight.mtl": [
+      "97b89e61-b80a-4ff9-9d2a-bff973de0303"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/material-001.mtl": [
+      "c8f66d17-351a-48da-a12c-0212d28575c4"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/flow.mtl": [
+      "c8f66d17-351a-48da-a12c-0212d28575c4",
+      "220ff46f-d9f8-43de-a92e-50389dbbb912"
     ]
   }
 }

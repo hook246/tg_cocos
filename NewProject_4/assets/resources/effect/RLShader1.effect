@@ -1,0 +1,145 @@
+
+
+// 着色器语法  ： https://docs.cocos.com/creator/3.5/manual/zh/shader/effect-syntax.html
+// Shader =  CCEffect = [pass , pass , ...]
+// pass = vert(必须) + frag(必须) + ...(可选)
+// **** 为了方便展示 , 所以使用blendState(可选) ****
+CCEffect %{
+  techniques:
+
+  - passes:
+    - vert: sprite-vs:vert
+      frag: sprite-fs:frag
+      properties: 
+        distance:    { value: 0.005 }
+        rate:    { value: 0.75 }
+      depthStencilState:
+        depthTest: false
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+}%
+
+
+// *************
+// * 顶点着色器 *
+// *************
+CCProgram sprite-vs %{
+  precision highp float;
+  // Cocos Effect 内置 Uniform
+  // 可参考 : https://docs.cocos.com/creator/3.5/manual/zh/shader/uniform.html
+  #include <builtin/uniforms/cc-global>
+
+  // 图形顶点坐标
+  in vec3 a_position;
+  // 图形纹理坐标
+  in vec2 a_texCoord;
+  // 图形坐标颜色值
+  in vec4 a_color;
+  // ****************************** 
+  // 传递给片段着色器 
+  // ****************************** 
+  out vec4 color;
+  // 图形纹理坐标
+  out vec2 uv0;
+  // 这里的函数命名要对应 passes 下vert 变量的值 字符串
+  vec4 vert() 
+  {
+
+    // 使用 ”视图投影矩阵 “, 需导入 cc-global 
+    // 这里代表 ： 视图坐标  转换成 投影坐标
+    vec4 pos = cc_matViewProj * vec4(a_position, 1);
+
+    // 这里只是中转一下变量到片段着色器
+    uv0 = a_texCoord;
+    color = a_color;
+
+    // 将摄像机坐标转换成投影坐标
+    return pos;
+  }
+}%
+
+// *************
+// * 片段着色器 *
+// *************
+CCProgram sprite-fs %{
+
+  precision highp float;
+  #include <builtin/uniforms/cc-global>
+
+
+  // 使用in ，获取顶点着色器的uv0变量
+  in vec2 uv0;
+  // 
+  uniform Constant {
+    float distance;
+    float rate;
+  };
+
+  // 使用 pragma 宏预定义该值从组件中取
+  #pragma builtin(local)
+  uniform sampler2D cc_spriteTexture;
+
+  // 这里的函数命名要对应 passes 下frag 变量的值 字符串
+  vec4 frag() 
+  {
+
+    vec4 o = vec4(1, 1, 1, 1);
+    // 从纹理坐标uv0 中获取cc_spriteTexture的纹理值
+    o = texture(cc_spriteTexture, uv0);
+    // 光泽右移速度
+    float xx = cc_time.x*0.1;
+    // 时间求余限制光泽在一定的范围内移动
+    float m = mod(xx,0.5)-0.5;
+
+    if(uv0.y < 0.5) 
+    {
+      // 已知镜面中心点为 [ m , 0.5 ]  , m范围为-1.5 ~ 1.5
+      // 则可以知道y轴小于0.5的光泽是   0.5 - y == 可以镜面光泽的x点
+      // 若 m = 0.25 , 镜面中心点为 0.25 , 0 .5 , 外部传入一个点uv0 , uv0 的 符合 uv0.x == 0.5 - uv0.y 则该点可充当镜面光泽点
+      float dis = 0.5 - uv0.y;
+      float target_x = m + dis;
+      // 加入distance 是为了将镜面光泽变宽
+      if( (uv0.x - distance) < target_x && (uv0.x + distance) > target_x )
+      {
+        if(o.a != 1.0)
+        {
+          // 透明处不予处理
+        }
+        else
+        {
+          // 将白色混合到图案中
+          o = mix(o,vec4(1, 0.984, 0.509, 1) ,rate) ;
+        }
+      }
+    }
+    else
+    {
+      // 已知镜面中心点为 [ m , 0.5 ]  , m范围为-1.5 ~ 1.5
+      // 则可以知道y轴大于0.5的光泽是   y - 0.5 == 可以镜面光泽的x点
+      // 若 m = 0.25 , 镜面中心点为 0.25 , 0.5  , 外部传入一个点uv0 , uv0 的 符合 uv0.x == uv0.y - 0.5 则该点可充当镜面光泽点
+      float dis = uv0.y - 0.5;
+      float target_x = m - dis;
+      // 加入distance 是为了将镜面光泽变宽
+      if( (uv0.x - distance) < target_x && (uv0.x + distance) > target_x )
+      {
+        if(o.a != 1.0)
+        {
+          // 透明处不予处理
+        }
+        else
+        {
+          // 将白色混合到图案中
+          o = mix(o,vec4(1, 0.984, 0.509, 1) ,rate) ;
+        }
+      }
+    }
+
+    return o;
+  }
+
+}%

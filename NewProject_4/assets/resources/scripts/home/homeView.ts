@@ -1,4 +1,4 @@
-import { _decorator, Animation, AnimationClip, Component, EventTouch, Label, Node, tween, UIOpacity } from 'cc';
+import { _decorator, Animation, AnimationClip, Button, Component, EventTouch, Label, Node, tween, UIOpacity } from 'cc';
 import { inviteView } from '../invite/inviteView';
 import { inviteModel } from '../invite/inviteModel';
 import { profileModel } from '../profile/profileModel';
@@ -39,6 +39,27 @@ export class homeView extends Component {
     @property(Node)
     icon: Node = null
 
+    @property(Node)
+    public_text: Node = null
+
+    @property(Button)
+    go: Button = null
+
+    @property(Node)
+    public_text1: Node = null
+
+    @property(Button)
+    go1: Button = null
+
+    @property(Node)
+    public_text2: Node = null
+
+    @property(Button)
+    go2: Button = null
+
+    @property(Node)
+    public_elements: Node = null
+
     pageArray: Node[] = [
 
     ]
@@ -70,6 +91,10 @@ export class homeView extends Component {
             this.earnPageBtn,
             this.drawPageBtn
         ]
+    }
+
+    jumpToCommunity(){
+        window.Telegram.WebApp.openTelegramLink(`https://t.me/InfinityGroundAnn`, { tryInstantView: true });
     }
 
     async shiftCurrentPage(btn: EventTouch, data: string){
@@ -119,7 +144,24 @@ export class homeView extends Component {
     }
 
     update(deltaTime: number) {
-        
+        //-600
+        if(this.public_text.getPosition().x > -450){
+            this.public_text.setPosition(this.public_text.getPosition().x - deltaTime * 100, 0)
+        }else{
+            this.public_text.setPosition(450, 0)
+        }
+
+        if(this.public_text1.getPosition().x > -450){
+            this.public_text1.setPosition(this.public_text1.getPosition().x - deltaTime * 100, 0)
+        }else{
+            this.public_text1.setPosition(450, 0)
+        }
+
+        if(this.public_text2.getPosition().x > -450){
+            this.public_text2.setPosition(this.public_text2.getPosition().x - deltaTime * 100, 0)
+        }else{
+            this.public_text2.setPosition(450, 0)
+        }
     }
 }
 

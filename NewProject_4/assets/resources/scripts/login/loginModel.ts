@@ -13,7 +13,7 @@ import { earnModel } from "../earn/earnModel";
 import { profileModel } from "../profile/profileModel";
 const { ccclass, property } = _decorator;
 
-const init_id = "query_id=AAF7JpQPAwAAAHsmlA88_ipa&user=%7B%22id%22%3A6703818363%2C%22first_name%22%3A%22fei%22%2C%22last_name%22%3A%22wang%22%2C%22username%22%3A%22dfgsadsggfdn%22%2C%22language_code%22%3A%22zh-hans%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1728999656&hash=c6805e2ff4528066767547caa44115df7f452a54a59bf326841c39e8b60e2fa6";
+const init_id = "query_id=AAF7JpQPAwAAAHsmlA9r28c9&user=%7B%22id%22%3A6703818363%2C%22first_name%22%3A%22fei%22%2C%22last_name%22%3A%22wang%22%2C%22username%22%3A%22dfgsadsggfdn%22%2C%22language_code%22%3A%22zh-hans%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1729242041&hash=d0efbc51429908192db6d5fccdc8b2e066a54095c254c0ea2ef14dbe2d9a846d";
 const id = 6703818363
 const macSHA_secret =
   "0d42f108fb7d74f3735c61b1ecdeb8662bef043f2afed10fb3cd3aba3007e0ff";
@@ -274,7 +274,6 @@ export class loginModel extends basePageModel {
         await this.initOtherModel();
         this.scheduleOnce(()=>{
           this.node.setPosition(-5000 ,0)
-          this.discover.setPosition(0, 0)
           this.loginView.controlLoading(false);
           console.log('=====close loading')
         }, 3)

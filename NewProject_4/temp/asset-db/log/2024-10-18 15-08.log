@@ -1,0 +1,88 @@
+2024-10-18 15:08:09-debug: asset-db:worker-init (1130ms)
+2024-10-18 15:08:10-debug: Preimport db internal success
+2024-10-18 15:08:10-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/FlowLight.effectbackground: #aaff85; color: #000;color: #000;
+2024-10-18 15:08:10-error: ../resources/effect/FlowLight.effect - common-vs:vert: Error EFX2403: entry function 'vert' not found.
+2024-10-18 15:08:10-debug: Preimport db assets success
+2024-10-18 15:08:10-error: Error: ENOENT: no such file or directory, open '/Users/feiwang/tg_cocos/NewProject_4/library/97/97b89e61-b80a-4ff9-9d2a-bff973de0303.json'
+2024-10-18 15:08:10-debug: asset-db:worker-effect-data-processing (71ms)
+2024-10-18 15:08:16-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-10-18 15:08:16-debug: Start up the 'internal' database...
+2024-10-18 15:08:16-debug: asset-db:worker-init-script (55ms)
+2024-10-18 15:08:16-debug: start asset-db with asset: 419
+2024-10-18 15:08:16-debug: Start up the 'assets' database...
+2024-10-18 15:08:16-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/FlowLight.mtlbackground: #aaff85; color: #000;color: #000;
+2024-10-18 15:08:16-error: Error: /Users/feiwang/tg_cocos/NewProject_4/library/97/97b89e61-b80a-4ff9-9d2a-bff973de0303.json: ENOENT: no such file or directory, open '/Users/feiwang/tg_cocos/NewProject_4/library/97/97b89e61-b80a-4ff9-9d2a-bff973de0303.json'    at Object.openSync (fs.js:476:3)    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1846)    at Object.readFileSync (fs.js:377:35)    at Object.e.readFileSync (electron/js2c/asar_bundle.js:5:8872)    at Object.readFileSync (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/fs-extra/node_modules/jsonfile/index.js:50:22)    at Object.upgradeProperties (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/importer/importers/utils/material-upgrader.ccc:1:1795)    at runNextTicks (internal/process/task_queues.js:58:5)    at processImmediate (internal/timers.js:434:9)    at MaterialImporter.import (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/importer/importers/material.ccc:1:754)
+2024-10-18 15:08:16-debug: asset-db:worker-startup-database[internal] (5986ms)
+2024-10-18 15:08:16-debug: start asset-db with asset: 226
+2024-10-18 15:08:16-debug: Asset DB is ready!
+2024-10-18 15:08:16-debug: asset-db:worker-startup-database[assets] (6072ms)
+2024-10-18 15:08:16-debug: init worker message success
+2024-10-18 15:08:18-debug: builder:worker-init (2137ms)
+2024-10-18 15:08:19-debug: programming:execute-script (20ms)
+2024-10-18 15:08:44-debug: refresh db internal success
+2024-10-18 15:08:44-error: Error: ENOENT: no such file or directory, open '/Users/feiwang/tg_cocos/NewProject_4/library/97/97b89e61-b80a-4ff9-9d2a-bff973de0303.json'
+2024-10-18 15:08:44-debug: asset-db:worker-effect-data-processing (122ms)
+2024-10-18 15:08:44-debug: refresh db assets success
+2024-10-18 15:08:44-debug: asset-db:refresh-all-database (670ms)
+2024-10-18 15:09:13-debug: refresh db internal success
+2024-10-18 15:09:13-error: Error: ENOENT: no such file or directory, open '/Users/feiwang/tg_cocos/NewProject_4/library/97/97b89e61-b80a-4ff9-9d2a-bff973de0303.json'
+2024-10-18 15:09:13-debug: asset-db:worker-effect-data-processing (127ms)
+2024-10-18 15:09:13-debug: refresh db assets success
+2024-10-18 15:09:13-debug: asset-db:refresh-all-database (208ms)
+2024-10-18 15:09:21-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/material-001.mtl...
+2024-10-18 15:09:21-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/material-001.mtlbackground: #aaff85; color: #000;color: #000;
+2024-10-18 15:09:21-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect success
+2024-10-18 15:09:21-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effectbackground: #aaff85; color: #000;color: #000;
+2024-10-18 15:09:28-debug: start move asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/material-001.mtl -> /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/flow.mtl...
+2024-10-18 15:09:28-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/flow.mtl...
+2024-10-18 15:09:28-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/flow.mtlbackground: #aaff85; color: #000;color: #000;
+2024-10-18 15:09:28-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect success
+2024-10-18 15:09:28-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect...
+2024-10-18 15:09:28-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effectbackground: #aaff85; color: #000;color: #000;
+2024-10-18 15:09:28-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources success
+2024-10-18 15:09:28-debug: move asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/material-001.mtl -> /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/flow.mtl success
+2024-10-18 15:09:36-debug: programming:execute-script (3ms)
+2024-10-18 15:09:37-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/FlowLight.effect...
+2024-10-18 15:09:37-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/FlowLight.mtl...
+2024-10-18 15:09:37-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/FlowLight.mtl...
+2024-10-18 15:09:37-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/FlowLight.mtlbackground: #ffb8b8; color: #000;color: #000;
+2024-10-18 15:09:37-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/FlowLight.mtl success
+2024-10-18 15:09:37-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect success
+2024-10-18 15:09:37-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/FlowLight.effect...
+2024-10-18 15:09:37-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/FlowLight.effectbackground: #ffb8b8; color: #000;color: #000;
+2024-10-18 15:09:37-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect success
+2024-10-18 15:09:37-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/FlowLight.effect success
+2024-10-18 15:09:37-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effectbackground: #aaff85; color: #000;color: #000;
+2024-10-18 15:09:45-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/render-texture.rt...
+2024-10-18 15:09:45-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/render-texture.rtbackground: #aaff85; color: #000;color: #000;
+2024-10-18 15:09:45-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/render-texture.rt@f9941background: #aaff85; color: #000;color: #000;
+2024-10-18 15:09:45-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect success
+2024-10-18 15:09:45-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effectbackground: #aaff85; color: #000;color: #000;
+2024-10-18 15:09:48-debug: programming:execute-script (3ms)
+2024-10-18 15:09:49-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/render-texture.rt...
+2024-10-18 15:09:49-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/render-texture.rt...
+2024-10-18 15:09:49-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/render-texture.rt@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-18 15:09:49-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/render-texture.rtbackground: #ffb8b8; color: #000;color: #000;
+2024-10-18 15:09:49-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect success
+2024-10-18 15:09:49-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/render-texture.rt success
+2024-10-18 15:09:49-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effectbackground: #aaff85; color: #000;color: #000;
+2024-10-18 15:10:02-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/flow.effect...
+2024-10-18 15:10:02-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/flow.effectbackground: #aaff85; color: #000;color: #000;
+2024-10-18 15:10:03-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect success
+2024-10-18 15:10:03-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effectbackground: #aaff85; color: #000;color: #000;
+2024-10-18 15:10:37-debug: refresh db internal success
+2024-10-18 15:10:38-debug: asset-db:worker-effect-data-processing (308ms)
+2024-10-18 15:10:38-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/flow.effectbackground: #aaff85; color: #000;color: #000;
+2024-10-18 15:10:38-error: ../resources/effect/flow.effect - common-vs:vert: Error EFX2403: entry function 'vert' not found.
+2024-10-18 15:10:38-debug: refresh db assets success
+2024-10-18 15:10:38-debug: asset-db:refresh-all-database (516ms)
+2024-10-18 15:11:34-debug: refresh db internal success
+2024-10-18 15:11:34-error: Error: ENOENT: no such file or directory, open '/Users/feiwang/tg_cocos/NewProject_4/library/22/220ff46f-d9f8-43de-a92e-50389dbbb912.json'
+2024-10-18 15:11:34-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/effect/flow.effectbackground: #aaff85; color: #000;color: #000;
+2024-10-18 15:11:34-error: ../resources/effect/flow.effect - common-vs:vert: Error EFX2403: entry function 'vert' not found.
+2024-10-18 15:11:34-debug: asset-db:worker-effect-data-processing (79ms)
+2024-10-18 15:11:34-debug: refresh db assets success
+2024-10-18 15:11:34-debug: asset-db:refresh-all-database (172ms)
+2024-10-18 15:11:44-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/scenes/testScene.scene...
+2024-10-18 15:11:44-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/scenes/testScene.scenebackground: #aaff85; color: #000;color: #000;
+2024-10-18 15:11:44-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/scenes success
