@@ -140,6 +140,12 @@
       "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/sprite-vs.chunk",
       "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/builtin/uniforms/cc-global.chunk",
       "/Users/feiwang/tg_cocos/NewProject_4/assets/chunks/sprite-fs.chunk"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/icons.plist": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/icons.png"
+    ],
+    "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/icons.plist": [
+      "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/icons.png"
     ]
   },
   "uuid": {

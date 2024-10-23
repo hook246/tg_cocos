@@ -197,7 +197,7 @@ export class discoverView extends basePageView {
     hp.getComponent(UIScrollSelectHorizontal).discover_view = this.node.getComponent(discoverView)
     father_node.addChild(hp);
     hp.setPosition(0, 0);
-    list[0].type === 1 ? this.setCurrentPlayInfo(list[1]) : this.setCurrentPlayInfo(list[0])
+    list[0].type === 1 ? this.setCurrentPlayInfo(list[1] ? list[1] : list[0]) : this.setCurrentPlayInfo(list[0])
     list.forEach((play, index) => {
 
     });
@@ -215,6 +215,9 @@ export class discoverView extends basePageView {
     type: number;
     url: string;
   }){
+    if(!info){
+      return
+    }
     if(info.type === 1){
         this.game_description.string = info.desc
         this.game_tittle.string = info.name

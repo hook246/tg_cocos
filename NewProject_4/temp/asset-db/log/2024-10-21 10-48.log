@@ -1,0 +1,435 @@
+2024-10-21 10:48:52-debug: asset-db:worker-init (808ms)
+2024-10-21 10:48:53-debug: Preimport db internal success
+2024-10-21 10:48:53-debug: Preimport db assets success
+2024-10-21 10:48:53-debug: asset-db:worker-effect-data-processing (116ms)
+2024-10-21 10:48:56-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-10-21 10:48:56-debug: Start up the 'internal' database...
+2024-10-21 10:48:56-debug: asset-db:worker-init-script (20ms)
+2024-10-21 10:48:56-debug: start asset-db with asset: 419
+2024-10-21 10:48:56-debug: Start up the 'assets' database...
+2024-10-21 10:48:56-debug: asset-db:worker-startup-database[internal] (2862ms)
+2024-10-21 10:48:56-debug: start asset-db with asset: 223
+2024-10-21 10:48:56-debug: Asset DB is ready!
+2024-10-21 10:48:56-debug: asset-db:worker-startup-database[assets] (2908ms)
+2024-10-21 10:48:56-debug: init worker message success
+2024-10-21 10:48:57-debug: builder:worker-init (1073ms)
+2024-10-21 10:48:58-debug: programming:execute-script (4ms)
+2024-10-21 10:52:39-debug: refresh db internal success
+2024-10-21 10:52:39-debug: asset-db:worker-effect-data-processing (163ms)
+2024-10-21 10:52:39-debug: refresh db assets success
+2024-10-21 10:52:39-debug: asset-db:refresh-all-database (267ms)
+2024-10-21 10:52:51-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpg...
+2024-10-21 10:52:51-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-21 10:52:51-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpg...
+2024-10-21 10:52:51-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpg...
+2024-10-21 10:52:51-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpg...
+2024-10-21 10:52:51-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-21 10:52:51-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-21 10:52:51-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-21 10:52:51-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-21 10:52:51-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-21 10:52:51-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-21 10:52:51-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-21 10:52:51-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-21 10:52:51-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-21 10:52:51-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-21 10:52:51-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-21 10:52:51-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 10:52:51-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 10:52:51-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 10:52:51-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 10:52:51-debug: refresh db internal success
+2024-10-21 10:52:51-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/viewbackground: #aaff85; color: #000;color: #000;
+2024-10-21 10:52:51-debug: asset-db:worker-effect-data-processing (138ms)
+2024-10-21 10:52:51-debug: refresh db assets success
+2024-10-21 10:52:51-debug: asset-db:refresh-all-database (179ms)
+2024-10-21 10:55:37-debug: refresh db internal success
+2024-10-21 10:55:38-debug: asset-db:worker-effect-data-processing (160ms)
+2024-10-21 10:55:38-debug: refresh db assets success
+2024-10-21 10:55:38-debug: asset-db:refresh-all-database (239ms)
+2024-10-21 10:57:10-debug: refresh db internal success
+2024-10-21 10:57:10-debug: asset-db:worker-effect-data-processing (105ms)
+2024-10-21 10:57:10-debug: refresh db assets success
+2024-10-21 10:57:10-debug: asset-db:refresh-all-database (170ms)
+2024-10-21 10:57:18-debug: refresh db internal success
+2024-10-21 10:57:18-debug: asset-db:worker-effect-data-processing (118ms)
+2024-10-21 10:57:18-debug: refresh db assets success
+2024-10-21 10:57:18-debug: asset-db:refresh-all-database (170ms)
+2024-10-21 11:02:21-debug: refresh db internal success
+2024-10-21 11:02:21-debug: asset-db:worker-effect-data-processing (129ms)
+2024-10-21 11:02:21-debug: refresh db assets success
+2024-10-21 11:02:21-debug: asset-db:refresh-all-database (175ms)
+2024-10-21 11:02:36-debug: refresh db internal success
+2024-10-21 11:02:36-debug: asset-db:worker-effect-data-processing (115ms)
+2024-10-21 11:02:36-debug: refresh db assets success
+2024-10-21 11:02:36-debug: asset-db:refresh-all-database (164ms)
+2024-10-21 11:02:43-debug: refresh db internal success
+2024-10-21 11:02:43-debug: asset-db:worker-effect-data-processing (95ms)
+2024-10-21 11:02:43-debug: refresh db assets success
+2024-10-21 11:02:43-debug: asset-db:refresh-all-database (141ms)
+2024-10-21 11:10:10-debug: refresh db internal success
+2024-10-21 11:10:10-debug: asset-db:worker-effect-data-processing (135ms)
+2024-10-21 11:10:10-debug: refresh db assets success
+2024-10-21 11:10:10-debug: asset-db:refresh-all-database (199ms)
+2024-10-21 11:10:20-debug: refresh db internal success
+2024-10-21 11:10:20-debug: asset-db:worker-effect-data-processing (125ms)
+2024-10-21 11:10:20-debug: refresh db assets success
+2024-10-21 11:10:20-debug: asset-db:refresh-all-database (173ms)
+2024-10-21 11:10:52-debug: programming:execute-script (6ms)
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1任务界面.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1未绑定X.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1钱包已连接.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2已绑定X.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2登陆界面.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2钱包未连接.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3解绑提示.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3链接弹窗.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4修改头像页面.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4钱包弹窗询问.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/20241009-181748.jpeg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/news3.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1发现界面.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1登陆界面.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗字号.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/邀请界面.jpg...
+2024-10-21 11:11:00-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/邀请界面1.jpg...
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4修改头像页面.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4修改头像页面.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/news3.jpg...
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/20241009-181748.jpeg...
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗.jpg...
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/邀请界面1.jpg...
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗字号.jpg...
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/邀请界面.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4修改头像页面.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4修改头像页面.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/news3.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3链接弹窗.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/news3.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/news3.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/20241009-181748.jpeg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/20241009-181748.jpeg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/20241009-181748.jpegbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2已绑定X.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/邀请界面.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/邀请界面.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/邀请界面.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗字号.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗字号.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗字号.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/邀请界面1.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2钱包未连接.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/邀请界面1.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/邀请界面1.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3链接弹窗.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3链接弹窗.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3链接弹窗.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2已绑定X.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2已绑定X.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2已绑定X.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2钱包未连接.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2钱包未连接.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2钱包未连接.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/20241009-181748.jpeg success
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗.jpg success
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/邀请界面.jpg success
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/tgbot任务-欢迎弹窗字号.jpg success
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/邀请界面1.jpg success
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3链接弹窗.jpg success
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2已绑定X.jpg success
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2钱包未连接.jpg success
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpg success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4修改头像页面.jpg success
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/news3.jpg success
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1钱包已连接.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1钱包已连接.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1钱包已连接.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1钱包已连接.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1钱包已连接.jpg success
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1登陆界面.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1登陆界面.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1登陆界面.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1登陆界面.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1登陆界面.jpg success
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1未绑定X.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1未绑定X.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1未绑定X.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1未绑定X.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1未绑定X.jpg success
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3解绑提示.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3解绑提示.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3解绑提示.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3解绑提示.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3解绑提示.jpg success
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1发现界面.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1发现界面.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1发现界面.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1发现界面.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1发现界面.jpg success
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpg success
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1任务界面.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1任务界面.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1任务界面.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1任务界面.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1任务界面.jpg success
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpg success
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2登陆界面.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2登陆界面.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2登陆界面.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2登陆界面.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2登陆界面.jpg success
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4钱包弹窗询问.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4钱包弹窗询问.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4钱包弹窗询问.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4钱包弹窗询问.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4钱包弹窗询问.jpg success
+2024-10-21 11:11:00-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpg...
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpg@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpg@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpgbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 11:11:00-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpg success
+2024-10-21 11:11:00-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:01-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/viewbackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:11:08-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpg...
+2024-10-21 11:11:08-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:11:08-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpg...
+2024-10-21 11:11:08-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpg...
+2024-10-21 11:11:08-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpg...
+2024-10-21 11:11:08-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:11:08-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-21 11:11:08-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:11:08-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:11:08-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-21 11:11:08-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:11:08-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:11:08-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-21 11:11:08-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:11:08-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:11:08-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-21 11:11:08-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:08-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:08-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:08-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:11:08-debug: refresh db internal success
+2024-10-21 11:11:08-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/viewbackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:11:08-debug: asset-db:worker-effect-data-processing (160ms)
+2024-10-21 11:11:08-debug: refresh db assets success
+2024-10-21 11:11:08-debug: asset-db:refresh-all-database (192ms)
+2024-10-21 11:11:15-debug: refresh db internal success
+2024-10-21 11:11:15-debug: asset-db:worker-effect-data-processing (92ms)
+2024-10-21 11:11:15-debug: refresh db assets success
+2024-10-21 11:11:15-debug: asset-db:refresh-all-database (141ms)
+2024-10-21 11:21:13-debug: refresh db internal success
+2024-10-21 11:21:13-debug: asset-db:worker-effect-data-processing (179ms)
+2024-10-21 11:21:13-debug: refresh db assets success
+2024-10-21 11:21:13-debug: asset-db:refresh-all-database (248ms)
+2024-10-21 11:21:15-debug: refresh db internal success
+2024-10-21 11:21:15-debug: asset-db:worker-effect-data-processing (93ms)
+2024-10-21 11:21:15-debug: refresh db assets success
+2024-10-21 11:21:15-debug: asset-db:refresh-all-database (139ms)
+2024-10-21 11:21:17-debug: refresh db internal success
+2024-10-21 11:21:17-debug: asset-db:worker-effect-data-processing (101ms)
+2024-10-21 11:21:17-debug: refresh db assets success
+2024-10-21 11:21:17-debug: asset-db:refresh-all-database (144ms)
+2024-10-21 11:21:20-debug: refresh db internal success
+2024-10-21 11:21:21-debug: asset-db:worker-effect-data-processing (95ms)
+2024-10-21 11:21:21-debug: refresh db assets success
+2024-10-21 11:21:21-debug: asset-db:refresh-all-database (148ms)
+2024-10-21 11:22:46-debug: refresh db internal success
+2024-10-21 11:22:47-debug: asset-db:worker-effect-data-processing (173ms)
+2024-10-21 11:22:47-debug: refresh db assets success
+2024-10-21 11:22:47-debug: asset-db:refresh-all-database (229ms)
+2024-10-21 11:22:53-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2奖池开启-盒子1表现.jpg...
+2024-10-21 11:22:53-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2奖池开启-盒子1表现.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:22:53-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1钱包已链接-单页表现.jpg...
+2024-10-21 11:22:53-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2奖池开启-盒子1表现.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:22:53-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2奖池开启-盒子1表现.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-21 11:22:53-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1钱包已链接-单页表现.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:22:53-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1钱包已链接-单页表现.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:22:53-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1钱包已链接-单页表现.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-21 11:22:53-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:22:53-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view success
+2024-10-21 11:22:53-debug: refresh db internal success
+2024-10-21 11:22:53-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/viewbackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:22:53-debug: asset-db:worker-effect-data-processing (116ms)
+2024-10-21 11:22:53-debug: refresh db assets success
+2024-10-21 11:22:53-debug: asset-db:refresh-all-database (143ms)
+2024-10-21 11:23:54-debug: refresh db internal success
+2024-10-21 11:23:54-debug: asset-db:worker-effect-data-processing (98ms)
+2024-10-21 11:23:54-debug: refresh db assets success
+2024-10-21 11:23:54-debug: asset-db:refresh-all-database (148ms)
+2024-10-21 11:24:03-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/1-2.jpg...
+2024-10-21 11:24:03-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/1-2.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:24:03-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/1-1.jpg...
+2024-10-21 11:24:03-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/1-2.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:24:03-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/1-2.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-21 11:24:03-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/1-1.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:24:03-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/1-1.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:24:03-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/1-1.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-21 11:24:03-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover success
+2024-10-21 11:24:03-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover success
+2024-10-21 11:24:03-debug: refresh db internal success
+2024-10-21 11:24:03-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discoverbackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:24:03-debug: asset-db:worker-effect-data-processing (130ms)
+2024-10-21 11:24:03-debug: refresh db assets success
+2024-10-21 11:24:03-debug: asset-db:refresh-all-database (175ms)
+2024-10-21 11:25:18-debug: refresh db internal success
+2024-10-21 11:25:18-debug: asset-db:worker-effect-data-processing (180ms)
+2024-10-21 11:25:18-debug: refresh db assets success
+2024-10-21 11:25:18-debug: asset-db:refresh-all-database (244ms)
+2024-10-21 11:25:24-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/1-1.png...
+2024-10-21 11:25:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/1-1.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:25:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/1-1.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:25:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover/1-1.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-21 11:25:24-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discover success
+2024-10-21 11:25:24-debug: refresh db internal success
+2024-10-21 11:25:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/discoverbackground: #aaff85; color: #000;color: #000;
+2024-10-21 11:25:24-debug: asset-db:worker-effect-data-processing (114ms)
+2024-10-21 11:25:24-debug: refresh db assets success
+2024-10-21 11:25:24-debug: asset-db:refresh-all-database (137ms)
+2024-10-21 11:26:51-debug: refresh db internal success
+2024-10-21 11:26:52-debug: asset-db:worker-effect-data-processing (115ms)
+2024-10-21 11:26:52-debug: refresh db assets success
+2024-10-21 11:26:52-debug: asset-db:refresh-all-database (167ms)
+2024-10-21 11:26:59-debug: refresh db internal success
+2024-10-21 11:26:59-debug: asset-db:worker-effect-data-processing (140ms)
+2024-10-21 11:26:59-debug: refresh db assets success
+2024-10-21 11:26:59-debug: asset-db:refresh-all-database (189ms)
+2024-10-21 11:27:02-debug: refresh db internal success
+2024-10-21 11:27:03-debug: asset-db:worker-effect-data-processing (91ms)
+2024-10-21 11:27:03-debug: refresh db assets success
+2024-10-21 11:27:03-debug: asset-db:refresh-all-database (134ms)
+2024-10-21 11:27:08-debug: refresh db internal success
+2024-10-21 11:27:08-debug: asset-db:worker-effect-data-processing (92ms)
+2024-10-21 11:27:08-debug: refresh db assets success
+2024-10-21 11:27:08-debug: asset-db:refresh-all-database (136ms)
+2024-10-21 11:27:11-debug: refresh db internal success
+2024-10-21 11:27:11-debug: asset-db:worker-effect-data-processing (99ms)
+2024-10-21 11:27:11-debug: refresh db assets success
+2024-10-21 11:27:11-debug: asset-db:refresh-all-database (142ms)
+2024-10-21 13:51:16-debug: refresh db internal success
+2024-10-21 13:51:16-debug: asset-db:worker-effect-data-processing (166ms)
+2024-10-21 13:51:16-debug: refresh db assets success
+2024-10-21 13:51:16-debug: asset-db:refresh-all-database (239ms)
+2024-10-21 13:51:35-debug: refresh db internal success
+2024-10-21 13:51:35-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist...
+2024-10-21 13:51:35-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.png...
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plistbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@17483background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@a387cbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@3931ebackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@06336background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@77ae1background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@ae944background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@0add1background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@1976cbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@48bb5background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@6c8fbbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@8598abackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@7a622background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@276a3background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@7dfa7background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@d9211background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@ef438background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@a462ebackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@f549bbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@f2e76background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@0479bbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: asset-db:worker-effect-data-processing (162ms)
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:35-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw success
+2024-10-21 13:51:36-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw success
+2024-10-21 13:51:36-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/drawbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: refresh db assets success
+2024-10-21 13:51:36-debug: asset-db:refresh-all-database (377ms)
+2024-10-21 13:51:36-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plistbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@17483background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@a387cbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@3931ebackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@06336background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@77ae1background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@ae944background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@0add1background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@1976cbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@48bb5background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@6c8fbbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@8598abackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@7a622background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@276a3background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@7dfa7background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@d9211background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@ef438background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@a462ebackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@f549bbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@f2e76background: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:36-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist@0479bbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:46-debug: programming:execute-script (1ms)
+2024-10-21 13:51:49-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist...
+2024-10-21 13:51:49-debug: start remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.png...
+2024-10-21 13:51:49-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.png...
+2024-10-21 13:51:49-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 13:51:49-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.png@f9941background: #ffb8b8; color: #000;color: #000;
+2024-10-21 13:51:49-debug: %cDestroy%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.pngbackground: #ffb8b8; color: #000;color: #000;
+2024-10-21 13:51:49-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw success
+2024-10-21 13:51:49-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.png success
+2024-10-21 13:51:49-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist...
+2024-10-21 13:51:49-warn: Importer exec warning: {asset[/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist](06880351-d913-45cf-8842-b779e9c710c6)}: The importer version is lower than asset
+2024-10-21 13:51:49-warn: Importer exec warning: {asset[/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist](06880351-d913-45cf-8842-b779e9c710c6)}: The importer version is lower than asset
+2024-10-21 13:51:49-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plistbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:49-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plistbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:51:49-error: Importer exec failed: {asset[/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist](06880351-d913-45cf-8842-b779e9c710c6)}
+2024-10-21 13:51:49-error: Error: ENOENT: no such file or directory, lstat '/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist'
+2024-10-21 13:51:49-error: Error: ENOENT: no such file or directory, stat '/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist'    at statSync (fs.js:1086:3)    at Object.e.statSync (electron/js2c/asar_bundle.js:5:4315)    at /Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/polyfills.js:308:16    at ParallelQueue._generate (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/asset-db.ccc:115:68)
+2024-10-21 13:51:49-error: Importer exec failed: {asset[/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist](06880351-d913-45cf-8842-b779e9c710c6)}
+2024-10-21 13:51:49-error: Error: ENOENT: no such file or directory, stat '/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist'    at statSync (fs.js:1086:3)    at Object.e.statSync (electron/js2c/asar_bundle.js:5:4315)    at /Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/polyfills.js:308:16    at ParallelQueue._generate (/Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/asset-db.ccc:115:68)
+2024-10-21 13:51:49-error: Error: ENOENT: no such file or directory, lstat '/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist'
+2024-10-21 13:51:49-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw success
+2024-10-21 13:51:49-debug: remove asset /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawLuck.plist success
+2024-10-21 13:51:49-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/drawbackground: #aaff85; color: #000;color: #000;
+2024-10-21 13:52:04-debug: refresh db internal success
+2024-10-21 13:52:04-debug: asset-db:worker-effect-data-processing (135ms)
+2024-10-21 13:52:04-debug: refresh db assets success
+2024-10-21 13:52:04-debug: asset-db:refresh-all-database (185ms)

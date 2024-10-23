@@ -13,7 +13,7 @@ import { earnModel } from "../earn/earnModel";
 import { profileModel } from "../profile/profileModel";
 const { ccclass, property } = _decorator;
 
-const init_id = "query_id=AAF7JpQPAwAAAHsmlA9r28c9&user=%7B%22id%22%3A6703818363%2C%22first_name%22%3A%22fei%22%2C%22last_name%22%3A%22wang%22%2C%22username%22%3A%22dfgsadsggfdn%22%2C%22language_code%22%3A%22zh-hans%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1729242041&hash=d0efbc51429908192db6d5fccdc8b2e066a54095c254c0ea2ef14dbe2d9a846d";
+const init_id = "query_id=AAF7JpQPAwAAAHsmlA-gHShA&user=%7B%22id%22%3A6703818363%2C%22first_name%22%3A%22fei%22%2C%22last_name%22%3A%22wang%22%2C%22username%22%3A%22dfgsadsggfdn%22%2C%22language_code%22%3A%22zh-hans%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1729599191&hash=7b25a11da4168f08518fb6c3a36dde167dde5acb960903a50af266310c46f605";
 const id = 6703818363
 const macSHA_secret =
   "0d42f108fb7d74f3735c61b1ecdeb8662bef043f2afed10fb3cd3aba3007e0ff";
@@ -41,6 +41,7 @@ declare global {
         data?: D,
         config?: any
       ): Promise<R>;
+      get<T = any, R = AxiosResponse<T>, D = any>(url: string, config?: any): Promise<R>;
     };
     startCanvas: any;
     Telegram: any;

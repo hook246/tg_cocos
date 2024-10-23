@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 4954.962916970253,
+      "mTimestamp": 4914.468875000253,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,7 +619,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 4313394.756166935,
+      "mTimestamp": 43825197.495625,
       "chunkId": "875d3aa0be14896943ebbeadf0332631d7ec0c43",
       "imports": [
         {
@@ -1832,7 +1832,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1729259772513,
+      "mTimestamp": 1729612030130,
       "chunkId": "84741ad843cea9a440c5d8c2d379669b6551400d",
       "imports": [],
       "type": "esm",
@@ -13075,10 +13075,10 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts": {
       "mTimestamp": {
-        "mtime": 1729264081983.831,
+        "mtime": 1729509886529.9963,
         "uuid": "7614d2ac-abc0-452b-b7e7-0d3265f15e37"
       },
-      "chunkId": "381a1349d97da22a57207a1c4e54adc366d5f04b",
+      "chunkId": "efecccbf1024c63206f2ed7b056864888079dd15",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -13108,10 +13108,10 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts": {
       "mTimestamp": {
-        "mtime": 1728740294503.9453,
+        "mtime": 1729513672150.9092,
         "uuid": "ea571d3f-3ef4-4810-a66e-f057805899c6"
       },
-      "chunkId": "c48f799d3f77afd78f95687a0601d2cc1d3f0f07",
+      "chunkId": "f0db66483a9d86d5be8f02c7d5c744865eab16e3",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -13317,10 +13317,10 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts": {
       "mTimestamp": {
-        "mtime": 1728629865070.1343,
+        "mtime": 1729651492710.0264,
         "uuid": "75e1cda3-2ccd-40d0-ad6d-b0028029fede"
       },
-      "chunkId": "e2096359ee130a3dd22ea1f5a6140e5154c9e603",
+      "chunkId": "7a6df020691e301e2a0fe09c715302895b41a00d",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -13365,11 +13365,11 @@
           "loc": {
             "start": {
               "line": 5,
-              "column": 25
+              "column": 65
             },
             "end": {
               "line": 5,
-              "column": 37
+              "column": 77
             }
           }
         },
@@ -13384,6 +13384,20 @@
             "end": {
               "line": 6,
               "column": 45
+            }
+          }
+        },
+        {
+          "value": "../common/PromiseUtils",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 29
+            },
+            "end": {
+              "line": 7,
+              "column": 53
             }
           }
         }
@@ -13438,15 +13452,22 @@
             "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts"
+          },
+          "messages": []
         }
       ]
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts": {
       "mTimestamp": {
-        "mtime": 1728391972176.5486,
+        "mtime": 1729655850426.7793,
         "uuid": "4fe2b8ec-76ee-4e44-b9d0-46447a598be8"
       },
-      "chunkId": "20e4e89b0c22369a343d35f7c68f35fa5743cc7c",
+      "chunkId": "69bcd1104ed6a440b39d3f449b67ce7b885c14d3",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -13463,11 +13484,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 51
+              "column": 105
             },
             "end": {
               "line": 1,
-              "column": 55
+              "column": 109
             }
           }
         },
@@ -14745,10 +14766,10 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts": {
       "mTimestamp": {
-        "mtime": 1729260850157.374,
+        "mtime": 1729599335973.9878,
         "uuid": "de999a9a-ca10-4dec-8c95-95ded740a038"
       },
-      "chunkId": "15d660efba51431746aeebb55946036e45bc4961",
+      "chunkId": "7ca50e21f6f0cb50cd48e0502ff6660225d1eebb",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
