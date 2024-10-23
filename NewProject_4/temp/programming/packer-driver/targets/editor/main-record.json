@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 4914.468875000253,
+      "mTimestamp": 4555.744833000004,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,7 +619,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 53175623.514875,
+      "mTimestamp": 9465.284332998097,
       "chunkId": "875d3aa0be14896943ebbeadf0332631d7ec0c43",
       "imports": [
         {
@@ -1832,7 +1832,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1729612030130,
+      "mTimestamp": 1729665403489,
       "chunkId": "84741ad843cea9a440c5d8c2d379669b6551400d",
       "imports": [],
       "type": "esm",
@@ -13317,10 +13317,10 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts": {
       "mTimestamp": {
-        "mtime": 1729665194705.123,
+        "mtime": 1729665385791.7937,
         "uuid": "75e1cda3-2ccd-40d0-ad6d-b0028029fede"
       },
-      "chunkId": "7a6df020691e301e2a0fe09c715302895b41a00d",
+      "chunkId": "3da364186a39990fd6db1dc662f33cb56c1df7f5",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",

@@ -368,7 +368,7 @@ export class drawModel extends basePageModel {
 
   async claimReward(drawId: string){
     const reward = await window.axios.post<ticketsUsdt>(drawLuckUrls.claim,{
-       "drawId": this.drawPage.drawLuckyInfo.openDrawId
+       "drawId": `${this.drawPage.drawLuckyInfo.openDrawId}`
     }, {
       headers: {
           'Authorization': `Bearer ${local ? local_token : GlobalData.token}`
