@@ -24,7 +24,6 @@
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts": "./chunks/f0/f0db66483a9d86d5be8f02c7d5c744865eab16e3.js",
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/gamesScrollControl.ts": "./chunks/e4/e49bf0043e64267b872dcf5a4bfc025374eee643.js",
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts": "./chunks/9c/9c675bed3c9975c9b70a669de774b5fc00e52e4f.js",
-    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts": "./chunks/3d/3da364186a39990fd6db1dc662f33cb56c1df7f5.js",
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts": "./chunks/69/69bcd1104ed6a440b39d3f449b67ce7b885c14d3.js",
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnModel.ts": "./chunks/ef/ef238d5d6d237af4630c023ded47212f05a6621b.js",
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnView.ts": "./chunks/f3/f3cd28505de9f4d43ea81f45335a80e9e99fbc23.js",
@@ -40,7 +39,8 @@
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileModel.ts": "./chunks/18/180b36a9dad717f9a0506c29b862a27855feed93.js",
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts": "./chunks/a1/a1bc65b6c43336e34a3faaf39490eca89b648d54.js",
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts": "./chunks/40/40333bfc3badcfac96c04fb3fd315b7bb1e8fdb9.js",
-    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts": "./chunks/00/00cb3b81b010f859eda6d84482822f936ea82d14.js"
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts": "./chunks/00/00cb3b81b010f859eda6d84482822f936ea82d14.js",
+    "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts": "./chunks/0d/0daacdd9723f254b553281d7fc66e5c161f13d9b.js"
   },
   "scopes": {
     "./chunks/ce/cee638a986ad8fae09398db255647defcaa6612a.js": {
@@ -90,7 +90,7 @@
       "__unresolved_2": "./chunks/40/40dcaf03b51232fc6b82588a36c60a9e44e85ce9.js",
       "__unresolved_20": "./chunks/e4/e49bf0043e64267b872dcf5a4bfc025374eee643.js",
       "__unresolved_21": "./chunks/9c/9c675bed3c9975c9b70a669de774b5fc00e52e4f.js",
-      "__unresolved_22": "./chunks/3d/3da364186a39990fd6db1dc662f33cb56c1df7f5.js",
+      "__unresolved_22": "./chunks/0d/0daacdd9723f254b553281d7fc66e5c161f13d9b.js",
       "__unresolved_23": "./chunks/69/69bcd1104ed6a440b39d3f449b67ce7b885c14d3.js",
       "__unresolved_24": "./chunks/ef/ef238d5d6d237af4630c023ded47212f05a6621b.js",
       "__unresolved_25": "./chunks/f3/f3cd28505de9f4d43ea81f45335a80e9e99fbc23.js",
@@ -238,7 +238,7 @@
       "__unresolved_1": "./chunks/41/417757558fa7dbc67b6f871c5f8d0fb3785a4b28.js",
       "__unresolved_2": "./chunks/46/46d8a1c001f07a857c951683d452d397b83b0347.js",
       "__unresolved_3": "./chunks/ef/efecccbf1024c63206f2ed7b056864888079dd15.js",
-      "__unresolved_4": "./chunks/3d/3da364186a39990fd6db1dc662f33cb56c1df7f5.js",
+      "__unresolved_4": "./chunks/0d/0daacdd9723f254b553281d7fc66e5c161f13d9b.js",
       "__unresolved_5": "./chunks/23/235c4004ba0c060fd2c1642e52de650e5abef23f.js",
       "__unresolved_6": "./chunks/81/8109fa8b8743a90aa7a6d72efbe051d82f42b724.js",
       "__unresolved_7": "./chunks/75/75cf08cfee4c10652f35bf6b00744113c9a06341.js",
@@ -271,7 +271,7 @@
       "__unresolved_1": "./chunks/14/147f410eca24cc124f96f8b75702f54f9e646bb3.js",
       "cc": "./chunks/ce/cee638a986ad8fae09398db255647defcaa6612a.js"
     },
-    "./chunks/3d/3da364186a39990fd6db1dc662f33cb56c1df7f5.js": {
+    "./chunks/0d/0daacdd9723f254b553281d7fc66e5c161f13d9b.js": {
       "__unresolved_0": "./chunks/84/84741ad843cea9a440c5d8c2d379669b6551400d.js",
       "__unresolved_1": "./chunks/41/417757558fa7dbc67b6f871c5f8d0fb3785a4b28.js",
       "__unresolved_2": "./chunks/69/69bcd1104ed6a440b39d3f449b67ce7b885c14d3.js",

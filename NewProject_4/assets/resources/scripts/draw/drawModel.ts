@@ -349,6 +349,7 @@ export class drawModel extends basePageModel {
 
   async joinDrawLucy(){
     try {
+      this.drawPage.setJoinBtnUseAble(false)
       const join = await window.axios.get(drawLuckUrls.join, {
         headers: { 
             'Authorization': `Bearer ${local ? local_token : GlobalData.token}`
@@ -361,24 +362,37 @@ export class drawModel extends basePageModel {
         console.log("");
       });
     } catch (error) {
-      
+      this.drawPage.setJoinBtnUseAble(false)
+      window.Telegram.WebApp.showAlert("join failed!", () => {
+        console.log("");
+      });
     }
 
   }
 
   async claimReward(drawId: string){
-    const reward = await window.axios.post<ticketsUsdt>(drawLuckUrls.claim,{
-       "drawId": `${this.drawPage.drawLuckyInfo.openDrawId}`
-    }, {
-      headers: {
-          'Authorization': `Bearer ${local ? local_token : GlobalData.token}`
-        }
-    })
-    this.drawPage.setCurrentTicketsUsdtCount(reward.data)
-    this.drawPage.closeDrawLuckRewardInfo()
-    window.Telegram.WebApp.showAlert("claim success!", () => {
-      console.log("");
-    });
+    try {
+      const reward = await window.axios.post<ticketsUsdt>(drawLuckUrls.claim,{
+        "drawId": `${this.drawPage.drawLuckyInfo.openDrawId}`
+     }, {
+       headers: {
+           'Authorization': `Bearer ${local ? local_token : GlobalData.token}`
+         }
+     })
+     this.drawPage.setCurrentTicketsUsdtCount(reward.data)
+     this.drawPage.closeDrawLuckRewardInfo()
+     this.drawPage.drawLuckyInfo.openDrawId = null
+     this.drawPage.drawLuckyInfo.win = false
+     window.Telegram.WebApp.showAlert("claim success!", () => {
+       console.log("");
+     });
+
+    } catch (error) {
+      window.Telegram.WebApp.showAlert("claim failed!", () => {
+        console.log("");
+      });
+    }
+
   }
 
   async getUserTicketsUsdtInfo(){

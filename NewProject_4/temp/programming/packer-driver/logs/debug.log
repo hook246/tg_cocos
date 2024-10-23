@@ -1,11 +1,11 @@
-debug: Wed, 23 Oct 2024 06:36:47 GMT
+debug: Wed, 23 Oct 2024 07:44:39 GMT
 debug: Project: /Users/feiwang/tg_cocos/NewProject_4
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: /Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 5.770416997373104ms.
+debug: Loading cache costs 4.537166997790337ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,custom-pipeline,websocket,websocket-server
 debug: Our import map(foo:/bar): {
   "imports": {
@@ -14,7 +14,7 @@ debug: Our import map(foo:/bar): {
 }
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 3.989208996295929ms.
+debug: Loading cache costs 3.9538750052452087ms.
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
@@ -46,12 +46,12 @@ debug: Our import map(foo:/bar): {
   }
 }
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 2312.1060830056667ms.
+debug: Fetch asset-db cost: 39.979832999408245ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 39
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -82,7 +82,7 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 22:46:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve cc from file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
@@ -111,7 +111,7 @@ debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resour
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts.
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Oct 22 2024 23:47:10 GMT+0800 (中国标准时间), Current mtime: Wed Oct 23 2024 14:36:43 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Oct 23 2024 14:36:43 GMT+0800 (中国标准时间), Current mtime: Wed Oct 23 2024 15:44:32 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts as cce:/internal/x/cc.
@@ -201,7 +201,7 @@ debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resour
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts.
-debug: Detected change: file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts. Last mtime: Wed Oct 23 2024 14:33:14 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede, Current mtime: Wed Oct 23 2024 14:36:25 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede
+debug: Detected change: file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts. Last mtime: Wed Oct 23 2024 14:36:25 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede, Current mtime: Wed Oct 23 2024 15:41:41 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede
 debug: Inspect file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/x/cc.
@@ -323,9 +323,9 @@ debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scri
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 246.03624999523163ms.
+debug: Target(editor) ends with cost 496.3372090011835ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
@@ -348,7 +348,7 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 22:46:16 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve cc from file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
@@ -377,7 +377,7 @@ debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resour
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts.
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Oct 22 2024 23:47:10 GMT+0800 (中国标准时间), Current mtime: Wed Oct 23 2024 14:36:43 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Oct 23 2024 14:36:43 GMT+0800 (中国标准时间), Current mtime: Wed Oct 23 2024 15:44:32 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts as cce:/internal/x/cc.
@@ -467,7 +467,7 @@ debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resour
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts.
-debug: Detected change: file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts. Last mtime: Wed Oct 23 2024 14:33:14 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede, Current mtime: Wed Oct 23 2024 14:36:25 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede
+debug: Detected change: file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts. Last mtime: Wed Oct 23 2024 14:36:25 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede, Current mtime: Wed Oct 23 2024 15:41:41 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede
 debug: Inspect file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/x/cc.
@@ -589,14 +589,14 @@ debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scri
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 214.50854199379683ms.
+debug: Target(preview) ends with cost 574.3047079965472ms.
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 1913.470957994461ms.
+debug: Fetch asset-db cost: 1370.3499170020223ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 39
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts.
@@ -637,9 +637,9 @@ debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scri
 debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts.
 debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts.
 debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts.
-debug: Target(editor) ends with cost 82.6294580027461ms.
+debug: Target(editor) ends with cost 71.11487500369549ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts.
@@ -680,4 +680,224 @@ debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scri
 debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts.
 debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts.
 debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts.
-debug: Target(preview) ends with cost 64.68120799958706ms.
+debug: Target(preview) ends with cost 50.29762499779463ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:35 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/BoxCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/BoxCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/EventDispatcher.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/EventDispatcher.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/GameData.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/JumpTo.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/JumpTo.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/LogicCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/LogicCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/MainCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/MainCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/OverCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/OverCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/RankCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/RankCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/SoundCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/SoundCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/WebUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/WebUtils.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/UIScrollSelectHorizontal.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/UIScrollSelectHorizontal.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/gamesScrollControl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/gamesScrollControl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts.
+debug: Detected change: file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts. Last mtime: Wed Oct 23 2024 15:41:41 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede, Current mtime: Wed Oct 23 2024 15:45:05 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede
+debug: Inspect file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/x/cc.
+debug: Resolve ../common/basePageModel from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts.
+debug: Resolve ./drawView from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts.
+debug: Resolve ../home/GloabalClass from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts.
+debug: Resolve ../common/PromiseUtils from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/taskNodeInfo.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/taskNodeInfo.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GlobalConfig.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GlobalConfig.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts.
+debug: Target(editor) ends with cost 130.32541699707508ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:35 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/BoxCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/BoxCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/EventDispatcher.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/EventDispatcher.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/GameData.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/JumpTo.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/JumpTo.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/LogicCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/LogicCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/MainCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/MainCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/OverCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/OverCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/RankCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/RankCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/SoundCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/SoundCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/WebUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/WebUtils.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/UIScrollSelectHorizontal.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/UIScrollSelectHorizontal.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/gamesScrollControl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/gamesScrollControl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts.
+debug: Detected change: file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts. Last mtime: Wed Oct 23 2024 15:41:41 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede, Current mtime: Wed Oct 23 2024 15:45:05 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede
+debug: Inspect file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/x/cc.
+debug: Resolve ../common/basePageModel from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts.
+debug: Resolve ./drawView from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts.
+debug: Resolve ../home/GloabalClass from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts.
+debug: Resolve ../common/PromiseUtils from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/taskNodeInfo.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/taskNodeInfo.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GlobalConfig.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GlobalConfig.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts.
+debug: Target(preview) ends with cost 200.2416670024395ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:35 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:09:24 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/BoxCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/BoxCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/EventDispatcher.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/EventDispatcher.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/GameData.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/JumpTo.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/JumpTo.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/LogicCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/LogicCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/MainCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/MainCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/OverCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/OverCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/RankCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/RankCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/SoundCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/SoundCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/WebUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/WebUtils.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/UIScrollSelectHorizontal.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/UIScrollSelectHorizontal.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/gamesScrollControl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/gamesScrollControl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts.
+debug: Detected change: file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts. Last mtime: Wed Oct 23 2024 15:45:05 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede, Current mtime: Wed Oct 23 2024 15:53:54 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede
+debug: Inspect file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/x/cc.
+debug: Resolve ../common/basePageModel from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts.
+debug: Resolve ./drawView from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts.
+debug: Resolve ../home/GloabalClass from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts.
+debug: Resolve ../common/PromiseUtils from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/taskNodeInfo.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/taskNodeInfo.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GlobalConfig.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GlobalConfig.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts.
+debug: Target(editor) ends with cost 220.8837089985609ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:35 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:09:25 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/CocosCreator/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/scroll_select/scroll_select_horizontal.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/BoxCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/BoxCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/EventDispatcher.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/EventDispatcher.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/GameData.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroColliderCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/HeroCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/JumpTo.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/JumpTo.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/LogicCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/LogicCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/MainCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/MainCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/OverCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/OverCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/RankCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/RankCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/SoundCtl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/SoundCtl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/WebUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/WebUtils.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/UIScrollSelectHorizontal.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/UIScrollSelectHorizontal.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/gamesScrollControl.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/gamesScrollControl.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/scrollTest.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts.
+debug: Detected change: file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts. Last mtime: Wed Oct 23 2024 15:45:05 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede, Current mtime: Wed Oct 23 2024 15:53:54 GMT+0800 (中国标准时间)@75e1cda3-2ccd-40d0-ad6d-b0028029fede
+debug: Inspect file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as cce:/internal/x/cc.
+debug: Resolve ../common/basePageModel from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/basePageModel.ts.
+debug: Resolve ./drawView from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts.
+debug: Resolve ../home/GloabalClass from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts.
+debug: Resolve ../common/PromiseUtils from file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/common/PromiseUtils.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/taskNodeInfo.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/taskNodeInfo.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GlobalConfig.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GlobalConfig.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/homeView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/invite/inviteView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileModel.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileModel.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/profile/profileView.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/test/testSortChildren.ts.
+debug: Resolve file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts from cce:/internal/x/prerequisite-imports as file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/welcome/welcome.ts.
+debug: Target(preview) ends with cost 201.22137500345707ms.
