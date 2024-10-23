@@ -1997,7 +1997,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/scenes": {
-    "time": 1727077182212.6106,
+    "time": 1729665194706.993,
     "uuid": "3ef7458d-2fe8-4c93-8cc4-3cba6908ca76",
     "missing": false
   },
@@ -2012,12 +2012,12 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist": {
-    "time": 1729654137469.4705,
+    "time": 1729665194694.6838,
     "uuid": "addf13d1-4cac-47f9-b490-4073b45b9deb",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs": {
-    "time": 1727268281534.8928,
+    "time": 1729665194703.3635,
     "uuid": "2f4697f5-5b3b-4b42-a715-f6c03bcbad58",
     "missing": false
   },
@@ -2067,7 +2067,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw": {
-    "time": 1729654290521.6387,
+    "time": 1729665194694.31,
     "uuid": "518dae4d-f825-4cc0-b27d-7dc731d50472",
     "missing": false
   },
@@ -2092,7 +2092,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view": {
-    "time": 1729480973015.4631,
+    "time": 1729665194702.6743,
     "uuid": "0a8a16aa-25aa-40c4-ab70-d91e521ed09e",
     "missing": false
   },
@@ -2107,12 +2107,12 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover": {
-    "time": 1727075795471.2288,
+    "time": 1729665194704.416,
     "uuid": "9a89b38b-f062-44b5-8a2b-9c5ebc7eceea",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw": {
-    "time": 1726486641641.164,
+    "time": 1729665194705.2046,
     "uuid": "78c69403-67fb-420b-9dba-831c54f82c83",
     "missing": false
   },
@@ -2122,7 +2122,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home": {
-    "time": 1727012828787.611,
+    "time": 1729665194705.557,
     "uuid": "46e61cc5-17e4-4392-ad5b-4b3c2c7538db",
     "missing": false
   },
@@ -2132,7 +2132,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login": {
-    "time": 1726517137831.7258,
+    "time": 1729665194705.8928,
     "uuid": "4a9a66f4-8cc7-41d2-b6be-602212985bbf",
     "missing": false
   },
@@ -2242,7 +2242,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts": {
-    "time": 1729513672150.9092,
+    "time": 1729665194704.6895,
     "uuid": "ea571d3f-3ef4-4810-a66e-f057805899c6",
     "missing": false
   },
@@ -2257,12 +2257,12 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts": {
-    "time": 1729651492710.0264,
+    "time": 1729665194705.123,
     "uuid": "75e1cda3-2ccd-40d0-ad6d-b0028029fede",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts": {
-    "time": 1729655850426.7793,
+    "time": 1729665194705.4722,
     "uuid": "4fe2b8ec-76ee-4e44-b9d0-46447a598be8",
     "missing": false
   },
@@ -2282,7 +2282,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts": {
-    "time": 1729509886529.9963,
+    "time": 1729665194705.7966,
     "uuid": "7614d2ac-abc0-452b-b7e7-0d3265f15e37",
     "missing": false
   },
@@ -2312,7 +2312,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts": {
-    "time": 1729599335973.9878,
+    "time": 1729665194706.8167,
     "uuid": "de999a9a-ca10-4dec-8c95-95ded740a038",
     "missing": false
   },
@@ -2549,7 +2549,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/scenes/MainScene.scene": {
-    "time": 1729655867393.8052,
+    "time": 1729665223900.674,
     "uuid": "f11e16cf-17d0-46c9-8f37-cff7c2e71d7c",
     "missing": false
   },
@@ -2604,7 +2604,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/daily_task_node.prefab": {
-    "time": 1729512564819.1543,
+    "time": 1729665194703.2554,
     "uuid": "e7ecde11-48ed-425d-a681-cee33d973a52",
     "missing": false
   },
@@ -2634,7 +2634,7 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/social_task_node.prefab": {
-    "time": 1729512609667.7068,
+    "time": 1729665194703.6296,
     "uuid": "87f3343d-fcf8-4286-9854-5d9d721e7490",
     "missing": false
   },
@@ -3315,7 +3315,7 @@
     "time": 1728376317703.2183
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/animation": {
-    "time": 1729498496078.2705,
+    "time": 1729665194683.6409,
     "uuid": "a3e2f3bc-31e2-4c36-ac9c-65ed6146a653",
     "missing": false
   },
@@ -3483,7 +3483,7 @@
     "time": 1728563965343.6707
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/animation/arrowInvite.anim": {
-    "time": 1729515231314.2969,
+    "time": 1729665194683.285,
     "uuid": "9f2d65a1-fb3a-401c-adf3-ab8a707a9d86",
     "missing": false
   },
@@ -3632,274 +3632,274 @@
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpg.meta": {
-    "time": 1729480268701.7246
+    "time": 1729665194701.9102
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpg.meta": {
-    "time": 1729480268719.518
+    "time": 1729665194702.7942
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpg.meta": {
-    "time": 1729480268737.4414
+    "time": 1729665194696.2112
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpg.meta": {
-    "time": 1729480268756.828
+    "time": 1729665194700.8767
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpg": {
-    "time": 1729480268664.8623,
+    "time": 1729665194701.546,
     "uuid": "18ef8a8d-989f-447d-8047-41455a4511dc",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpg": {
-    "time": 1729480268665.1404,
+    "time": 1729665194702.6057,
     "uuid": "b272e3c7-fb73-484e-9a3d-2905a14c474f",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpg": {
-    "time": 1729480268665.0198,
+    "time": 1729665194695.975,
     "uuid": "87560315-8735-4de4-b166-9a3684eb4ae1",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpg": {
-    "time": 1729480268664.9182,
+    "time": 1729665194700.6296,
     "uuid": "2dd61eba-a932-4aed-8f90-6a26029cfbf3",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2奖池开启-盒子1表现.jpg.meta": {
-    "time": 1729480973059.241
+    "time": 1729665194699.7715
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1钱包已链接-单页表现.jpg.meta": {
-    "time": 1729480973075.6074
+    "time": 1729665194697.0593
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2奖池开启-盒子1表现.jpg": {
-    "time": 1729480973013.7253,
+    "time": 1729665194699.3914,
     "uuid": "54f3daad-2e3c-4df5-948d-0a1ec7d270c8",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1钱包已链接-单页表现.jpg": {
-    "time": 1729480973014.5366,
+    "time": 1729665194696.8955,
     "uuid": "c07f93ff-2874-4e57-a6d4-b3de8a798f4e",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck.meta": {
-    "time": 1729494303547.73
+    "time": 1729665194685.717
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck": {
-    "time": 1729654305619.3835,
+    "time": 1729665194694.0098,
     "uuid": "2727d33e-c60e-4d41-82c6-32cc1f0599a0",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-3.png.meta": {
-    "time": 1729494420106.548
+    "time": 1729665194686.0737
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-4-1.png.meta": {
-    "time": 1729494420111.3394
+    "time": 1729665194686.344
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-2.png.meta": {
-    "time": 1729494420117.1052
+    "time": 1729665194687.2214
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-4.png.meta": {
-    "time": 1729494945649.4626
+    "time": 1729665194686.6003
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-1.png.meta": {
-    "time": 1729494420160.6736
+    "time": 1729665194686.9817
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-3.png.meta": {
-    "time": 1729494420190.627
+    "time": 1729665194687.7036
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-4.png.meta": {
-    "time": 1729494420189.64
+    "time": 1729665194687.9722
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5.png.meta": {
-    "time": 1729494420192.4746
+    "time": 1729665194688.5425
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-7.png.meta": {
-    "time": 1729494420191.4841
+    "time": 1729665194689.2393
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-6.png.meta": {
-    "time": 1729494420223.847
+    "time": 1729665194688.9456
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/bgy.png.meta": {
-    "time": 1729494420227.7712
+    "time": 1729665194691.5896
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/ic.png.meta": {
-    "time": 1729494420222.9924
+    "time": 1729665194692.456
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/tickets.png.meta": {
-    "time": 1729494420224.0464
+    "time": 1729665194693.7695
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/time.png.meta": {
-    "time": 1729494420224.4626
+    "time": 1729665194694.1194
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-3.png": {
-    "time": 1729494420067.065,
+    "time": 1729665194685.9187,
     "uuid": "42fb2efd-65d9-46c5-ba07-ac0c09931bce",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-4-1.png": {
-    "time": 1729494420067.5073,
+    "time": 1729665194686.203,
     "uuid": "9eef619a-d1cf-43b0-8f83-03446342151a",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-2.png": {
-    "time": 1729494420068.4253,
+    "time": 1729665194687.094,
     "uuid": "7a230c85-6847-45dc-aefd-a3e1c2e05d52",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-4.png": {
-    "time": 1729494420068.3918,
+    "time": 1729665194686.4675,
     "uuid": "d030dc66-f125-41d0-afed-c2b5625cdf27",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-1.png": {
-    "time": 1729494420068.451,
+    "time": 1729665194686.8518,
     "uuid": "82669bdd-5c07-4c4c-b7c6-e8d28c08223f",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-4.png": {
-    "time": 1729494420068.9907,
+    "time": 1729665194687.8274,
     "uuid": "5a270686-ed6d-4b1a-8d47-5c88b7e34133",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-3.png": {
-    "time": 1729494420068.7307,
+    "time": 1729665194687.568,
     "uuid": "6722342f-f841-4a7e-8177-80a6fafc2da3",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-7.png": {
-    "time": 1729494420069.8228,
+    "time": 1729665194689.0938,
     "uuid": "5c9f6296-b5a4-4761-9e07-65a94d6be3a0",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5.png": {
-    "time": 1729494420069.2878,
+    "time": 1729665194688.3755,
     "uuid": "9251d60c-204e-4914-8d94-9b680e7f8d17",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/ic.png": {
-    "time": 1729494420070.8086,
+    "time": 1729665194692.3,
     "uuid": "a53606f7-1d6b-4c2e-ab5b-39ce25c7a5f3",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-6.png": {
-    "time": 1729494420069.8142,
+    "time": 1729665194688.797,
     "uuid": "f9c9dcc7-6d00-4c76-b3d2-eae0e5c86abb",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/tickets.png": {
-    "time": 1729494420070.938,
+    "time": 1729665194693.6213,
     "uuid": "894756a0-155a-482c-b702-e9bd910716f9",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/time.png": {
-    "time": 1729494420070.977,
+    "time": 1729665194693.9658,
     "uuid": "af557b79-97be-467c-a64c-33d72fb22533",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/bgy.png": {
-    "time": 1729494420070.6206,
+    "time": 1729665194691.4146,
     "uuid": "8cfe5d56-fb65-4de4-92a0-74b04f24ad08",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/4-1.png.meta": {
-    "time": 1729494439076.4932
+    "time": 1729665194689.8442
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/4-2.png.meta": {
-    "time": 1729494439082.8997
+    "time": 1729665194690.1235
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/2-1.png.meta": {
-    "time": 1729494439090.768
+    "time": 1729665194689.5337
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/bgW.png.meta": {
-    "time": 1729494439097.9426
+    "time": 1729665194691.2224
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/gift.png.meta": {
-    "time": 1729494439111.8096
+    "time": 1729665194692.1409
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/4-1.png": {
-    "time": 1729494439059.3323,
+    "time": 1729665194689.6897,
     "uuid": "0f39bcb1-cb5e-4042-8ef8-bad67852fa82",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/4-2.png": {
-    "time": 1729494439059.282,
+    "time": 1729665194689.9841,
     "uuid": "a971be15-c256-48c2-acad-c7066c9f774e",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/2-1.png": {
-    "time": 1729494439059.9707,
+    "time": 1729665194689.3813,
     "uuid": "85ef7bfc-8cb1-43ba-a163-5973ba129d7b",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/bgW.png": {
-    "time": 1729494439059.9377,
+    "time": 1729665194690.7642,
     "uuid": "983ca70c-3bd6-4ec8-929d-e5003c3b3170",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/gift.png": {
-    "time": 1729494439060.067,
+    "time": 1729665194691.938,
     "uuid": "962e2184-c5cb-47d5-98f2-3d5b47dd9c2c",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/bgs.meta": {
-    "time": 1729494489313.544
+    "time": 1729665194684.5256
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/bgs": {
-    "time": 1729494513085.3027,
+    "time": 1729665194685.43,
     "uuid": "07d2ee3a-4ade-43c2-af48-675bb8f49310",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/bgs/1-1.png.meta": {
-    "time": 1729494502319.2463
+    "time": 1729665194685.1965
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/bgs/1-1.png": {
-    "time": 1729494502249.0056,
+    "time": 1729665194684.9827,
     "uuid": "44084335-e613-44d3-a6c0-b48ced84e99a",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/bgs/1-2.jpg.meta": {
-    "time": 1729494513101.9004
+    "time": 1729665194685.5535
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/bgs/1-2.jpg": {
-    "time": 1729494513084.3257,
+    "time": 1729665194685.3875,
     "uuid": "27b6013f-4839-4363-b4ec-51ee6a581471",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/auto-atlas.pac.meta": {
-    "time": 1729494996070.3547
+    "time": 1729665194690.603
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/auto-atlas.pac": {
-    "time": 1729494996066.9033,
+    "time": 1729665194690.416,
     "uuid": "cf79b1cf-529c-4cf6-bfef-860a6f39a1fd",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/animation/cubeIdle.anim.meta": {
-    "time": 1729498496082.0056
+    "time": 1729665194683.8796
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/animation/cubeIdle.anim": {
-    "time": 1729588252973.0144,
+    "time": 1729665194683.5935,
     "uuid": "b9a353fd-3fb2-44dd-9bcf-56b3ced9c3c2",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/huiseanniu.png.meta": {
-    "time": 1729589947725.5747
+    "time": 1729665194694.6333
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/huiseanniu.png": {
-    "time": 1729589947594.3865,
+    "time": 1729665194694.2715,
     "uuid": "938457b3-dd68-4c2a-a539-fc4dd71df504",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/icons.png.meta": {
-    "time": 1729654305637.1138
+    "time": 1729665194693.4543
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/icons.plist.meta": {
-    "time": 1729654305640.0007
+    "time": 1729665194692.9985
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/icons.png": {
-    "time": 1729654305608.3826,
+    "time": 1729665194693.2063,
     "uuid": "8fdab396-8332-4a82-9655-c4fb0e6ffb1b",
     "missing": false
   },
   "/Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/icons.plist": {
-    "time": 1729654305608.4314,
+    "time": 1729665194692.6975,
     "uuid": "13423a85-c7b1-4be3-8f02-e2bff6d05b74",
     "missing": false
   }

@@ -4986,10 +4986,7 @@
         "__expectedType__": "cc.AnimationClip"
       }
     ],
-    "_defaultClip": {
-      "__uuid__": "3437c498-cffa-4d2f-98f8-27fdbf2ab1be",
-      "__expectedType__": "cc.AnimationClip"
-    },
+    "_defaultClip": null,
     "_id": "8cITSVX6JIko2g2QThMv+j"
   },
   {
@@ -21842,10 +21839,7 @@
       "b": 255,
       "a": 100
     },
-    "_spriteFrame": {
-      "__uuid__": "87560315-8735-4de4-b166-9a3684eb4ae1@f9941",
-      "__expectedType__": "cc.SpriteFrame"
-    },
+    "_spriteFrame": null,
     "_type": 0,
     "_fillType": 0,
     "_sizeMode": 1,

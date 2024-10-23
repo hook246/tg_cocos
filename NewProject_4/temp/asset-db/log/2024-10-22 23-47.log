@@ -6072,3 +6072,124 @@
 2024-10-23 12:00:16-debug: asset-db:worker-effect-data-processing (228ms)
 2024-10-23 12:00:16-debug: refresh db assets success
 2024-10-23 12:00:16-debug: asset-db:refresh-all-database (348ms)
+2024-10-23 14:33:23-debug: refresh db internal success
+2024-10-23 14:33:23-debug: asset-db:worker-effect-data-processing (356ms)
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/bgsbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluckbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/animation/cubeIdle.animbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1钱包已链接-单页表现.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/huiseanniu.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2奖池开启-盒子1表现.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1钱包已链接-单页表现.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2奖池开启-盒子1表现.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1钱包已链接-单页表现.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/1抽奖弹窗.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2奖池开启-盒子1表现.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/2提现成功.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/huiseanniu.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/huiseanniu.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/bgs/1-1.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/bgs/1-2.jpgbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/3提现弹窗.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/view/4未抽奖.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/bgs/1-2.jpg@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-3.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/bgs/1-2.jpg@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-4-1.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-1.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-4.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/bgs/1-1.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-3.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/bgs/1-1.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-3.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-4-1.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-4.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-4-1.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:23-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-4.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-2.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-1.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-1.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-3.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-4.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-2.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-2.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-6.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-4.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-3.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-4.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5-3.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-7.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-5.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/2-1.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/4-1.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/4-2.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-6.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-6.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-7.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/1-7.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/2-1.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/2-1.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/auto-atlas.pacbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/4-2.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/4-1.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/4-2.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/bgW.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/4-1.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/bgy.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/gift.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/ic.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/bgW.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/icons.plistbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/bgW.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/bgy.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/icons.plist@f549bbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/bgy.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/ic.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/ic.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/gift.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/icons.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/gift.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/tickets.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/scenesbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/time.pngbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/animationbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plistbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabsbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/scenes/MainScene.scenebackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/animation/arrowInvite.animbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/icons.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/tickets.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/time.png@6c48abackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/icons.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/tickets.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/time.png@f9941background: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/drawbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/viewbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/daily_task_node.prefabbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/prefabs/social_task_node.prefabbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/drawbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discoverbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/homebackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/loginbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.tsbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.tsbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.tsbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.tsbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.tsbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: refresh db assets success
+2024-10-23 14:33:24-debug: asset-db:refresh-all-database (1188ms)
+2024-10-23 14:33:24-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/icons.plistbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:24-debug: %cReImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/resources/plist/draw/drawluck/icons.plist@f549bbackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:43-debug: start refresh asset from /Users/feiwang/tg_cocos/NewProject_4/assets/scenes/MainScene.scene...
+2024-10-23 14:33:43-debug: %cImport%c: /Users/feiwang/tg_cocos/NewProject_4/assets/scenes/MainScene.scenebackground: #aaff85; color: #000;color: #000;
+2024-10-23 14:33:43-debug: refresh asset /Users/feiwang/tg_cocos/NewProject_4/assets/scenes success

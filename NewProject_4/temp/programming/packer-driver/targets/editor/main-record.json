@@ -619,7 +619,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 43825197.495625,
+      "mTimestamp": 53175623.514875,
       "chunkId": "875d3aa0be14896943ebbeadf0332631d7ec0c43",
       "imports": [
         {
@@ -13075,7 +13075,7 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts": {
       "mTimestamp": {
-        "mtime": 1729509886529.9963,
+        "mtime": 1729665194705.7966,
         "uuid": "7614d2ac-abc0-452b-b7e7-0d3265f15e37"
       },
       "chunkId": "efecccbf1024c63206f2ed7b056864888079dd15",
@@ -13108,7 +13108,7 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts": {
       "mTimestamp": {
-        "mtime": 1729513672150.9092,
+        "mtime": 1729665194704.6895,
         "uuid": "ea571d3f-3ef4-4810-a66e-f057805899c6"
       },
       "chunkId": "f0db66483a9d86d5be8f02c7d5c744865eab16e3",
@@ -13317,7 +13317,7 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts": {
       "mTimestamp": {
-        "mtime": 1729651492710.0264,
+        "mtime": 1729665194705.123,
         "uuid": "75e1cda3-2ccd-40d0-ad6d-b0028029fede"
       },
       "chunkId": "7a6df020691e301e2a0fe09c715302895b41a00d",
@@ -13464,7 +13464,7 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts": {
       "mTimestamp": {
-        "mtime": 1729655850426.7793,
+        "mtime": 1729665194705.4722,
         "uuid": "4fe2b8ec-76ee-4e44-b9d0-46447a598be8"
       },
       "chunkId": "69bcd1104ed6a440b39d3f449b67ce7b885c14d3",
@@ -14766,7 +14766,7 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts": {
       "mTimestamp": {
-        "mtime": 1729599335973.9878,
+        "mtime": 1729665194706.8167,
         "uuid": "de999a9a-ca10-4dec-8c95-95ded740a038"
       },
       "chunkId": "7ca50e21f6f0cb50cd48e0502ff6660225d1eebb",
