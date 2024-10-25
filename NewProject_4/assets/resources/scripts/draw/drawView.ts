@@ -4,7 +4,7 @@ import GlobalData from "../home/GloabalClass";
 import { ticketsUsdt } from "./drawModel";
 const { ccclass, property } = _decorator;
 
-const openRewardPos = 1000
+const openRewardPos = 900
 const drawView_arrow = 'drawView_arrow'
 
 export interface QueryDrawRespDTOData{
@@ -217,6 +217,10 @@ export class drawView extends basePageView {
 
   }
 
+  showJoinedTips(){
+
+  }
+
   //设置当前的门票和usdt的信息
   setCurrentTicketsUsdtCount(info: ticketsUsdt){
     this.tickets.string = `${info.data.tiket}`
@@ -232,7 +236,6 @@ export class drawView extends basePageView {
     localStorage.setItem(drawView_arrow, 'drawView_arrow')
     this.arrow.active = false
     this.arrow_s.active = true
-
     if(scroll.getScrollOffset().y >= openRewardPos){
       if(this.drawLuckyInfo.openDrawId && !this.drawLuckyInfo.confirm){
         this.showDrawLuckRewardInfo(this.drawLuckyInfo)

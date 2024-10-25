@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 6650.8037499934435,
+      "mTimestamp": 5195.098499983549,
       "chunkId": "b3642faa74312f2f490b6f820104e34558faa045",
       "imports": [
         {
@@ -451,7 +451,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 565145.3642079979,
+      "mTimestamp": 13622834.867291987,
       "chunkId": "0bc1e49f54a617aa19fc32d56d240ad57a9a794b",
       "imports": [
         {
@@ -1664,7 +1664,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1729669472960,
+      "mTimestamp": 1729761450262,
       "chunkId": "3a1fd7b13056478820ebedd306d3446d1aa408cc",
       "imports": [],
       "type": "esm",
@@ -12907,7 +12907,7 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/home/GloabalClass.ts": {
       "mTimestamp": {
-        "mtime": 1729665194705.7966,
+        "mtime": 1729759523994.2678,
         "uuid": "7614d2ac-abc0-452b-b7e7-0d3265f15e37"
       },
       "chunkId": "efecccbf1024c63206f2ed7b056864888079dd15",
@@ -12940,7 +12940,7 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/discover/discoverView.ts": {
       "mTimestamp": {
-        "mtime": 1729665194704.6895,
+        "mtime": 1729761431645.5974,
         "uuid": "ea571d3f-3ef4-4810-a66e-f057805899c6"
       },
       "chunkId": "56433eafa0cdb9475d532d72f26f1cbf68fd7e6a",
@@ -13149,10 +13149,10 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawModel.ts": {
       "mTimestamp": {
-        "mtime": 1729670034773.4375,
+        "mtime": 1729775065715.9636,
         "uuid": "75e1cda3-2ccd-40d0-ad6d-b0028029fede"
       },
-      "chunkId": "bac656d09278bb1b47c144c49494457bfa065bb7",
+      "chunkId": "4142142759d8606347359e61313b598c7f2d04d6",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -13296,10 +13296,10 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/draw/drawView.ts": {
       "mTimestamp": {
-        "mtime": 1729665194705.4722,
+        "mtime": 1729773818387.7139,
         "uuid": "4fe2b8ec-76ee-4e44-b9d0-46447a598be8"
       },
-      "chunkId": "71ee3ad6300feab408deb9a25fb80cc3204c5ff5",
+      "chunkId": "8d3f499c36d4ef94fcf2d618611da3ca7e10aaa0",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -13527,7 +13527,7 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/earn/earnView.ts": {
       "mTimestamp": {
-        "mtime": 1728739709118.1038,
+        "mtime": 1729761431650.5964,
         "uuid": "e7879bf4-7e3d-40e6-8019-23a0e83fedb0"
       },
       "chunkId": "0666595d04ae97107756b6568360a522011182fc",
@@ -14598,10 +14598,10 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginModel.ts": {
       "mTimestamp": {
-        "mtime": 1729665194706.8167,
+        "mtime": 1729772483027.0044,
         "uuid": "de999a9a-ca10-4dec-8c95-95ded740a038"
       },
-      "chunkId": "4a4ec29db791da9cbceafe71d6f4a9837699389d",
+      "chunkId": "54897e1d6e1b0e740f42f3c9b5dca4851482ffa9",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -14850,7 +14850,7 @@
     },
     "file:///Users/feiwang/tg_cocos/NewProject_4/assets/resources/scripts/login/loginView.ts": {
       "mTimestamp": {
-        "mtime": 1728413817219.3896,
+        "mtime": 1729761431651.5886,
         "uuid": "444c41eb-e918-4d0d-bfff-f0260a2b0ebd"
       },
       "chunkId": "6a87d93e6478d7fa928ac40d60dea4a4bc65dda3",

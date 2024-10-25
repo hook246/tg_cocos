@@ -105,6 +105,7 @@ export class drawModel extends basePageModel {
   tonConnectUI;
 
   timer_add = 0
+  timerLessTag: boolean = false;
 
   async start() {
     window.bindUxuyWallet = this.bindUxuyWallet
@@ -145,6 +146,7 @@ export class drawModel extends basePageModel {
         this.drawPage.setDrawLuckInfo(drawLuckyInfo.data.data)
         this.drawPage.showDrawLuckRewardInfo(drawLuckyInfo.data.data)
         this.drawPage.setDrawLuckInfo(drawLuckyInfo.data.data)
+        this.timerLessTag = false
         if(Number(this.drawPage.tickets.string) < this.drawPage.cost_tickets){
           this.drawPage.setJoinBtnUseAble(false)
           this.drawPage.setJoinTips(Number(this.drawPage.tickets.string) - this.drawPage.cost_tickets)
@@ -154,6 +156,7 @@ export class drawModel extends basePageModel {
         await this.setTimerCount()
       }else if(index <= 5 && index > 0){
         this.drawPage.setJoinBtnUseAble(false)
+        this.timerLessTag = true
       }
     }
   }
@@ -350,6 +353,12 @@ export class drawModel extends basePageModel {
   async joinDrawLucy(){
     try {
       this.drawPage.setJoinBtnUseAble(false)
+      if(Number(this.drawPage.tickets.string) < Number(this.drawPage.cost_tickets)){
+        window.Telegram.WebApp.showAlert("Insufficient tickets!", () => {
+          console.log("");
+        });
+        return
+      }
       const join = await window.axios.get(drawLuckUrls.join, {
         headers: { 
             'Authorization': `Bearer ${local ? local_token : GlobalData.token}`
@@ -364,6 +373,17 @@ export class drawModel extends basePageModel {
     } catch (error) {
       this.drawPage.setJoinBtnUseAble(false)
       window.Telegram.WebApp.showAlert("join failed!", () => {
+        console.log("");
+      });
+    }
+
+  }
+
+  showJoinedTips(){
+    if(this.timerLessTag){
+
+    }else{
+      window.Telegram.WebApp.showAlert("Successfully joined. Please wait for results.", () => {
         console.log("");
       });
     }
@@ -386,7 +406,9 @@ export class drawModel extends basePageModel {
      window.Telegram.WebApp.showAlert("claim success!", () => {
        console.log("");
      });
-
+     if(!this.timerLessTag){
+      this.drawPage.setJoinBtnUseAble(true)
+     }
     } catch (error) {
       window.Telegram.WebApp.showAlert("claim failed!", () => {
         console.log("");
